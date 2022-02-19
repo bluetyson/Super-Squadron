@@ -1,102 +1,102 @@
-﻿Characteristic,,Reaction,Reaction_ReactionDM
-1,,Overwhelmed. Will do anything without question,-40
-2,,Overwhelmed. Will do anything without question,-40
-3,,Overwhelmed. Will do anything without question,-40
-4,,Overwhelmed. Will do anything without question,-40
-5,,Very Enthisiastic. Offers assistance.,-30
-6,,Very Enthisiastic. Offers assistance.,-30
-7,,Very Enthisiastic. Offers assistance.,-30
-8,,Very Enthisiastic. Offers assistance.,-30
-9,,Very Enthisiastic. Offers assistance.,-30
-10,,Very Enthisiastic. Offers assistance.,-30
-11,,Very Enthisiastic. Offers assistance.,-30
-12,,Very Enthisiastic. Offers assistance.,-30
-13,,Very Enthisiastic. Offers assistance.,-30
-14,,Very Enthisiastic. Offers assistance.,-30
-15,,Very Enthisiastic. Offers assistance.,-30
-16,,Responsive. Talkative.,-20
-17,,Responsive. Talkative.,-20
-18,,Responsive. Talkative.,-20
-19,,Responsive. Talkative.,-20
-20,,Responsive. Talkative.,-20
-21,,Responsive. Talkative.,-20
-22,,Responsive. Talkative.,-20
-23,,Responsive. Talkative.,-20
-24,,Responsive. Talkative.,-20
-25,,Responsive. Talkative.,-20
-26,,Responsive. Talkative.,-20
-27,,Responsive. Talkative.,-20
-28,,Responsive. Talkative.,-20
-29,,Friendly. Interested.,-10
-30,,Friendly. Interested.,-10
-31,,Friendly. Interested.,-10
-32,,Friendly. Interested.,-10
-33,,Friendly. Interested.,-10
-34,,Friendly. Interested.,-10
-35,,Friendly. Interested.,-10
-36,,Friendly. Interested.,-10
-37,,Friendly. Interested.,-10
-38,,Friendly. Interested.,-10
-39,,Friendly. Interested.,-10
-40,,Friendly. Interested.,-10
-41,,Non-Committing,0
-42,,Non-Committing,0
-43,,Non-Committing,0
-44,,Non-Committing,0
-45,,Non-Committing,0
-46,,Non-Committing,0
-47,,Non-Committing,0
-48,,Non-Committing,0
-49,,Non-Committing,0
-50,,Non-Committing,0
-51,,Non-Committing,0
-52,,Non-Committing,0
-53,,Non-Committing,0
-54,,Non-Committing,0
-55,,Non-Committing,0
-56,,Non-Committing,0
-57,,Non-Committing,0
-58,,Non-Committing,0
-59,,Non-Committing,0
-60,,Non-Committing,0
-61,,Dissatistifed. Non-trusting an usually unco-operative.,10
-62,,Dissatistifed. Non-trusting an usually unco-operative.,10
-63,,Dissatistifed. Non-trusting an usually unco-operative.,10
-64,,Dissatistifed. Non-trusting an usually unco-operative.,10
-65,,Dissatistifed. Non-trusting an usually unco-operative.,10
-66,,Dissatistifed. Non-trusting an usually unco-operative.,10
-67,,Dissatistifed. Non-trusting an usually unco-operative.,10
-68,,Dissatistifed. Non-trusting an usually unco-operative.,10
-69,,Dissatistifed. Non-trusting an usually unco-operative.,10
-70,,Dissatistifed. Non-trusting an usually unco-operative.,10
-71,,Dissatistifed. Non-trusting an usually unco-operative.,10
-72,,Dissatistifed. Non-trusting an usually unco-operative.,10
-73,,Treacherous. Appears friendly but is only acting.,20
-74,,Treacherous. Appears friendly but is only acting.,20
-75,,Treacherous. Appears friendly but is only acting.,20
-76,,Treacherous. Appears friendly but is only acting.,20
-77,,Treacherous. Appears friendly but is only acting.,20
-78,,Treacherous. Appears friendly but is only acting.,20
-79,,Treacherous. Appears friendly but is only acting.,20
-80,,Treacherous. Appears friendly but is only acting.,20
-81,,Treacherous. Appears friendly but is only acting.,20
-82,,Treacherous. Appears friendly but is only acting.,20
-83,,Treacherous. Appears friendly but is only acting.,20
-84,,Treacherous. Appears friendly but is only acting.,20
-85,,Treacherous. Appears friendly but is only acting.,20
-86,,Hostile but non-violent. Absolutely refuses to co-operate.,35
-87,,Hostile but non-violent. Absolutely refuses to co-operate.,35
-88,,Hostile but non-violent. Absolutely refuses to co-operate.,35
-89,,Hostile but non-violent. Absolutely refuses to co-operate.,35
-90,,Hostile but non-violent. Absolutely refuses to co-operate.,35
-91,,Hostile but non-violent. Absolutely refuses to co-operate.,35
-92,,Hostile but non-violent. Absolutely refuses to co-operate.,35
-93,,Hostile but non-violent. Absolutely refuses to co-operate.,35
-94,,Hostile but non-violent. Absolutely refuses to co-operate.,35
-95,,Hostile but non-violent. Absolutely refuses to co-operate.,35
-96,,Violently hostile. Will eventually attack.,50
-97,,Violently hostile. Will eventually attack.,50
-98,,Violently hostile. Will eventually attack.,50
-99,,Violently hostile. Will eventually attack.,50
-100,,Violently hostile. Will eventually attack.,50
-101,,Violently hostile. Will eventually attack.,50
+﻿Characteristic,,Reaction,Reaction_ReactionDM,Loyalty,Loyalty_MoraleDM
+1,,Overwhelmed. Will do anything without question,-40,Suicidal. Never checks morale. Will do anything without question,-50
+2,,Overwhelmed. Will do anything without question,-40,Suicidal. Never checks morale. Will do anything without question,-50
+3,,Overwhelmed. Will do anything without question,-40,Suicidal. Never checks morale. Will do anything without question,-50
+4,,Overwhelmed. Will do anything without question,-40,Suicidal. Never checks morale. Will do anything without question,-50
+5,,Very Enthusiastic. Offers assistance.,-30,Suicidal. Never checks morale. Will do anything without question,-50
+6,,Very Enthusiastic. Offers assistance.,-30,"Loyal. Will follow orders, and do almost anything.",-35
+7,,Very Enthusiastic. Offers assistance.,-30,"Loyal. Will follow orders, and do almost anything.",-35
+8,,Very Enthusiastic. Offers assistance.,-30,"Loyal. Will follow orders, and do almost anything.",-35
+9,,Very Enthusiastic. Offers assistance.,-30,"Loyal. Will follow orders, and do almost anything.",-35
+10,,Very Enthusiastic. Offers assistance.,-30,"Loyal. Will follow orders, and do almost anything.",-35
+11,,Very Enthusiastic. Offers assistance.,-30,"Loyal. Will follow orders, and do almost anything.",-35
+12,,Very Enthusiastic. Offers assistance.,-30,"Loyal. Will follow orders, and do almost anything.",-35
+13,,Very Enthusiastic. Offers assistance.,-30,"Loyal. Will follow orders, and do almost anything.",-35
+14,,Very Enthusiastic. Offers assistance.,-30,"Loyal. Will follow orders, and do almost anything.",-35
+15,,Very Enthusiastic. Offers assistance.,-30,"Loyal. Will follow orders, and do almost anything.",-35
+16,,Responsive. Talkative.,-20,Enthusiastic. Will normally back up employer.,-25
+17,,Responsive. Talkative.,-20,Enthusiastic. Will normally back up employer.,-25
+18,,Responsive. Talkative.,-20,Enthusiastic. Will normally back up employer.,-25
+19,,Responsive. Talkative.,-20,Enthusiastic. Will normally back up employer.,-25
+20,,Responsive. Talkative.,-20,Enthusiastic. Will normally back up employer.,-25
+21,,Responsive. Talkative.,-20,Enthusiastic. Will normally back up employer.,-25
+22,,Responsive. Talkative.,-20,Enthusiastic. Will normally back up employer.,-25
+23,,Responsive. Talkative.,-20,Enthusiastic. Will normally back up employer.,-25
+24,,Responsive. Talkative.,-20,Enthusiastic. Will normally back up employer.,-25
+25,,Responsive. Talkative.,-20,Enthusiastic. Will normally back up employer.,-25
+26,,Responsive. Talkative.,-20,Enthusiastic. Will normally back up employer.,-25
+27,,Responsive. Talkative.,-20,Enthusiastic. Will normally back up employer.,-25
+28,,Responsive. Talkative.,-20,Enthusiastic. Will normally back up employer.,-25
+29,,Friendly. Interested.,-10,Enthusiastic. Will normally back up employer.,-25
+30,,Friendly. Interested.,-10,Enthusiastic. Will normally back up employer.,-25
+31,,Friendly. Interested.,-10,Content. Average loyalty. Happy to server.,-10
+32,,Friendly. Interested.,-10,Content. Average loyalty. Happy to server.,-10
+33,,Friendly. Interested.,-10,Content. Average loyalty. Happy to server.,-10
+34,,Friendly. Interested.,-10,Content. Average loyalty. Happy to server.,-10
+35,,Friendly. Interested.,-10,Content. Average loyalty. Happy to server.,-10
+36,,Friendly. Interested.,-10,Content. Average loyalty. Happy to server.,-10
+37,,Friendly. Interested.,-10,Content. Average loyalty. Happy to server.,-10
+38,,Friendly. Interested.,-10,Content. Average loyalty. Happy to server.,-10
+39,,Friendly. Interested.,-10,Content. Average loyalty. Happy to server.,-10
+40,,Friendly. Interested.,-10,Content. Average loyalty. Happy to server.,-10
+41,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10
+42,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10
+43,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10
+44,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10
+45,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10
+46,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10
+47,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10
+48,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10
+49,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10
+50,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10
+51,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10
+52,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10
+53,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10
+54,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10
+55,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10
+56,,Non-Committing,0,Average. Content to be a non-entity.,0
+57,,Non-Committing,0,Average. Content to be a non-entity.,0
+58,,Non-Committing,0,Average. Content to be a non-entity.,0
+59,,Non-Committing,0,Average. Content to be a non-entity.,0
+60,,Non-Committing,0,Average. Content to be a non-entity.,0
+61,,Dissatistifed. Non-trusting an usually unco-operative.,10,Average. Content to be a non-entity.,0
+62,,Dissatistifed. Non-trusting an usually unco-operative.,10,Average. Content to be a non-entity.,0
+63,,Dissatistifed. Non-trusting an usually unco-operative.,10,Average. Content to be a non-entity.,0
+64,,Dissatistifed. Non-trusting an usually unco-operative.,10,Average. Content to be a non-entity.,0
+65,,Dissatistifed. Non-trusting an usually unco-operative.,10,Average. Content to be a non-entity.,0
+66,,Dissatistifed. Non-trusting an usually unco-operative.,10,Average. Content to be a non-entity.,0
+67,,Dissatistifed. Non-trusting an usually unco-operative.,10,Average. Content to be a non-entity.,0
+68,,Dissatistifed. Non-trusting an usually unco-operative.,10,Average. Content to be a non-entity.,0
+69,,Dissatistifed. Non-trusting an usually unco-operative.,10,Average. Content to be a non-entity.,0
+70,,Dissatistifed. Non-trusting an usually unco-operative.,10,Average. Content to be a non-entity.,0
+71,,Dissatistifed. Non-trusting an usually unco-operative.,10,Unhappy. Won't take any gambles.,15
+72,,Dissatistifed. Non-trusting an usually unco-operative.,10,Unhappy. Won't take any gambles.,15
+73,,Treacherous. Appears friendly but is only acting.,20,Unhappy. Won't take any gambles.,15
+74,,Treacherous. Appears friendly but is only acting.,20,Unhappy. Won't take any gambles.,15
+75,,Treacherous. Appears friendly but is only acting.,20,Unhappy. Won't take any gambles.,15
+76,,Treacherous. Appears friendly but is only acting.,20,Unhappy. Won't take any gambles.,15
+77,,Treacherous. Appears friendly but is only acting.,20,Unhappy. Won't take any gambles.,15
+78,,Treacherous. Appears friendly but is only acting.,20,Unhappy. Won't take any gambles.,15
+79,,Treacherous. Appears friendly but is only acting.,20,Unhappy. Won't take any gambles.,15
+80,,Treacherous. Appears friendly but is only acting.,20,Unhappy. Won't take any gambles.,15
+81,,Treacherous. Appears friendly but is only acting.,20,Unhappy. Won't take any gambles.,15
+82,,Treacherous. Appears friendly but is only acting.,20,Unhappy. Won't take any gambles.,15
+83,,Treacherous. Appears friendly but is only acting.,20,Unhappy. Won't take any gambles.,15
+84,,Treacherous. Appears friendly but is only acting.,20,Unhappy. Won't take any gambles.,15
+85,,Treacherous. Appears friendly but is only acting.,20,Unhappy. Won't take any gambles.,15
+86,,Hostile but non-violent. Absolutely refuses to co-operate.,35,"Disloyal. Will argue with employer, and won't take risks.",30
+87,,Hostile but non-violent. Absolutely refuses to co-operate.,35,"Disloyal. Will argue with employer, and won't take risks.",30
+88,,Hostile but non-violent. Absolutely refuses to co-operate.,35,"Disloyal. Will argue with employer, and won't take risks.",30
+89,,Hostile but non-violent. Absolutely refuses to co-operate.,35,"Disloyal. Will argue with employer, and won't take risks.",30
+90,,Hostile but non-violent. Absolutely refuses to co-operate.,35,"Disloyal. Will argue with employer, and won't take risks.",30
+91,,Hostile but non-violent. Absolutely refuses to co-operate.,35,"Disloyal. Will argue with employer, and won't take risks.",30
+92,,Hostile but non-violent. Absolutely refuses to co-operate.,35,"Disloyal. Will argue with employer, and won't take risks.",30
+93,,Hostile but non-violent. Absolutely refuses to co-operate.,35,"Disloyal. Will argue with employer, and won't take risks.",30
+94,,Hostile but non-violent. Absolutely refuses to co-operate.,35,"Disloyal. Will argue with employer, and won't take risks.",30
+95,,Hostile but non-violent. Absolutely refuses to co-operate.,35,"Disloyal. Will argue with employer, and won't take risks.",30
+96,,Violently hostile. Will eventually attack.,50,Treacherous. Will desert at the first opportunity.,50
+97,,Violently hostile. Will eventually attack.,50,Treacherous. Will desert at the first opportunity.,50
+98,,Violently hostile. Will eventually attack.,50,Treacherous. Will desert at the first opportunity.,50
+99,,Violently hostile. Will eventually attack.,50,Treacherous. Will desert at the first opportunity.,50
+100,,Violently hostile. Will eventually attack.,50,Treacherous. Will desert at the first opportunity.,50
+101,,Violently hostile. Will eventually attack.,50,Treacherous. Will desert at the first opportunity.,50
