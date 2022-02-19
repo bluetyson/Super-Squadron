@@ -1,103 +1,103 @@
-﻿Characteristic,Strength,Strength_HT,Strength_DD,Agility,Agility_Move,Agility_Accuracy,Agility_HT,Agility_DD,Charisma,Charisma_ReactionHero,Charisma_ReactionVillain,Intelligence,Intelligence_HT,Intelligence_DD,Intelligence_Accuracy,Intelligence_DetectEntrances,Intelligence_DetectTraps,Ego,Ego_CompulsoryRetreat,Ego_WillingRetreat,Ego_HP,PublicStanding_ReactionDM,Height,Height_WeightDM,Weight,Job,Pay,PatrolDM,JobNPCLow,JobNPCHigh,Characteristic
-0,Pathetic,-2,-7,Wet Week,20,-40,-2,-2,Super Freak,25,-40,Brain Dead,-4,-2,-45,0,0,Manic Depressive,95,100,-25,40,157.5,1d12,45,Other,270+1d20,0,Special or choose,Caretaker,0
-1,Weakling,-1,-3,Snail,40,-20,-1,-1,Creepy,15,-20,Moron,-2,-1,-30,0,1,Paranoid,80,95,-10,30,160,1d10,45,Other,270+1d20,0,Special or choose,Caretaker,1
-2,Weakling,-1,-3,Snail,40,-20,-1,-1,Creepy,15,-20,Moron,-2,-1,-30,0,1,Paranoid,80,95,-10,30,162.5,1d8,46,Unemployed,60+1d8,0,Astronaut,Caretaker,2
-3,Weakling,-1,-3,Snail,40,-20,-1,-1,Ugly,10,-10,Moron,-2,-1,-30,0,1,Shy,50,80,-5,15,162.5,1d8,47,Unemployed,60+1d8,0,Doctor,Caretaker,3
-4,Puny,0,-1,Slow,45,-10,-1,0,Ugly,10,-10,Stupid,-1,0,-20,1,1d4,Shy,50,80,-5,15,165,1d8,48,Unemployed,60+1d8,0,Film Star,Caretaker,4
-5,Puny,0,-1,Slow,45,-10,-1,0,Ugly,10,-10,Stupid,-1,0,-20,1,1d4,Shy,50,80,-5,15,165,1d8,49,Unemployed,60+1d8,0,Scientist,Secretary,5
-6,Puny,0,-1,Slow,45,-10,-1,0,Plain,5,-5,Stupid,-1,0,-20,1,1d4,Average Person,25,65,0,5,167.5,1d6,49,Unemployed,60+1d8,0,Mercenary,Secretary,6
-7,Puny,0,-1,Slow,45,-10,-1,0,Plain,5,-5,Dumb,-1,0,-10,2d4,3d4,Average Person,25,65,0,5,167.5,1d6,50,Unemployed,60+1d8,0,Lawyer,Secretary,7
-8,Average Person,0,0,Average Person,50,0,0,0,Plain,5,-5,Dumb,-1,0,-10,2d4,3d4,Average Person,25,65,0,5,170,1d4,50,Police Department,240+1d20,-20,Gymnast,Secretary,8
-9,Average Person,0,0,Average Person,50,0,0,0,Plain,5,-5,Dumb,-1,0,-10,2d4,3d4,Average SB,10,40,5,0,170,1d4,51,Police Department,240+1d20,-20,Explorer,Secretary,9
-10,Average Person,0,0,Average Person,50,0,0,0,Average Person,0,0,Average Person,0,0,0,5d4,6d4,Average SB,10,40,5,0,172.5,0,51,Police Department,240+1d20,-20,Athlete,Secretary,10
-11,Average Person,0,0,Average Person,50,0,0,0,Average Person,0,0,Average Person,0,0,0,5d4,6d4,Average SB,10,40,5,0,172.5,0,52,Police Department,240+1d20,-20,Architect,Secretary,11
-12,Average Person,0,0,Average Person,50,0,0,0,Average Person,0,0,Average Person,0,0,0,5d4,6d4,Average SB,10,40,5,0,172.5,0,52,Police Department,240+1d20,-20,Builder/Contractor,Secretary,12
-13,Average SB,0,1,Average SB,55,0,1,0,Average SB,-5,5,Average Person,0,0,0,5d4,6d4,Average SB,10,40,5,-5,175,0,53,Police Department,240+1d20,-20,Deb Collector,Salesman,13
-14,Average SB,0,1,Average SB,55,0,1,0,Average SB,-5,5,Average SB,1,0,0,5d6,6d6,Vain,5,30,10,-5,175,0,53,Researcher,290+5d20,0,Importer,Salesman,14
-15,Average SB,0,1,Average SB,55,0,1,0,Average SB,-5,5,Average SB,1,0,0,5d6,6d6,Vain,5,30,10,-5,175,0,54,Researcher,290+5d20,0,Jewller,Salesman,15
-16,Average SB,0,1,Average SB,55,0,1,0,Cute,-10,10,Average SB,1,0,0,5d6,6d6,Vain,5,30,10,-5,177.5,0,54,Researcher,290+5d20,0,Jockey,Salesman,16
-17,Strength of two men,1,1d4,Quick,60,0,1,0,Cute,-10,10,Bright,2,1,10,7d6,8d6,Vain,5,30,10,-10,177.5,0,54,Researcher,290+5d20,0,Manufacturer,Salesman,17
-18,Strength of two men,1,1d4,Quick,60,0,1,0,Cute,-10,10,Bright,2,1,10,7d6,8d6,Conceited,0,20,15,-10,177.5,0,55,Researcher,290+5d20,0,Surveyor,Salesman,18
-19,Strength of two men,1,1d4,Quick,60,0,1,0,Attractive,-15,20,Bright,2,1,10,7d6,8d6,Conceited,0,20,15,-10,177.5,0,55,Doctor,390+2d12,0,Clergy,Salesman,19
-20,Strength of two men,1,1d4,Quick,60,0,1,0,Attractive,-15,20,Bright,2,1,10,7d6,8d6,Ostentatious,0,10,5,-10,177.5,0,55,Doctor,390+2d12,0,Artist,Salesman,20
-21,Strength of three men,3,1d8,Fast,70,5,2,1,Spunkie,-20,30,Clever,3,1,20,7d8,8d8,Ostentatious,0,10,5,-20,180,0,56,Doctor,390+2d12,0,Artist,Salesman,21
-22,Strength of three men,3,1d8,Fast,70,5,2,1,Spunkie,-20,30,Clever,3,1,20,7d8,8d8,Ostentatious,0,10,5,-20,180,0,56,Doctor,390+2d12,0,Barrister,Salesman,22
-23,Strength of three men,3,1d8,Fast,70,5,2,1,Spunkie,-20,30,Clever,3,1,20,7d8,8d8,Ostentatious,0,10,5,-20,180,0,56,Public Servant,240+3d10,0,Barrister,Salesman,23
-24,Strength of three men,3,1d8,Fast,70,5,2,1,Spunkie,-20,30,Clever,3,1,20,7d8,8d8,Ostentatious,0,10,5,-30,180,0,56,Public Servant,240+3d10,0,Broker,Salesman,24
-25,Strength of three men,3,1d8,Fast,70,5,2,1,Spunkie,-20,30,Clever,3,1,20,7d8,8d8,Ostentatious,0,10,5,-30,182.5,0,57,Public Servant,240+3d10,0,Broker,Salesman,25
-26,Strength of five men,5,1d10,Speedy,80,5,3,2,Stunning,-25,40,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-30,182.5,0,57,Public Servant,240+3d10,0,Dentist,Salesman,26
-27,Strength of five men,5,1d10,Speedy,80,5,3,2,Stunning,-25,40,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0,57,Astronaut,440+2d10,0,Dentist,Labourer,27
-28,Strength of five men,5,1d10,Speedy,80,5,3,2,Stunning,-25,40,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0,58,Astronaut,440+2d10,0,Engineer,Labourer,28
-29,Strength of five men,5,1d10,Speedy,80,5,3,2,Stunning,-25,40,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0,58,Lawyer,340+1d20,-5,Engineer,Labourer,29
-30,Strength of five men,5,1d10,Speedy,80,5,3,2,Stunning,-25,40,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0,59,Lawyer,340+1d20,-5,Gun Smith,Labourer,30
-31,Strength of five men,5,1d10,Speedy,80,5,3,2,Fantastic,-35,50,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0,59,Lawyer,340+1d20,-5,Gun Smith,Labourer,31
-32,Strength of five men,5,1d10,Speedy,80,5,3,2,Fantastic,-35,50,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0,59,Lawyer,340+1d20,-5,Journalist,Labourer,32
-33,Strength of five men,5,1d10,Speedy,80,5,3,2,Fantastic,-35,50,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0,59,Lawyer,340+1d20,-5,Journalist,Labourer,33
-34,Strength of five men,5,1d10,Speedy,80,5,3,2,Fantastic,-35,50,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0,59,Student,45+1d10,0,Model,Labourer,34
-35,Strength of five men,5,1d10,Speedy,80,5,3,2,Fantastic,-35,50,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0,59,Student,45+1d10,0,Model,Labourer,35
-36,Strength of five men,5,1d10,Speedy,80,5,3,2,Fantastic,-35,50,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0,60,Student,45+1d10,0,Optomerist,Labourer,36
-37,Strength of five men,5,1d10,Speedy,80,5,3,2,Fantastic,-35,50,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0,60,Student,45+1d10,0,Optomerist,Labourer,37
-38,Strength of five men,5,1d10,Speedy,80,5,3,2,Fantastic,-35,50,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0,60,Student,45+1d10,0,Photographer,Labourer,38
-39,Strength of five men,5,1d10,Speedy,80,5,3,2,Fantastic,-35,50,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0,60,Student,45+1d10,0,Musician,Labourer,39
-40,Strength of five men,5,1d10,Speedy,80,5,3,2,Fantastic,-35,50,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0,60,Student,45+1d10,0,Musician,Labourer,40
-41,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61,Student,45+1d10,0,Librarian,Labourer,41
-42,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61,Student,45+1d10,0,Librarian,Clerk,42
-43,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61,Student,45+1d10,0,Locksmith,Clerk,43
-44,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61,Radio DJ/Reporter,260+2d10,-5,Locksmith,Clerk,44
-45,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61,Radio DJ/Reporter,260+2d10,-5,Locksmith,Clerk,45
-46,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61,Radio DJ/Reporter,260+2d10,-5,Chiropractor,Clerk,46
-47,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61,Radio DJ/Reporter,260+2d10,-5,Analyst,Clerk,47
-48,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61,Radio DJ/Reporter,260+2d10,-5,Analyst,Clerk,48
-49,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61,Radio DJ/Reporter,260+2d10,-5,Computer Programmer,Clerk,49
-50,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61,Radio DJ/Reporter,260+2d10,-5,Computer Programmer,Clerk,50
-51,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61,Radio DJ/Reporter,260+2d10,-5,Computer Programmer,Clerk,51
-52,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61,Radio DJ/Reporter,260+2d10,-5,Computer Programmer,Clerk,52
-53,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61,Radio DJ/Reporter,260+2d10,-5,Computer Programmer,Clerk,53
-54,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61,Newspaper Reporter,240+1d20,-10,Policeman,Clerk,54
-55,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61,Newspaper Reporter,240+1d20,-10,Policeman,Clerk,55
-56,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61,Newspaper Reporter,240+1d20,-10,Policeman,Clerk,56
-57,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61,Newspaper Reporter,240+1d20,-10,Policeman,Domestic Servant,57
-58,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61,Newspaper Reporter,240+1d20,-10,Reporter,Domestic Servant,58
-59,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61,Newspaper Reporter,240+1d20,-10,Reporter,Domestic Servant,59
-60,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61,Newspaper Reporter,240+1d20,-10,Reporter,Domestic Servant,60
-61,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,62,Newspaper Reporter,240+1d20,-10,Teacher,Domestic Servant,61
-62,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,62,Newspaper Reporter,240+1d20,-10,Teacher,Domestic Servant,62
-63,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,62,Newspaper Reporter,240+1d20,-10,Teacher,Public Servant,63
-64,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,185,0,62,Newspaper Reporter,240+1d20,-10,Teacher,Public Servant,64
-65,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,185,0,62,Newspaper Reporter,240+1d20,-10,Estate Agent,Public Servant,65
-66,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,185,0,63,Newspaper Reporter,240+1d20,-10,Estate Agent,Public Servant,66
-67,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,185,0,63,Newspaper Reporter,240+1d20,-10,Panel Beater,Public Servant,67
-68,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,185,0,63,Newspaper Reporter,240+1d20,-10,Panel Beater,Public Servant,68
-69,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,185,0,63,Newspaper Reporter,240+1d20,-10,Painter/Decorator,Public Servant,69
-70,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,185,0,63,Newspaper Reporter,240+1d20,-10,Painter/Decorator,Public Servant,70
-71,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,185,0,64,Newspaper Reporter,240+1d20,-10,Masseur,Public Servant,71
-72,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,185,0,64,Newspaper Reporter,240+1d20,-10,Insurance,Public Servant,72
-73,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,185,0,64,Newspaper Reporter,240+1d20,-10,Insurance,Public Servant,73
-74,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,187.5,0,64,Newspaper Reporter,240+1d20,-10,Insurance,Public Servant,74
-75,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,187.5,0,65,Newspaper Reporter,240+1d20,-10,Retailer,Public Servant,75
-76,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,187.5,0,65,Newspaper Reporter,240+1d20,-10,Retailer,Public Servant,76
-77,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,187.5,0,65,Newspaper Reporter,240+1d20,-10,Garage Operator,Public Servant,77
-78,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,187.5,0,65,Newspaper Reporter,240+1d20,-10,Farmer,Public Servant,78
-79,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,190,0,66,Newspaper Reporter,240+1d20,-10,Farmer,Public Servant,79
-80,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,190,0,66,Newspaper Reporter,240+1d20,-10,Farmer,Public Servant,80
-81,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,190,0,66,Newspaper Reporter,240+1d20,-10,Driver,Public Servant,81
-82,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,190,0,66,Newspaper Reporter,240+1d20,-10,Driver,Public Servant,82
-83,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,192.5,0,67,Newspaper Reporter,240+1d20,-10,Driver,Public Servant,83
-84,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,192.5,0,67,Newspaper Reporter,240+1d20,-10,Driver,Public Servant,84
-85,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,192.5,0,67,Newspaper Reporter,240+1d20,-10,Driving Instructor,Public Servant,85
-86,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,195,0,68,Newspaper Reporter,240+1d20,-10,Driving Instructor,Public Servant,86
-87,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,195,0,68,Newspaper Reporter,240+1d20,-10,Dairy Farmer,Public Servant,87
-88,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,195,0,68,Newspaper Reporter,240+1d20,-10,Carpenter,Public Servant,88
-89,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,197.5,0,69,Newspaper Reporter,240+1d20,-10,Carpenter,Public Servant,89
-90,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,197.5,0,69,TV Personality,340+3d10,-10,Carpenter,Public Servant,90
-91,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,197.5,0,69,TV Personality,340+3d10,-10,Cementor,Public Servant,91
-92,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,200,0,70,TV Personality,340+3d10,-10,Caterer,Hairdressor,92
-93,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,200,0,70,TV Personality,340+3d10,-10,Bricklayer,Hairdressor,93
-94,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,200,0,71,Detective,Commission,-15,Bricklayer,Hairdressor,94
-95,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,202.5,1d6,71,Detective,Commission,-15,Bricklayer,Hairdressor,95
-96,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,205,1d8,72,Military,270+1d20,-5,Baker,Accountant/Auditor,96
-97,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,207.5,1d10,72,Military,270+1d20,-5,Baker,Accountant/Auditor,97
-98,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,210,2d6,73,Military,270+1d20,-5,Tailor,Accountant/Auditor,98
-99,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,212.5,2d8,73,NPC Professions,Variable,Variable,Tailor,Accountant/Auditor,99
-100,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,215,2d10,74,NPC Professions,Variable,Variable,Tailor,Accountant/Auditor,100
-101,Tough,1d12+12,3d10+4,Grease Lightning,180,15,5,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,215,2d10,74,NPC Professions,Variable,Variable,Tailor,Accountant/Auditor,101
+﻿Characteristic,Strength,Strength_HT,Strength_DD,Agility,Agility_Move,Agility_Accuracy,Agility_HT,Agility_DD,Charisma,Charisma_ReactionHero,Charisma_ReactionVillain,Intelligence,Intelligence_HT,Intelligence_DD,Intelligence_Accuracy,Intelligence_DetectEntrances,Intelligence_DetectTraps,Ego,Ego_CompulsoryRetreat,Ego_WillingRetreat,Ego_HP,PublicStanding_ReactionDM,Height,Height_WeightDM,Weight,Job,Pay,PatrolDM,JobNPCLow,JobNPCHigh
+0,Pathetic,-2,-7,Wet Week,20,-40,-2,-2,Super Freak,25,-40,Brain Dead,-4,-2,-45,0,0,Manic Depressive,95,100,-25,40,157.5,1d12,45,Other,270+1d20,0,Special or choose,Caretaker
+1,Weakling,-1,-3,Snail,40,-20,-1,-1,Creepy,15,-20,Moron,-2,-1,-30,0,1,Paranoid,80,95,-10,30,160,1d10,45,Other,270+1d20,0,Special or choose,Caretaker
+2,Weakling,-1,-3,Snail,40,-20,-1,-1,Creepy,15,-20,Moron,-2,-1,-30,0,1,Paranoid,80,95,-10,30,162.5,1d8,46,Unemployed,60+1d8,0,Astronaut,Caretaker
+3,Weakling,-1,-3,Snail,40,-20,-1,-1,Ugly,10,-10,Moron,-2,-1,-30,0,1,Shy,50,80,-5,15,162.5,1d8,47,Unemployed,60+1d8,0,Doctor,Caretaker
+4,Puny,0,-1,Slow,45,-10,-1,0,Ugly,10,-10,Stupid,-1,0,-20,1,1d4,Shy,50,80,-5,15,165,1d8,48,Unemployed,60+1d8,0,Film Star,Caretaker
+5,Puny,0,-1,Slow,45,-10,-1,0,Ugly,10,-10,Stupid,-1,0,-20,1,1d4,Shy,50,80,-5,15,165,1d8,49,Unemployed,60+1d8,0,Scientist,Secretary
+6,Puny,0,-1,Slow,45,-10,-1,0,Plain,5,-5,Stupid,-1,0,-20,1,1d4,Average Person,25,65,0,5,167.5,1d6,49,Unemployed,60+1d8,0,Mercenary,Secretary
+7,Puny,0,-1,Slow,45,-10,-1,0,Plain,5,-5,Dumb,-1,0,-10,2d4,3d4,Average Person,25,65,0,5,167.5,1d6,50,Unemployed,60+1d8,0,Lawyer,Secretary
+8,Average Person,0,0,Average Person,50,0,0,0,Plain,5,-5,Dumb,-1,0,-10,2d4,3d4,Average Person,25,65,0,5,170,1d4,50,Police Department,240+1d20,-20,Gymnast,Secretary
+9,Average Person,0,0,Average Person,50,0,0,0,Plain,5,-5,Dumb,-1,0,-10,2d4,3d4,Average SB,10,40,5,0,170,1d4,51,Police Department,240+1d20,-20,Explorer,Secretary
+10,Average Person,0,0,Average Person,50,0,0,0,Average Person,0,0,Average Person,0,0,0,5d4,6d4,Average SB,10,40,5,0,172.5,0,51,Police Department,240+1d20,-20,Athlete,Secretary
+11,Average Person,0,0,Average Person,50,0,0,0,Average Person,0,0,Average Person,0,0,0,5d4,6d4,Average SB,10,40,5,0,172.5,0,52,Police Department,240+1d20,-20,Architect,Secretary
+12,Average Person,0,0,Average Person,50,0,0,0,Average Person,0,0,Average Person,0,0,0,5d4,6d4,Average SB,10,40,5,0,172.5,0,52,Police Department,240+1d20,-20,Builder/Contractor,Secretary
+13,Average SB,0,1,Average SB,55,0,1,0,Average SB,-5,5,Average Person,0,0,0,5d4,6d4,Average SB,10,40,5,-5,175,0,53,Police Department,240+1d20,-20,Deb Collector,Salesman
+14,Average SB,0,1,Average SB,55,0,1,0,Average SB,-5,5,Average SB,1,0,0,5d6,6d6,Vain,5,30,10,-5,175,0,53,Researcher,290+5d20,0,Importer,Salesman
+15,Average SB,0,1,Average SB,55,0,1,0,Average SB,-5,5,Average SB,1,0,0,5d6,6d6,Vain,5,30,10,-5,175,0,54,Researcher,290+5d20,0,Jewller,Salesman
+16,Average SB,0,1,Average SB,55,0,1,0,Cute,-10,10,Average SB,1,0,0,5d6,6d6,Vain,5,30,10,-5,177.5,0,54,Researcher,290+5d20,0,Jockey,Salesman
+17,Strength of two men,1,1d4,Quick,60,0,1,0,Cute,-10,10,Bright,2,1,10,7d6,8d6,Vain,5,30,10,-10,177.5,0,54,Researcher,290+5d20,0,Manufacturer,Salesman
+18,Strength of two men,1,1d4,Quick,60,0,1,0,Cute,-10,10,Bright,2,1,10,7d6,8d6,Conceited,0,20,15,-10,177.5,0,55,Researcher,290+5d20,0,Surveyor,Salesman
+19,Strength of two men,1,1d4,Quick,60,0,1,0,Attractive,-15,20,Bright,2,1,10,7d6,8d6,Conceited,0,20,15,-10,177.5,0,55,Doctor,390+2d12,0,Clergy,Salesman
+20,Strength of two men,1,1d4,Quick,60,0,1,0,Attractive,-15,20,Bright,2,1,10,7d6,8d6,Ostentatious,0,10,5,-10,177.5,0,55,Doctor,390+2d12,0,Artist,Salesman
+21,Strength of three men,3,1d8,Fast,70,5,2,1,Spunkie,-20,30,Clever,3,1,20,7d8,8d8,Ostentatious,0,10,5,-20,180,0,56,Doctor,390+2d12,0,Artist,Salesman
+22,Strength of three men,3,1d8,Fast,70,5,2,1,Spunkie,-20,30,Clever,3,1,20,7d8,8d8,Ostentatious,0,10,5,-20,180,0,56,Doctor,390+2d12,0,Barrister,Salesman
+23,Strength of three men,3,1d8,Fast,70,5,2,1,Spunkie,-20,30,Clever,3,1,20,7d8,8d8,Ostentatious,0,10,5,-20,180,0,56,Public Servant,240+3d10,0,Barrister,Salesman
+24,Strength of three men,3,1d8,Fast,70,5,2,1,Spunkie,-20,30,Clever,3,1,20,7d8,8d8,Ostentatious,0,10,5,-30,180,0,56,Public Servant,240+3d10,0,Broker,Salesman
+25,Strength of three men,3,1d8,Fast,70,5,2,1,Spunkie,-20,30,Clever,3,1,20,7d8,8d8,Ostentatious,0,10,5,-30,182.5,0,57,Public Servant,240+3d10,0,Broker,Salesman
+26,Strength of five men,5,1d10,Speedy,80,5,3,2,Stunning,-25,40,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-30,182.5,0,57,Public Servant,240+3d10,0,Dentist,Salesman
+27,Strength of five men,5,1d10,Speedy,80,5,3,2,Stunning,-25,40,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0,57,Astronaut,440+2d10,0,Dentist,Labourer
+28,Strength of five men,5,1d10,Speedy,80,5,3,2,Stunning,-25,40,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0,58,Astronaut,440+2d10,0,Engineer,Labourer
+29,Strength of five men,5,1d10,Speedy,80,5,3,2,Stunning,-25,40,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0,58,Lawyer,340+1d20,-5,Engineer,Labourer
+30,Strength of five men,5,1d10,Speedy,80,5,3,2,Stunning,-25,40,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0,59,Lawyer,340+1d20,-5,Gun Smith,Labourer
+31,Strength of five men,5,1d10,Speedy,80,5,3,2,Fantastic,-35,50,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0,59,Lawyer,340+1d20,-5,Gun Smith,Labourer
+32,Strength of five men,5,1d10,Speedy,80,5,3,2,Fantastic,-35,50,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0,59,Lawyer,340+1d20,-5,Journalist,Labourer
+33,Strength of five men,5,1d10,Speedy,80,5,3,2,Fantastic,-35,50,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0,59,Lawyer,340+1d20,-5,Journalist,Labourer
+34,Strength of five men,5,1d10,Speedy,80,5,3,2,Fantastic,-35,50,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0,59,Student,45+1d10,0,Model,Labourer
+35,Strength of five men,5,1d10,Speedy,80,5,3,2,Fantastic,-35,50,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0,59,Student,45+1d10,0,Model,Labourer
+36,Strength of five men,5,1d10,Speedy,80,5,3,2,Fantastic,-35,50,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0,60,Student,45+1d10,0,Optomerist,Labourer
+37,Strength of five men,5,1d10,Speedy,80,5,3,2,Fantastic,-35,50,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0,60,Student,45+1d10,0,Optomerist,Labourer
+38,Strength of five men,5,1d10,Speedy,80,5,3,2,Fantastic,-35,50,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0,60,Student,45+1d10,0,Photographer,Labourer
+39,Strength of five men,5,1d10,Speedy,80,5,3,2,Fantastic,-35,50,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0,60,Student,45+1d10,0,Musician,Labourer
+40,Strength of five men,5,1d10,Speedy,80,5,3,2,Fantastic,-35,50,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0,60,Student,45+1d10,0,Musician,Labourer
+41,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61,Student,45+1d10,0,Librarian,Labourer
+42,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61,Student,45+1d10,0,Librarian,Clerk
+43,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61,Student,45+1d10,0,Locksmith,Clerk
+44,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61,Radio DJ/Reporter,260+2d10,-5,Locksmith,Clerk
+45,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61,Radio DJ/Reporter,260+2d10,-5,Locksmith,Clerk
+46,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61,Radio DJ/Reporter,260+2d10,-5,Chiropractor,Clerk
+47,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61,Radio DJ/Reporter,260+2d10,-5,Analyst,Clerk
+48,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61,Radio DJ/Reporter,260+2d10,-5,Analyst,Clerk
+49,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61,Radio DJ/Reporter,260+2d10,-5,Computer Programmer,Clerk
+50,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61,Radio DJ/Reporter,260+2d10,-5,Computer Programmer,Clerk
+51,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61,Radio DJ/Reporter,260+2d10,-5,Computer Programmer,Clerk
+52,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61,Radio DJ/Reporter,260+2d10,-5,Computer Programmer,Clerk
+53,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61,Radio DJ/Reporter,260+2d10,-5,Computer Programmer,Clerk
+54,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61,Newspaper Reporter,240+1d20,-10,Policeman,Clerk
+55,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61,Newspaper Reporter,240+1d20,-10,Policeman,Clerk
+56,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61,Newspaper Reporter,240+1d20,-10,Policeman,Clerk
+57,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61,Newspaper Reporter,240+1d20,-10,Policeman,Domestic Servant
+58,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61,Newspaper Reporter,240+1d20,-10,Reporter,Domestic Servant
+59,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61,Newspaper Reporter,240+1d20,-10,Reporter,Domestic Servant
+60,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61,Newspaper Reporter,240+1d20,-10,Reporter,Domestic Servant
+61,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,62,Newspaper Reporter,240+1d20,-10,Teacher,Domestic Servant
+62,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,62,Newspaper Reporter,240+1d20,-10,Teacher,Domestic Servant
+63,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,62,Newspaper Reporter,240+1d20,-10,Teacher,Public Servant
+64,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,185,0,62,Newspaper Reporter,240+1d20,-10,Teacher,Public Servant
+65,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,185,0,62,Newspaper Reporter,240+1d20,-10,Estate Agent,Public Servant
+66,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,185,0,63,Newspaper Reporter,240+1d20,-10,Estate Agent,Public Servant
+67,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,185,0,63,Newspaper Reporter,240+1d20,-10,Panel Beater,Public Servant
+68,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,185,0,63,Newspaper Reporter,240+1d20,-10,Panel Beater,Public Servant
+69,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,185,0,63,Newspaper Reporter,240+1d20,-10,Painter/Decorator,Public Servant
+70,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,185,0,63,Newspaper Reporter,240+1d20,-10,Painter/Decorator,Public Servant
+71,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,185,0,64,Newspaper Reporter,240+1d20,-10,Masseur,Public Servant
+72,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,185,0,64,Newspaper Reporter,240+1d20,-10,Insurance,Public Servant
+73,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,185,0,64,Newspaper Reporter,240+1d20,-10,Insurance,Public Servant
+74,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,187.5,0,64,Newspaper Reporter,240+1d20,-10,Insurance,Public Servant
+75,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,187.5,0,65,Newspaper Reporter,240+1d20,-10,Retailer,Public Servant
+76,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,187.5,0,65,Newspaper Reporter,240+1d20,-10,Retailer,Public Servant
+77,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,187.5,0,65,Newspaper Reporter,240+1d20,-10,Garage Operator,Public Servant
+78,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,187.5,0,65,Newspaper Reporter,240+1d20,-10,Farmer,Public Servant
+79,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,190,0,66,Newspaper Reporter,240+1d20,-10,Farmer,Public Servant
+80,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,190,0,66,Newspaper Reporter,240+1d20,-10,Farmer,Public Servant
+81,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,190,0,66,Newspaper Reporter,240+1d20,-10,Driver,Public Servant
+82,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,190,0,66,Newspaper Reporter,240+1d20,-10,Driver,Public Servant
+83,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,192.5,0,67,Newspaper Reporter,240+1d20,-10,Driver,Public Servant
+84,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,192.5,0,67,Newspaper Reporter,240+1d20,-10,Driver,Public Servant
+85,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,192.5,0,67,Newspaper Reporter,240+1d20,-10,Driving Instructor,Public Servant
+86,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,195,0,68,Newspaper Reporter,240+1d20,-10,Driving Instructor,Public Servant
+87,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,195,0,68,Newspaper Reporter,240+1d20,-10,Dairy Farmer,Public Servant
+88,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,195,0,68,Newspaper Reporter,240+1d20,-10,Carpenter,Public Servant
+89,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,197.5,0,69,Newspaper Reporter,240+1d20,-10,Carpenter,Public Servant
+90,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,197.5,0,69,TV Personality,340+3d10,-10,Carpenter,Public Servant
+91,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,197.5,0,69,TV Personality,340+3d10,-10,Cementor,Public Servant
+92,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,200,0,70,TV Personality,340+3d10,-10,Caterer,Hairdressor
+93,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,200,0,70,TV Personality,340+3d10,-10,Bricklayer,Hairdressor
+94,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,200,0,71,Detective,Commission,-15,Bricklayer,Hairdressor
+95,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,202.5,1d6,71,Detective,Commission,-15,Bricklayer,Hairdressor
+96,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,205,1d8,72,Military,270+1d20,-5,Baker,Accountant/Auditor
+97,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,207.5,1d10,72,Military,270+1d20,-5,Baker,Accountant/Auditor
+98,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,210,2d6,73,Military,270+1d20,-5,Tailor,Accountant/Auditor
+99,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,212.5,2d8,73,NPC Professions,Variable,Variable,Tailor,Accountant/Auditor
+100,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,215,2d10,74,NPC Professions,Variable,Variable,Tailor,Accountant/Auditor
+101,Tough,1d12+12,3d10+4,Grease Lightning,180,15,5,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,215,2d10,74,NPC Professions,Variable,Variable,Tailor,Accountant/Auditor
