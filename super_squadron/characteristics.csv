@@ -1,103 +1,103 @@
-﻿Characteristic,Strength,Strength_HT,Strength_DD,Agility,Agility_Move,Agility_Accuracy,Agility_HT,Agility_DD,Charisma,Charisma_ReactionHero,Charisma_ReactionVillain,Intelligence,Intelligence_HT,Intelligence_DD,Intelligence_Accuracy,Intelligence_DetectEntrances,Intelligence_DetectTraps,Ego,Ego_CompulsoryRetreat,Ego_WillingRetreat,Ego_HP,PublicStanding_ReactionDM,Height,Height_WeightDM
-0,Pathetic,-2,-7,Wet Week,20,-40,-2,-2,Super Freak,25,-40,Brain Dead,-4,-2,-45,0,0,Manic Depressive,95,100,-25,40,157.5,1d12
-1,Weakling,-1,-3,Snail,40,-20,-1,-1,Creepy,15,-20,Moron,-2,-1,-30,0,1,Paranoid,80,95,-10,30,160,1d10
-2,Weakling,-1,-3,Snail,40,-20,-1,-1,Creepy,15,-20,Moron,-2,-1,-30,0,1,Paranoid,80,95,-10,30,162.5,1d8
-3,Weakling,-1,-3,Snail,40,-20,-1,-1,Ugly,10,-10,Moron,-2,-1,-30,0,1,Shy,50,80,-5,15,162.5,1d8
-4,Puny,0,-1,Slow,45,-10,-1,0,Ugly,10,-10,Stupid,-1,0,-20,1,1d4,Shy,50,80,-5,15,165,1d8
-5,Puny,0,-1,Slow,45,-10,-1,0,Ugly,10,-10,Stupid,-1,0,-20,1,1d4,Shy,50,80,-5,15,165,1d8
-6,Puny,0,-1,Slow,45,-10,-1,0,Plain,5,-5,Stupid,-1,0,-20,1,1d4,Average Person,25,65,0,5,167.5,1d6
-7,Puny,0,-1,Slow,45,-10,-1,0,Plain,5,-5,Dumb,-1,0,-10,2d4,3d4,Average Person,25,65,0,5,167.5,1d6
-8,Average Person,0,0,Average Person,50,0,0,0,Plain,5,-5,Dumb,-1,0,-10,2d4,3d4,Average Person,25,65,0,5,170,1d4
-9,Average Person,0,0,Average Person,50,0,0,0,Plain,5,-5,Dumb,-1,0,-10,2d4,3d4,Average SB,10,40,5,0,170,1d4
-10,Average Person,0,0,Average Person,50,0,0,0,Average Person,0,0,Average Person,0,0,0,5d4,6d4,Average SB,10,40,5,0,172.5,0
-11,Average Person,0,0,Average Person,50,0,0,0,Average Person,0,0,Average Person,0,0,0,5d4,6d4,Average SB,10,40,5,0,172.5,0
-12,Average Person,0,0,Average Person,50,0,0,0,Average Person,0,0,Average Person,0,0,0,5d4,6d4,Average SB,10,40,5,0,172.5,0
-13,Average SB,0,1,Average SB,55,0,1,0,Average SB,-5,5,Average Person,0,0,0,5d4,6d4,Average SB,10,40,5,-5,175,0
-14,Average SB,0,1,Average SB,55,0,1,0,Average SB,-5,5,Average SB,1,0,0,5d6,6d6,Vain,5,30,10,-5,175,0
-15,Average SB,0,1,Average SB,55,0,1,0,Average SB,-5,5,Average SB,1,0,0,5d6,6d6,Vain,5,30,10,-5,175,0
-16,Average SB,0,1,Average SB,55,0,1,0,Cute,-10,10,Average SB,1,0,0,5d6,6d6,Vain,5,30,10,-5,177.5,0
-17,Strength of two men,1,1d4,Quick,60,0,1,0,Cute,-10,10,Bright,2,1,10,7d6,8d6,Vain,5,30,10,-10,177.5,0
-18,Strength of two men,1,1d4,Quick,60,0,1,0,Cute,-10,10,Bright,2,1,10,7d6,8d6,Conceited,0,20,15,-10,177.5,0
-19,Strength of two men,1,1d4,Quick,60,0,1,0,Attractive,-15,20,Bright,2,1,10,7d6,8d6,Conceited,0,20,15,-10,177.5,0
-20,Strength of two men,1,1d4,Quick,60,0,1,0,Attractive,-15,20,Bright,2,1,10,7d6,8d6,Ostentatious,0,10,5,-10,177.5,0
-21,Strength of three men,3,1d8,Fast,70,5,2,1,Spunkie,-20,30,Clever,3,1,20,7d8,8d8,Ostentatious,0,10,5,-20,180,0
-22,Strength of three men,3,1d8,Fast,70,5,2,1,Spunkie,-20,30,Clever,3,1,20,7d8,8d8,Ostentatious,0,10,5,-20,180,0
-23,Strength of three men,3,1d8,Fast,70,5,2,1,Spunkie,-20,30,Clever,3,1,20,7d8,8d8,Ostentatious,0,10,5,-20,180,0
-24,Strength of three men,3,1d8,Fast,70,5,2,1,Spunkie,-20,30,Clever,3,1,20,7d8,8d8,Ostentatious,0,10,5,-30,180,0
-25,Strength of three men,3,1d8,Fast,70,5,2,1,Spunkie,-20,30,Clever,3,1,20,7d8,8d8,Ostentatious,0,10,5,-30,182.5,0
-26,Strength of five men,5,1d10,Speedy,80,5,3,2,Stunning,-25,40,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-30,182.5,0
-27,Strength of five men,5,1d10,Speedy,80,5,3,2,Stunning,-25,40,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0
-28,Strength of five men,5,1d10,Speedy,80,5,3,2,Stunning,-25,40,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0
-29,Strength of five men,5,1d10,Speedy,80,5,3,2,Stunning,-25,40,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0
-30,Strength of five men,5,1d10,Speedy,80,5,3,2,Stunning,-25,40,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0
-31,Strength of five men,5,1d10,Speedy,80,5,3,2,Fantastic,-35,50,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0
-32,Strength of five men,5,1d10,Speedy,80,5,3,2,Fantastic,-35,50,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0
-33,Strength of five men,5,1d10,Speedy,80,5,3,2,Fantastic,-35,50,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0
-34,Strength of five men,5,1d10,Speedy,80,5,3,2,Fantastic,-35,50,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0
-35,Strength of five men,5,1d10,Speedy,80,5,3,2,Fantastic,-35,50,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0
-36,Strength of five men,5,1d10,Speedy,80,5,3,2,Fantastic,-35,50,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0
-37,Strength of five men,5,1d10,Speedy,80,5,3,2,Fantastic,-35,50,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0
-38,Strength of five men,5,1d10,Speedy,80,5,3,2,Fantastic,-35,50,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0
-39,Strength of five men,5,1d10,Speedy,80,5,3,2,Fantastic,-35,50,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0
-40,Strength of five men,5,1d10,Speedy,80,5,3,2,Fantastic,-35,50,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0
-41,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0
-42,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0
-43,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0
-44,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0
-45,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0
-46,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0
-47,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0
-48,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0
-49,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0
-50,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0
-51,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0
-52,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0
-53,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0
-54,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0
-55,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0
-56,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0
-57,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0
-58,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0
-59,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0
-60,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0
-61,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0
-62,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0
-63,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0
-64,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,185,0
-65,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,185,0
-66,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,185,0
-67,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,185,0
-68,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,185,0
-69,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,185,0
-70,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,185,0
-71,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,185,0
-72,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,185,0
-73,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,185,0
-74,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,187.5,0
-75,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,187.5,0
-76,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,187.5,0
-77,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,187.5,0
-78,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,187.5,0
-79,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,190,0
-80,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,190,0
-81,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,190,0
-82,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,190,0
-83,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,192.5,0
-84,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,192.5,0
-85,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,192.5,0
-86,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,195,0
-87,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,195,0
-88,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,195,0
-89,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,197.5,0
-90,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,197.5,0
-91,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,197.5,0
-92,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,200,0
-93,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,200,0
-94,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,200,0
-95,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,202.5,1d6
-96,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,205,1d8
-97,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,207.5,1d10
-98,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,210,2d6
-99,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,212.5,2d8
-100,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,215,2d10
-101,Tough,1d12+12,3d10+4,Grease Lightning,180,15,5,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,215,2d10
+﻿Characteristic,Strength,Strength_HT,Strength_DD,Agility,Agility_Move,Agility_Accuracy,Agility_HT,Agility_DD,Charisma,Charisma_ReactionHero,Charisma_ReactionVillain,Intelligence,Intelligence_HT,Intelligence_DD,Intelligence_Accuracy,Intelligence_DetectEntrances,Intelligence_DetectTraps,Ego,Ego_CompulsoryRetreat,Ego_WillingRetreat,Ego_HP,PublicStanding_ReactionDM,Height,Height_WeightDM,Weight
+0,Pathetic,-2,-7,Wet Week,20,-40,-2,-2,Super Freak,25,-40,Brain Dead,-4,-2,-45,0,0,Manic Depressive,95,100,-25,40,157.5,1d12,45
+1,Weakling,-1,-3,Snail,40,-20,-1,-1,Creepy,15,-20,Moron,-2,-1,-30,0,1,Paranoid,80,95,-10,30,160,1d10,45
+2,Weakling,-1,-3,Snail,40,-20,-1,-1,Creepy,15,-20,Moron,-2,-1,-30,0,1,Paranoid,80,95,-10,30,162.5,1d8,46
+3,Weakling,-1,-3,Snail,40,-20,-1,-1,Ugly,10,-10,Moron,-2,-1,-30,0,1,Shy,50,80,-5,15,162.5,1d8,47
+4,Puny,0,-1,Slow,45,-10,-1,0,Ugly,10,-10,Stupid,-1,0,-20,1,1d4,Shy,50,80,-5,15,165,1d8,48
+5,Puny,0,-1,Slow,45,-10,-1,0,Ugly,10,-10,Stupid,-1,0,-20,1,1d4,Shy,50,80,-5,15,165,1d8,49
+6,Puny,0,-1,Slow,45,-10,-1,0,Plain,5,-5,Stupid,-1,0,-20,1,1d4,Average Person,25,65,0,5,167.5,1d6,49
+7,Puny,0,-1,Slow,45,-10,-1,0,Plain,5,-5,Dumb,-1,0,-10,2d4,3d4,Average Person,25,65,0,5,167.5,1d6,50
+8,Average Person,0,0,Average Person,50,0,0,0,Plain,5,-5,Dumb,-1,0,-10,2d4,3d4,Average Person,25,65,0,5,170,1d4,50
+9,Average Person,0,0,Average Person,50,0,0,0,Plain,5,-5,Dumb,-1,0,-10,2d4,3d4,Average SB,10,40,5,0,170,1d4,51
+10,Average Person,0,0,Average Person,50,0,0,0,Average Person,0,0,Average Person,0,0,0,5d4,6d4,Average SB,10,40,5,0,172.5,0,51
+11,Average Person,0,0,Average Person,50,0,0,0,Average Person,0,0,Average Person,0,0,0,5d4,6d4,Average SB,10,40,5,0,172.5,0,52
+12,Average Person,0,0,Average Person,50,0,0,0,Average Person,0,0,Average Person,0,0,0,5d4,6d4,Average SB,10,40,5,0,172.5,0,52
+13,Average SB,0,1,Average SB,55,0,1,0,Average SB,-5,5,Average Person,0,0,0,5d4,6d4,Average SB,10,40,5,-5,175,0,53
+14,Average SB,0,1,Average SB,55,0,1,0,Average SB,-5,5,Average SB,1,0,0,5d6,6d6,Vain,5,30,10,-5,175,0,53
+15,Average SB,0,1,Average SB,55,0,1,0,Average SB,-5,5,Average SB,1,0,0,5d6,6d6,Vain,5,30,10,-5,175,0,54
+16,Average SB,0,1,Average SB,55,0,1,0,Cute,-10,10,Average SB,1,0,0,5d6,6d6,Vain,5,30,10,-5,177.5,0,54
+17,Strength of two men,1,1d4,Quick,60,0,1,0,Cute,-10,10,Bright,2,1,10,7d6,8d6,Vain,5,30,10,-10,177.5,0,54
+18,Strength of two men,1,1d4,Quick,60,0,1,0,Cute,-10,10,Bright,2,1,10,7d6,8d6,Conceited,0,20,15,-10,177.5,0,55
+19,Strength of two men,1,1d4,Quick,60,0,1,0,Attractive,-15,20,Bright,2,1,10,7d6,8d6,Conceited,0,20,15,-10,177.5,0,55
+20,Strength of two men,1,1d4,Quick,60,0,1,0,Attractive,-15,20,Bright,2,1,10,7d6,8d6,Ostentatious,0,10,5,-10,177.5,0,55
+21,Strength of three men,3,1d8,Fast,70,5,2,1,Spunkie,-20,30,Clever,3,1,20,7d8,8d8,Ostentatious,0,10,5,-20,180,0,56
+22,Strength of three men,3,1d8,Fast,70,5,2,1,Spunkie,-20,30,Clever,3,1,20,7d8,8d8,Ostentatious,0,10,5,-20,180,0,56
+23,Strength of three men,3,1d8,Fast,70,5,2,1,Spunkie,-20,30,Clever,3,1,20,7d8,8d8,Ostentatious,0,10,5,-20,180,0,56
+24,Strength of three men,3,1d8,Fast,70,5,2,1,Spunkie,-20,30,Clever,3,1,20,7d8,8d8,Ostentatious,0,10,5,-30,180,0,56
+25,Strength of three men,3,1d8,Fast,70,5,2,1,Spunkie,-20,30,Clever,3,1,20,7d8,8d8,Ostentatious,0,10,5,-30,182.5,0,57
+26,Strength of five men,5,1d10,Speedy,80,5,3,2,Stunning,-25,40,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-30,182.5,0,57
+27,Strength of five men,5,1d10,Speedy,80,5,3,2,Stunning,-25,40,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0,57
+28,Strength of five men,5,1d10,Speedy,80,5,3,2,Stunning,-25,40,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0,58
+29,Strength of five men,5,1d10,Speedy,80,5,3,2,Stunning,-25,40,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0,58
+30,Strength of five men,5,1d10,Speedy,80,5,3,2,Stunning,-25,40,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0,59
+31,Strength of five men,5,1d10,Speedy,80,5,3,2,Fantastic,-35,50,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0,59
+32,Strength of five men,5,1d10,Speedy,80,5,3,2,Fantastic,-35,50,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0,59
+33,Strength of five men,5,1d10,Speedy,80,5,3,2,Fantastic,-35,50,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0,59
+34,Strength of five men,5,1d10,Speedy,80,5,3,2,Fantastic,-35,50,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0,59
+35,Strength of five men,5,1d10,Speedy,80,5,3,2,Fantastic,-35,50,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0,59
+36,Strength of five men,5,1d10,Speedy,80,5,3,2,Fantastic,-35,50,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0,60
+37,Strength of five men,5,1d10,Speedy,80,5,3,2,Fantastic,-35,50,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0,60
+38,Strength of five men,5,1d10,Speedy,80,5,3,2,Fantastic,-35,50,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0,60
+39,Strength of five men,5,1d10,Speedy,80,5,3,2,Fantastic,-35,50,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0,60
+40,Strength of five men,5,1d10,Speedy,80,5,3,2,Fantastic,-35,50,Brilliant,4,2,30,9d8,8d10,Pain in the Neck,0,5,-5,-50,182.5,0,60
+41,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61
+42,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61
+43,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61
+44,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61
+45,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61
+46,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61
+47,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61
+48,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61
+49,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61
+50,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61
+51,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61
+52,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61
+53,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61
+54,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61
+55,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61
+56,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61
+57,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61
+58,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61
+59,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61
+60,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,61
+61,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,62
+62,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,62
+63,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,182.5,0,62
+64,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,185,0,62
+65,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,185,0,62
+66,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,185,0,63
+67,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,185,0,63
+68,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,185,0,63
+69,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,185,0,63
+70,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,185,0,63
+71,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,185,0,64
+72,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,185,0,64
+73,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,185,0,64
+74,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,187.5,0,64
+75,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,187.5,0,65
+76,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,187.5,0,65
+77,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,187.5,0,65
+78,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,187.5,0,65
+79,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,190,0,66
+80,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,190,0,66
+81,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,190,0,66
+82,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,190,0,66
+83,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,192.5,0,67
+84,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,192.5,0,67
+85,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,192.5,0,67
+86,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,195,0,68
+87,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,195,0,68
+88,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,195,0,68
+89,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,197.5,0,69
+90,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,197.5,0,69
+91,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,197.5,0,69
+92,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,200,0,70
+93,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,200,0,70
+94,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,200,0,71
+95,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,202.5,1d6,71
+96,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,205,1d8,72
+97,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,207.5,1d10,72
+98,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,210,2d6,73
+99,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,212.5,2d8,73
+100,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,215,2d10,74
+101,Tough,1d12+12,3d10+4,Grease Lightning,180,15,5,3,Fantastic,-35,50,Genius,6,3,45,9d10,10d10,Pain in the Neck,0,5,-5,-50,215,2d10,74
