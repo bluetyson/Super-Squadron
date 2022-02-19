@@ -1,102 +1,101 @@
-﻿Characteristic,,Reaction,Reaction_ReactionDM,Loyalty,Loyalty_MoraleDM
-1,,Overwhelmed. Will do anything without question,-40,Suicidal. Never checks morale. Will do anything without question,-50
-2,,Overwhelmed. Will do anything without question,-40,Suicidal. Never checks morale. Will do anything without question,-50
-3,,Overwhelmed. Will do anything without question,-40,Suicidal. Never checks morale. Will do anything without question,-50
-4,,Overwhelmed. Will do anything without question,-40,Suicidal. Never checks morale. Will do anything without question,-50
-5,,Very Enthusiastic. Offers assistance.,-30,Suicidal. Never checks morale. Will do anything without question,-50
-6,,Very Enthusiastic. Offers assistance.,-30,"Loyal. Will follow orders, and do almost anything.",-35
-7,,Very Enthusiastic. Offers assistance.,-30,"Loyal. Will follow orders, and do almost anything.",-35
-8,,Very Enthusiastic. Offers assistance.,-30,"Loyal. Will follow orders, and do almost anything.",-35
-9,,Very Enthusiastic. Offers assistance.,-30,"Loyal. Will follow orders, and do almost anything.",-35
-10,,Very Enthusiastic. Offers assistance.,-30,"Loyal. Will follow orders, and do almost anything.",-35
-11,,Very Enthusiastic. Offers assistance.,-30,"Loyal. Will follow orders, and do almost anything.",-35
-12,,Very Enthusiastic. Offers assistance.,-30,"Loyal. Will follow orders, and do almost anything.",-35
-13,,Very Enthusiastic. Offers assistance.,-30,"Loyal. Will follow orders, and do almost anything.",-35
-14,,Very Enthusiastic. Offers assistance.,-30,"Loyal. Will follow orders, and do almost anything.",-35
-15,,Very Enthusiastic. Offers assistance.,-30,"Loyal. Will follow orders, and do almost anything.",-35
-16,,Responsive. Talkative.,-20,Enthusiastic. Will normally back up employer.,-25
-17,,Responsive. Talkative.,-20,Enthusiastic. Will normally back up employer.,-25
-18,,Responsive. Talkative.,-20,Enthusiastic. Will normally back up employer.,-25
-19,,Responsive. Talkative.,-20,Enthusiastic. Will normally back up employer.,-25
-20,,Responsive. Talkative.,-20,Enthusiastic. Will normally back up employer.,-25
-21,,Responsive. Talkative.,-20,Enthusiastic. Will normally back up employer.,-25
-22,,Responsive. Talkative.,-20,Enthusiastic. Will normally back up employer.,-25
-23,,Responsive. Talkative.,-20,Enthusiastic. Will normally back up employer.,-25
-24,,Responsive. Talkative.,-20,Enthusiastic. Will normally back up employer.,-25
-25,,Responsive. Talkative.,-20,Enthusiastic. Will normally back up employer.,-25
-26,,Responsive. Talkative.,-20,Enthusiastic. Will normally back up employer.,-25
-27,,Responsive. Talkative.,-20,Enthusiastic. Will normally back up employer.,-25
-28,,Responsive. Talkative.,-20,Enthusiastic. Will normally back up employer.,-25
-29,,Friendly. Interested.,-10,Enthusiastic. Will normally back up employer.,-25
-30,,Friendly. Interested.,-10,Enthusiastic. Will normally back up employer.,-25
-31,,Friendly. Interested.,-10,Content. Average loyalty. Happy to server.,-10
-32,,Friendly. Interested.,-10,Content. Average loyalty. Happy to server.,-10
-33,,Friendly. Interested.,-10,Content. Average loyalty. Happy to server.,-10
-34,,Friendly. Interested.,-10,Content. Average loyalty. Happy to server.,-10
-35,,Friendly. Interested.,-10,Content. Average loyalty. Happy to server.,-10
-36,,Friendly. Interested.,-10,Content. Average loyalty. Happy to server.,-10
-37,,Friendly. Interested.,-10,Content. Average loyalty. Happy to server.,-10
-38,,Friendly. Interested.,-10,Content. Average loyalty. Happy to server.,-10
-39,,Friendly. Interested.,-10,Content. Average loyalty. Happy to server.,-10
-40,,Friendly. Interested.,-10,Content. Average loyalty. Happy to server.,-10
-41,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10
-42,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10
-43,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10
-44,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10
-45,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10
-46,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10
-47,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10
-48,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10
-49,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10
-50,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10
-51,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10
-52,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10
-53,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10
-54,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10
-55,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10
-56,,Non-Committing,0,Average. Content to be a non-entity.,0
-57,,Non-Committing,0,Average. Content to be a non-entity.,0
-58,,Non-Committing,0,Average. Content to be a non-entity.,0
-59,,Non-Committing,0,Average. Content to be a non-entity.,0
-60,,Non-Committing,0,Average. Content to be a non-entity.,0
-61,,Dissatistifed. Non-trusting an usually unco-operative.,10,Average. Content to be a non-entity.,0
-62,,Dissatistifed. Non-trusting an usually unco-operative.,10,Average. Content to be a non-entity.,0
-63,,Dissatistifed. Non-trusting an usually unco-operative.,10,Average. Content to be a non-entity.,0
-64,,Dissatistifed. Non-trusting an usually unco-operative.,10,Average. Content to be a non-entity.,0
-65,,Dissatistifed. Non-trusting an usually unco-operative.,10,Average. Content to be a non-entity.,0
-66,,Dissatistifed. Non-trusting an usually unco-operative.,10,Average. Content to be a non-entity.,0
-67,,Dissatistifed. Non-trusting an usually unco-operative.,10,Average. Content to be a non-entity.,0
-68,,Dissatistifed. Non-trusting an usually unco-operative.,10,Average. Content to be a non-entity.,0
-69,,Dissatistifed. Non-trusting an usually unco-operative.,10,Average. Content to be a non-entity.,0
-70,,Dissatistifed. Non-trusting an usually unco-operative.,10,Average. Content to be a non-entity.,0
-71,,Dissatistifed. Non-trusting an usually unco-operative.,10,Unhappy. Won't take any gambles.,15
-72,,Dissatistifed. Non-trusting an usually unco-operative.,10,Unhappy. Won't take any gambles.,15
-73,,Treacherous. Appears friendly but is only acting.,20,Unhappy. Won't take any gambles.,15
-74,,Treacherous. Appears friendly but is only acting.,20,Unhappy. Won't take any gambles.,15
-75,,Treacherous. Appears friendly but is only acting.,20,Unhappy. Won't take any gambles.,15
-76,,Treacherous. Appears friendly but is only acting.,20,Unhappy. Won't take any gambles.,15
-77,,Treacherous. Appears friendly but is only acting.,20,Unhappy. Won't take any gambles.,15
-78,,Treacherous. Appears friendly but is only acting.,20,Unhappy. Won't take any gambles.,15
-79,,Treacherous. Appears friendly but is only acting.,20,Unhappy. Won't take any gambles.,15
-80,,Treacherous. Appears friendly but is only acting.,20,Unhappy. Won't take any gambles.,15
-81,,Treacherous. Appears friendly but is only acting.,20,Unhappy. Won't take any gambles.,15
-82,,Treacherous. Appears friendly but is only acting.,20,Unhappy. Won't take any gambles.,15
-83,,Treacherous. Appears friendly but is only acting.,20,Unhappy. Won't take any gambles.,15
-84,,Treacherous. Appears friendly but is only acting.,20,Unhappy. Won't take any gambles.,15
-85,,Treacherous. Appears friendly but is only acting.,20,Unhappy. Won't take any gambles.,15
-86,,Hostile but non-violent. Absolutely refuses to co-operate.,35,"Disloyal. Will argue with employer, and won't take risks.",30
-87,,Hostile but non-violent. Absolutely refuses to co-operate.,35,"Disloyal. Will argue with employer, and won't take risks.",30
-88,,Hostile but non-violent. Absolutely refuses to co-operate.,35,"Disloyal. Will argue with employer, and won't take risks.",30
-89,,Hostile but non-violent. Absolutely refuses to co-operate.,35,"Disloyal. Will argue with employer, and won't take risks.",30
-90,,Hostile but non-violent. Absolutely refuses to co-operate.,35,"Disloyal. Will argue with employer, and won't take risks.",30
-91,,Hostile but non-violent. Absolutely refuses to co-operate.,35,"Disloyal. Will argue with employer, and won't take risks.",30
-92,,Hostile but non-violent. Absolutely refuses to co-operate.,35,"Disloyal. Will argue with employer, and won't take risks.",30
-93,,Hostile but non-violent. Absolutely refuses to co-operate.,35,"Disloyal. Will argue with employer, and won't take risks.",30
-94,,Hostile but non-violent. Absolutely refuses to co-operate.,35,"Disloyal. Will argue with employer, and won't take risks.",30
-95,,Hostile but non-violent. Absolutely refuses to co-operate.,35,"Disloyal. Will argue with employer, and won't take risks.",30
-96,,Violently hostile. Will eventually attack.,50,Treacherous. Will desert at the first opportunity.,50
-97,,Violently hostile. Will eventually attack.,50,Treacherous. Will desert at the first opportunity.,50
-98,,Violently hostile. Will eventually attack.,50,Treacherous. Will desert at the first opportunity.,50
-99,,Violently hostile. Will eventually attack.,50,Treacherous. Will desert at the first opportunity.,50
-100,,Violently hostile. Will eventually attack.,50,Treacherous. Will desert at the first opportunity.,50
-101,,Violently hostile. Will eventually attack.,50,Treacherous. Will desert at the first opportunity.,50
+﻿Characteristic,,Reaction,Reaction_ReactionDM,Loyalty,Loyalty_MoraleDM,Morale
+1,,Overwhelmed. Will do anything without question,-40,Suicidal. Never checks morale. Will do anything without question,-50,"Suicidal. The character attempts suicide, which is automatically successful if they have the means."
+2,,Overwhelmed. Will do anything without question,-40,Suicidal. Never checks morale. Will do anything without question,-50,"Suicidal. The character attempts suicide, which is automatically successful if they have the means."
+3,,Overwhelmed. Will do anything without question,-40,Suicidal. Never checks morale. Will do anything without question,-50,"Kamikaze. The character will attack the nearest opponent at a -25% DM. Only one attack may be made, doing double damage if successful. If their opp is still on their feet, they will surrender unconditionally, otherwise flee."
+4,,Overwhelmed. Will do anything without question,-40,Suicidal. Never checks morale. Will do anything without question,-50,"Kamikaze. The character will attack the nearest opponent at a -25% DM. Only one attack may be made, doing double damage if successful. If their opp is still on their feet, they will surrender unconditionally, otherwise flee."
+5,,Very Enthusiastic. Offers assistance.,-30,Suicidal. Never checks morale. Will do anything without question,-50,"Kamikaze. The character will attack the nearest opponent at a -25% DM. Only one attack may be made, doing double damage if successful. If their opp is still on their feet, they will surrender unconditionally, otherwise flee."
+6,,Very Enthusiastic. Offers assistance.,-30,"Loyal. Will follow orders, and do almost anything.",-35,"Kamikaze. The character will attack the nearest opponent at a -25% DM. Only one attack may be made, doing double damage if successful. If their opp is still on their feet, they will surrender unconditionally, otherwise flee."
+7,,Very Enthusiastic. Offers assistance.,-30,"Loyal. Will follow orders, and do almost anything.",-35,"Kamikaze. The character will attack the nearest opponent at a -25% DM. Only one attack may be made, doing double damage if successful. If their opp is still on their feet, they will surrender unconditionally, otherwise flee."
+8,,Very Enthusiastic. Offers assistance.,-30,"Loyal. Will follow orders, and do almost anything.",-35,"Kamikaze. The character will attack the nearest opponent at a -25% DM. Only one attack may be made, doing double damage if successful. If their opp is still on their feet, they will surrender unconditionally, otherwise flee."
+9,,Very Enthusiastic. Offers assistance.,-30,"Loyal. Will follow orders, and do almost anything.",-35,"Kamikaze. The character will attack the nearest opponent at a -25% DM. Only one attack may be made, doing double damage if successful. If their opp is still on their feet, they will surrender unconditionally, otherwise flee."
+10,,Very Enthusiastic. Offers assistance.,-30,"Loyal. Will follow orders, and do almost anything.",-35,"Kamikaze. The character will attack the nearest opponent at a -25% DM. Only one attack may be made, doing double damage if successful. If their opp is still on their feet, they will surrender unconditionally, otherwise flee."
+11,,Very Enthusiastic. Offers assistance.,-30,"Loyal. Will follow orders, and do almost anything.",-35,"Kamikaze. The character will attack the nearest opponent at a -25% DM. Only one attack may be made, doing double damage if successful. If their opp is still on their feet, they will surrender unconditionally, otherwise flee."
+12,,Very Enthusiastic. Offers assistance.,-30,"Loyal. Will follow orders, and do almost anything.",-35,"Kamikaze. The character will attack the nearest opponent at a -25% DM. Only one attack may be made, doing double damage if successful. If their opp is still on their feet, they will surrender unconditionally, otherwise flee."
+13,,Very Enthusiastic. Offers assistance.,-30,"Loyal. Will follow orders, and do almost anything.",-35,"Kamikaze. The character will attack the nearest opponent at a -25% DM. Only one attack may be made, doing double damage if successful. If their opp is still on their feet, they will surrender unconditionally, otherwise flee."
+14,,Very Enthusiastic. Offers assistance.,-30,"Loyal. Will follow orders, and do almost anything.",-35,"Kamikaze. The character will attack the nearest opponent at a -25% DM. Only one attack may be made, doing double damage if successful. If their opp is still on their feet, they will surrender unconditionally, otherwise flee."
+15,,Very Enthusiastic. Offers assistance.,-30,"Loyal. Will follow orders, and do almost anything.",-35,"Kamikaze. The character will attack the nearest opponent at a -25% DM. Only one attack may be made, doing double damage if successful. If their opp is still on their feet, they will surrender unconditionally, otherwise flee."
+16,,Responsive. Talkative.,-20,Enthusiastic. Will normally back up employer.,-25,"Kamikaze. The character will attack the nearest opponent at a -25% DM. Only one attack may be made, doing double damage if successful. If their opp is still on their feet, they will surrender unconditionally, otherwise flee."
+17,,Responsive. Talkative.,-20,Enthusiastic. Will normally back up employer.,-25,"Kamikaze. The character will attack the nearest opponent at a -25% DM. Only one attack may be made, doing double damage if successful. If their opp is still on their feet, they will surrender unconditionally, otherwise flee."
+18,,Responsive. Talkative.,-20,Enthusiastic. Will normally back up employer.,-25,"Kamikaze. The character will attack the nearest opponent at a -25% DM. Only one attack may be made, doing double damage if successful. If their opp is still on their feet, they will surrender unconditionally, otherwise flee."
+19,,Responsive. Talkative.,-20,Enthusiastic. Will normally back up employer.,-25,"Kamikaze. The character will attack the nearest opponent at a -25% DM. Only one attack may be made, doing double damage if successful. If their opp is still on their feet, they will surrender unconditionally, otherwise flee."
+20,,Responsive. Talkative.,-20,Enthusiastic. Will normally back up employer.,-25,"Kamikaze. The character will attack the nearest opponent at a -25% DM. Only one attack may be made, doing double damage if successful. If their opp is still on their feet, they will surrender unconditionally, otherwise flee."
+21,,Responsive. Talkative.,-20,Enthusiastic. Will normally back up employer.,-25,Defeated. Surrenders as the circumstances allow.
+22,,Responsive. Talkative.,-20,Enthusiastic. Will normally back up employer.,-25,Defeated. Surrenders as the circumstances allow.
+23,,Responsive. Talkative.,-20,Enthusiastic. Will normally back up employer.,-25,Defeated. Surrenders as the circumstances allow.
+24,,Responsive. Talkative.,-20,Enthusiastic. Will normally back up employer.,-25,Defeated. Surrenders as the circumstances allow.
+25,,Responsive. Talkative.,-20,Enthusiastic. Will normally back up employer.,-25,Defeated. Surrenders as the circumstances allow.
+26,,Responsive. Talkative.,-20,Enthusiastic. Will normally back up employer.,-25,Defeated. Surrenders as the circumstances allow.
+27,,Responsive. Talkative.,-20,Enthusiastic. Will normally back up employer.,-25,Defeated. Surrenders as the circumstances allow.
+28,,Responsive. Talkative.,-20,Enthusiastic. Will normally back up employer.,-25,Defeated. Surrenders as the circumstances allow.
+29,,Friendly. Interested.,-10,Enthusiastic. Will normally back up employer.,-25,Defeated. Surrenders as the circumstances allow.
+30,,Friendly. Interested.,-10,Enthusiastic. Will normally back up employer.,-25,Defeated. Surrenders as the circumstances allow.
+31,,Friendly. Interested.,-10,Content. Average loyalty. Happy to server.,-10,Defeated. Surrenders as the circumstances allow.
+32,,Friendly. Interested.,-10,Content. Average loyalty. Happy to server.,-10,Defeated. Surrenders as the circumstances allow.
+33,,Friendly. Interested.,-10,Content. Average loyalty. Happy to server.,-10,Defeated. Surrenders as the circumstances allow.
+34,,Friendly. Interested.,-10,Content. Average loyalty. Happy to server.,-10,Defeated. Surrenders as the circumstances allow.
+35,,Friendly. Interested.,-10,Content. Average loyalty. Happy to server.,-10,Defeated. Surrenders as the circumstances allow.
+36,,Friendly. Interested.,-10,Content. Average loyalty. Happy to server.,-10,Defeated. Surrenders as the circumstances allow.
+37,,Friendly. Interested.,-10,Content. Average loyalty. Happy to server.,-10,Defeated. Surrenders as the circumstances allow.
+38,,Friendly. Interested.,-10,Content. Average loyalty. Happy to server.,-10,Defeated. Surrenders as the circumstances allow.
+39,,Friendly. Interested.,-10,Content. Average loyalty. Happy to server.,-10,Defeated. Surrenders as the circumstances allow.
+40,,Friendly. Interested.,-10,Content. Average loyalty. Happy to server.,-10,Defeated. Surrenders as the circumstances allow.
+41,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10,Defeated. Surrenders as the circumstances allow.
+42,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10,Defeated. Surrenders as the circumstances allow.
+43,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10,Defeated. Surrenders as the circumstances allow.
+44,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10,Defeated. Surrenders as the circumstances allow.
+45,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10,Defeated. Surrenders as the circumstances allow.
+46,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10,Defeated. Surrenders as the circumstances allow.
+47,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10,Defeated. Surrenders as the circumstances allow.
+48,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10,Defeated. Surrenders as the circumstances allow.
+49,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10,Defeated. Surrenders as the circumstances allow.
+50,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10,Defeated. Surrenders as the circumstances allow.
+51,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10,"Panics. The character continues to fight for 1dr rounds at a +15% DM, after that time they roll again on the morale table as long as one opponent stil stands, regardless of other considerations."
+52,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10,"Panics. The character continues to fight for 1dr rounds at a +15% DM, after that time they roll again on the morale table as long as one opponent stil stands, regardless of other considerations."
+53,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10,"Panics. The character continues to fight for 1dr rounds at a +15% DM, after that time they roll again on the morale table as long as one opponent stil stands, regardless of other considerations."
+54,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10,"Panics. The character continues to fight for 1dr rounds at a +15% DM, after that time they roll again on the morale table as long as one opponent stil stands, regardless of other considerations."
+55,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10,"Panics. The character continues to fight for 1dr rounds at a +15% DM, after that time they roll again on the morale table as long as one opponent stil stands, regardless of other considerations."
+56,,Non-Committing,0,Average. Content to be a non-entity.,0,"Panics. The character continues to fight for 1dr rounds at a +15% DM, after that time they roll again on the morale table as long as one opponent stil stands, regardless of other considerations."
+57,,Non-Committing,0,Average. Content to be a non-entity.,0,"Panics. The character continues to fight for 1dr rounds at a +15% DM, after that time they roll again on the morale table as long as one opponent stil stands, regardless of other considerations."
+58,,Non-Committing,0,Average. Content to be a non-entity.,0,"Panics. The character continues to fight for 1dr rounds at a +15% DM, after that time they roll again on the morale table as long as one opponent stil stands, regardless of other considerations."
+59,,Non-Committing,0,Average. Content to be a non-entity.,0,"Panics. The character continues to fight for 1dr rounds at a +15% DM, after that time they roll again on the morale table as long as one opponent stil stands, regardless of other considerations."
+60,,Non-Committing,0,Average. Content to be a non-entity.,0,"Panics. The character continues to fight for 1dr rounds at a +15% DM, after that time they roll again on the morale table as long as one opponent stil stands, regardless of other considerations."
+61,,Dissatistifed. Non-trusting an usually unco-operative.,10,Average. Content to be a non-entity.,0,"Panics. The character continues to fight for 1dr rounds at a +15% DM, after that time they roll again on the morale table as long as one opponent stil stands, regardless of other considerations."
+62,,Dissatistifed. Non-trusting an usually unco-operative.,10,Average. Content to be a non-entity.,0,"Panics. The character continues to fight for 1dr rounds at a +15% DM, after that time they roll again on the morale table as long as one opponent stil stands, regardless of other considerations."
+63,,Dissatistifed. Non-trusting an usually unco-operative.,10,Average. Content to be a non-entity.,0,"Panics. The character continues to fight for 1dr rounds at a +15% DM, after that time they roll again on the morale table as long as one opponent stil stands, regardless of other considerations."
+64,,Dissatistifed. Non-trusting an usually unco-operative.,10,Average. Content to be a non-entity.,0,"Panics. The character continues to fight for 1dr rounds at a +15% DM, after that time they roll again on the morale table as long as one opponent stil stands, regardless of other considerations."
+65,,Dissatistifed. Non-trusting an usually unco-operative.,10,Average. Content to be a non-entity.,0,"Panics. The character continues to fight for 1dr rounds at a +15% DM, after that time they roll again on the morale table as long as one opponent stil stands, regardless of other considerations."
+66,,Dissatistifed. Non-trusting an usually unco-operative.,10,Average. Content to be a non-entity.,0,"Panics. The character continues to fight for 1dr rounds at a +15% DM, after that time they roll again on the morale table as long as one opponent stil stands, regardless of other considerations."
+67,,Dissatistifed. Non-trusting an usually unco-operative.,10,Average. Content to be a non-entity.,0,"Panics. The character continues to fight for 1dr rounds at a +15% DM, after that time they roll again on the morale table as long as one opponent stil stands, regardless of other considerations."
+68,,Dissatistifed. Non-trusting an usually unco-operative.,10,Average. Content to be a non-entity.,0,"Panics. The character continues to fight for 1dr rounds at a +15% DM, after that time they roll again on the morale table as long as one opponent stil stands, regardless of other considerations."
+69,,Dissatistifed. Non-trusting an usually unco-operative.,10,Average. Content to be a non-entity.,0,"Panics. The character continues to fight for 1dr rounds at a +15% DM, after that time they roll again on the morale table as long as one opponent stil stands, regardless of other considerations."
+70,,Dissatistifed. Non-trusting an usually unco-operative.,10,Average. Content to be a non-entity.,0,"Panics. The character continues to fight for 1dr rounds at a +15% DM, after that time they roll again on the morale table as long as one opponent stil stands, regardless of other considerations."
+71,,Dissatistifed. Non-trusting an usually unco-operative.,10,Unhappy. Won't take any gambles.,15,"Panics. The character continues to fight for 1dr rounds at a +15% DM, after that time they roll again on the morale table as long as one opponent stil stands, regardless of other considerations."
+72,,Dissatistifed. Non-trusting an usually unco-operative.,10,Unhappy. Won't take any gambles.,15,"Panics. The character continues to fight for 1dr rounds at a +15% DM, after that time they roll again on the morale table as long as one opponent stil stands, regardless of other considerations."
+73,,Treacherous. Appears friendly but is only acting.,20,Unhappy. Won't take any gambles.,15,"Panics. The character continues to fight for 1dr rounds at a +15% DM, after that time they roll again on the morale table as long as one opponent stil stands, regardless of other considerations."
+74,,Treacherous. Appears friendly but is only acting.,20,Unhappy. Won't take any gambles.,15,"Panics. The character continues to fight for 1dr rounds at a +15% DM, after that time they roll again on the morale table as long as one opponent stil stands, regardless of other considerations."
+75,,Treacherous. Appears friendly but is only acting.,20,Unhappy. Won't take any gambles.,15,"Panics. The character continues to fight for 1dr rounds at a +15% DM, after that time they roll again on the morale table as long as one opponent stil stands, regardless of other considerations."
+76,,Treacherous. Appears friendly but is only acting.,20,Unhappy. Won't take any gambles.,15,"Panics. The character continues to fight for 1dr rounds at a +15% DM, after that time they roll again on the morale table as long as one opponent stil stands, regardless of other considerations."
+77,,Treacherous. Appears friendly but is only acting.,20,Unhappy. Won't take any gambles.,15,"Panics. The character continues to fight for 1dr rounds at a +15% DM, after that time they roll again on the morale table as long as one opponent stil stands, regardless of other considerations."
+78,,Treacherous. Appears friendly but is only acting.,20,Unhappy. Won't take any gambles.,15,"Panics. The character continues to fight for 1dr rounds at a +15% DM, after that time they roll again on the morale table as long as one opponent stil stands, regardless of other considerations."
+79,,Treacherous. Appears friendly but is only acting.,20,Unhappy. Won't take any gambles.,15,"Panics. The character continues to fight for 1dr rounds at a +15% DM, after that time they roll again on the morale table as long as one opponent stil stands, regardless of other considerations."
+80,,Treacherous. Appears friendly but is only acting.,20,Unhappy. Won't take any gambles.,15,"Panics. The character continues to fight for 1dr rounds at a +15% DM, after that time they roll again on the morale table as long as one opponent stil stands, regardless of other considerations."
+81,,Treacherous. Appears friendly but is only acting.,20,Unhappy. Won't take any gambles.,15,Retreats. The character attempts to escape with whatever they currently possess.
+82,,Treacherous. Appears friendly but is only acting.,20,Unhappy. Won't take any gambles.,15,Retreats. The character attempts to escape with whatever they currently possess.
+83,,Treacherous. Appears friendly but is only acting.,20,Unhappy. Won't take any gambles.,15,Retreats. The character attempts to escape with whatever they currently possess.
+84,,Treacherous. Appears friendly but is only acting.,20,Unhappy. Won't take any gambles.,15,Retreats. The character attempts to escape with whatever they currently possess.
+85,,Treacherous. Appears friendly but is only acting.,20,Unhappy. Won't take any gambles.,15,Retreats. The character attempts to escape with whatever they currently possess.
+86,,Hostile but non-violent. Absolutely refuses to co-operate.,35,"Disloyal. Will argue with employer, and won't take risks.",30,Retreats. The character attempts to escape with whatever they currently possess.
+87,,Hostile but non-violent. Absolutely refuses to co-operate.,35,"Disloyal. Will argue with employer, and won't take risks.",30,Retreats. The character attempts to escape with whatever they currently possess.
+88,,Hostile but non-violent. Absolutely refuses to co-operate.,35,"Disloyal. Will argue with employer, and won't take risks.",30,Retreats. The character attempts to escape with whatever they currently possess.
+89,,Hostile but non-violent. Absolutely refuses to co-operate.,35,"Disloyal. Will argue with employer, and won't take risks.",30,Retreats. The character attempts to escape with whatever they currently possess.
+90,,Hostile but non-violent. Absolutely refuses to co-operate.,35,"Disloyal. Will argue with employer, and won't take risks.",30,Retreats. The character attempts to escape with whatever they currently possess.
+91,,Hostile but non-violent. Absolutely refuses to co-operate.,35,"Disloyal. Will argue with employer, and won't take risks.",30,Retreats. The character attempts to escape with whatever they currently possess.
+92,,Hostile but non-violent. Absolutely refuses to co-operate.,35,"Disloyal. Will argue with employer, and won't take risks.",30,Retreats. The character attempts to escape with whatever they currently possess.
+93,,Hostile but non-violent. Absolutely refuses to co-operate.,35,"Disloyal. Will argue with employer, and won't take risks.",30,Retreats. The character attempts to escape with whatever they currently possess.
+94,,Hostile but non-violent. Absolutely refuses to co-operate.,35,"Disloyal. Will argue with employer, and won't take risks.",30,Retreats. The character attempts to escape with whatever they currently possess.
+95,,Hostile but non-violent. Absolutely refuses to co-operate.,35,"Disloyal. Will argue with employer, and won't take risks.",30,Retreats. The character attempts to escape with whatever they currently possess.
+96,,Violently hostile. Will eventually attack.,50,Treacherous. Will desert at the first opportunity.,50,Flees. The character drops everything and runs.
+97,,Violently hostile. Will eventually attack.,50,Treacherous. Will desert at the first opportunity.,50,Flees. The character drops everything and runs.
+98,,Violently hostile. Will eventually attack.,50,Treacherous. Will desert at the first opportunity.,50,Flees. The character drops everything and runs.
+99,,Violently hostile. Will eventually attack.,50,Treacherous. Will desert at the first opportunity.,50,Flees. The character drops everything and runs.
+100,,Violently hostile. Will eventually attack.,50,Treacherous. Will desert at the first opportunity.,50,Flees. The character drops everything and runs.
