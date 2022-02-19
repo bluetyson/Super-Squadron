@@ -1,101 +1,101 @@
 ﻿Roll,Powers,Mutant,Mutant Secondary,Self Developed,Self Developed Secondary,Supernatural,Designed or Sponsored,Designed or Sponsored Secondary,Alien,Alien Secondary,Accidental/Scientific,Accidental/Scientific Secondary
 1,7,Roll again twice,Heightened Senses,Roll again twice,Armour,Roll again twice,Roll again twice,Mind Control,Roll again twice,Heightened Senses,Roll again twice,Self Discipline
-2,6,Heightened Senses,Heightened Senses,Heightened Attack,Armour,Self Discipline,Heightened Defense,Mind Control,,Heightened Senses,Death Touch,Self Discipline
-3,6,Heightened Speed,Heightened Senses,Heightened Attack,Armour,Self Discipline,Heightened Defense,Mind Control,,Heightened Senses,Time Travel,Enhanced Intelligence
-4,6,Heightened Speed,Heightened Senses,Heightened Attack,Armour,Enhanced Intelligence,Heightened Defense,Mind Control,,Heightened Senses,Shape Shift,Enhanced Intelligence
-5,5,Enhanced Charisma,Heightened Senses,Heightened Attack,Armour,Enhanced Intelligence,Heightened Defense,Teleportation,,Water Breathing,Shape Shift,Enhanced Intelligence
-6,5,Enhanced Charisma,Enhanced Intelligence,Heightened Attack,Organic Powers,Enhanced Intelligence,Heightened Defense,Teleportation,,Water Breathing,Force Beam,Heightened Defense
-7,5,Enhanced Stamina,Enhanced Intelligence,Heightened Attack,Organic Powers,Enhanced Intelligence,Heightened Defense,Teleportation,,Water Breathing,Pet or Companion,Heightened Defense
-8,5,Enhanced Stamina,Enhanced Intelligence,Heightened Attack,Organic Powers,Enhanced Intelligence,Heightened Defense,Force Field,,Water Breathing,Pet or Companion,Heightened Defense
-9,5,Regeneration,Enhanced Intelligence,Enhanced Charisma,Organic Powers,Enhanced Intelligence,Heightened Defense,Force Field,,Enhanced Intelligence,Special Vehjcle,Heightened Defense
-10,5,Regeneration,Enhanced Intelligence,Enhanced Charisma,Organic Powers,Flight,Heightened Defense,Force Field,,Enhanced Intelligence,Special Weapon,Heightened Defense
-11,4,Enhanced Intelligence,Enhanced Intelligence,Enhanced Charisma,Special Weapon,Flight,Heightened Defense,Force Field,,Enhanced Intelligence,Robotic Body,Enhanced Stamina
-12,4,Enhanced Intelligence,Enhanced Intelligence,Enhanced Charisma,Special Weapon,Flight,Enhanced Strength,Light Control,,Enhanced Intelligence,Regeneration,Enhanced Stamina
-13,4,Enhanced Agility,Enhanced Intelligence,Enhanced Charisma,Special Weapon,Flight,Enhanced Strength,Light Control,,Enhanced Intelligence,Invulnerability,Enhanced Stamina
-14,4,Enhanced Agility,Enhanced Intelligence,Enhanced Agility,Special Weapon,Flight,Enhanced Strength,Light Control,,Enhanced Intelligence,Cybernetics,Enhanced Stamina
-15,4,Enhanced Agility,Enhanced Intelligence,Enhanced Agility,Special Weapon,Flight,Enhanced Strength,Mind Power,,Enhanced Intelligence,Armour,Enhanced Stamina
-16,4,Self Discipline,Enhanced Charisma,Enhanced Agility,Special Weapon,Flight,Enhanced Strength,Mind Power,,Enhanced Charisma,Armour,Enhanced Stamina
-17,4,Self Discipline,Enhanced Charisma,Enhanced Agility,Special Weapon,Revivication,Enhanced Strength,Mind Power,,Enhanced Charisma,Phantasmal Forces,Enhanced Stamina
-18,4,Self Discipline,Enhanced Charisma,Enhanced Agility,Special Weapon,Magic Device,Enhanced Strength,Gravity Control,,Enhanced Charisma,Temperature Control,Enhanced Stamina
-19,4,Adaption,Enhanced Charisma,Enhanced Agility,Special Weapon,Magic Device,Enhanced Strength,Gravity Control,,Enhanced Charisma,Immortality,Enhanced Stamina
-20,4,Revivication,Enhanced Charisma,Enhanced Agility,Special Weapon,Magic Device,Enhanced Strength,Gravity Control,,Non-Requirement of Air,Elasticity,Adaption
-21,3,Air Generation,Enhanced Stamina,Enhanced Agility,Special Weapon,Magic Device,Enhanced Strength,Darkness Generation,,Non-Requirement of Air,Dimensional Gate,Adaption
-22,3,Fast Recovery,Enhanced Stamina,Enhanced Agility,Special Weapon,Magic Device,Heightened Expertise,Darkness Generation,,Enhanced Stamina,Mutation,Adaption
-23,3,Invulnerability,Enhanced Stamina,Enhanced Agility,Special Weapon,Magic Device,Heightened Expertise,Darkness Generation,,Enhanced Stamina,Paralysis Ray,Adaption
-24,3,Emotion Control,Enhanced Stamina,Enhanced Agility,Special Weapon,Magic Device,Heightened Expertise,Darkness Generation,,Enhanced Stamina,Ego Change,Adaption
-25,3,Light Control,Enhanced Stamina,Enhanced Strength,Special Weapon,Magic Device,Heightened Expertise,Darkness Generation,,Enhanced Stamina,Sonic Abilities,Adaption
-26,3,Force Field,Enhanced Stamina,Enhanced Strength,Special Weapon,Magic Device,Heightened Expertise,Energy Absorption,,Enhanced Stamina,Disintegration Beam,Heightened Speed
-27,3,Mind Control,Enhanced Stamina,Enhanced Strength,Special Weapon,Light Control,Heightened Expertise,Energy Absorption,,Enhanced Stamina,Flame Generation,Heightened Speed
-28,3,Mimic,Enhanced Stamina,Enhanced Strength,Special Weapon,Light Control,Heightened Expertise,Energy Absorption,,Enhanced Stamina,Weakness Detection,Heightened Speed
-29,3,Darkness Generation,Enhanced Stamina,Enhanced Strength,Special Weapon,Out of Phase Detection,Heightened Expertise,Weakness Detection,,Enhanced Stamina,Inherent Power,Heightened Speed
-30,3,Weakness Detection,Enhanced Stamina,Enhanced Strength,Special Weapon,Out of Phase Detection,Heightened Expertise,Weakness Detection,,Enhanced Stamina,Emotion Control,Heightened Speed
-31,3,Mind Power,Enhanced Stamina,Enhanced Strength,Special Weapon,Out of Phase Detection,Heightened Expertise,Weakness Detection,,Enhanced Stamina,Animal Affinity,Heightened Speed
-32,3,Defect,Enhanced Stamina,Enhanced Strength,Special Weapon,Out of Phase Detection,Heightened Expertise,Weakness Detection,,Enhanced Stamina,Darkness Generation,Enhanced Charisma
-33,3,Weather Control,Enhanced Stamina,Enhanced Strength,Special Vehjcle,Out of Phase Detection,Enhanced Intelligence,Weakness Detection,,Enhanced Stamina,Energy Absorption,Enhanced Charisma
-34,3,Gravity Control,Enhanced Stamina,Enhanced Strength,Special Vehjcle,Mind Control,Enhanced Intelligence,Weakness Detection,,Enhanced Stamina,Force Field,Enhanced Charisma
-35,3,Immateriality,Enhanced Stamina,Enhanced Strength,Special Vehjcle,Mind Control,Enhanced Intelligence,Pet or Companion,,Enhanced Stamina,Gravity Control,Enhanced Charisma
-36,3,Dimensional Gate,Enhanced Agility,Enhanced Intelligence,Special Vehjcle,Mind Control,Out of Phase Detection,Pet or Companion,,Enhanced Agility,Light Control,Enhanced Charisma
-37,3,Teleportation,Enhanced Agility,Enhanced Intelligence,Special Vehjcle,Teleportation,Out of Phase Detection,Pet or Companion,,Enhanced Agility,Mind Power,Enhanced Charisma
-38,3,Energy Absorption,Enhanced Agility,Enhanced Intelligence,Special Vehjcle,Teleportation,Out of Phase Detection,Pet or Companion,,Enhanced Agility,Mind Control,Non-Requirement of Air
-39,3,Terra Generation,Enhanced Agility,Enhanced Intelligence,Special Vehjcle,Teleportation,Heightened Senses,Pet or Companion,,Enhanced Agility,Immateriality,Non-Requirement of Air
-40,3,Flame Generation,Enhanced Agility,Enhanced Stamina,Special Vehjcle,Emotion Control,Heightened Senses,Pet or Companion,,Enhanced Agility,Mimic,Non-Requirement of Air
-41,3,Flame Generation,Enhanced Agility,Enhanced Stamina,Special Vehjcle,Dimensional Gate,Heightened Senses,Flame Generation,,Enhanced Agility,Ice Gneration,Non-Requirement of Air
-42,3,Metamorphosis,Enhanced Agility,Enhanced Stamina,Special Vehjcle,Dimensional Gate,Heightened Senses,Flame Generation,,Enhanced Agility,Teleportation,Non-Requirement of Air
-43,3,Ego Change,Enhanced Agility,Enhanced Stamina,Special Vehjcle,Weather Control,Heightened Senses,Ice Generation,,Enhanced Agility,Weather Control,Non-Requirement of Air
-44,3,Lightning/Electrical Control,Enhanced Agility,Enhanced Stamina,Gimmick,Weather Control,Heightened Senses,Ice Generation,,Enhanced Agility,Multiplex,Mutation
-45,3,Lightning/Electrical Control,Enhanced Agility,Enhanced Stamina,Gimmick,Weakness Detection,Heightened Senses,Paralysis Ray,,Enhanced Agility,Lightning/Electrical Control,Mutation
-46,3,Disintegration Beam,Enhanced Agility,Enhanced Stamina,Gimmick,Weakness Detection,Heightened Senses,Paralysis Ray,,Enhanced Agility,Magnetic Manipulation,Mutation
-47,3,Elasticity,Enhanced Agility,Enhanced Stamina,Gimmick,Weakness Detection,Fast Recovery,Paralysis Ray,,Enhanced Agility,Body Augmentation,Flight
-48,3,Elasticity,Enhanced Agility,Heightened Speed,Gimmick,Darkness Generation,Heightened Attack,Paralysis Ray,,Enhanced Agility,Organic Powers,Flight
-49,3,Elasticity,Enhanced Agility,Heightened Speed,Gimmick,Darkness Generation,Heightened Attack,Paralysis Ray,,Enhanced Agility,Organic Powers,Flight
-50,3,Temperature Control,Enhanced Strength,Heightened Speed,Gimmick,Mind Power,Heightened Attack,Paralysis Ray,,Enhanced Strength,Gimmick,Flight
-51,3,Ice Generation,Enhanced Strength,Heightened Speed,Gimmick,Mind Power,Heightened Attack,Lightning/Electrical Control,,Enhanced Strength,Environment Control,Flight
-52,3,Ice Generation,Enhanced Strength,Heightened Speed,Gimmick,Mind Power,Heightened Attack,Lightning/Electrical Control,,Enhanced Strength,Defect,Flight
-53,3,Body Augmentation,Enhanced Strength,Heightened Expertise,Gimmick,Air Generation,Heightened Attack,Lightning/Electrical Control,,Enhanced Strength,Enhanced Stamina,Flight
-54,3,Body Augmentation,Enhanced Strength,Heightened Expertise,Gimmick,Enhanced Agility,Heightened Attack,Magnetic Manipulation,,Enhanced Strength,Enhanced Stamina,Flight
-55,3,Body Augmentation,Enhanced Strength,Heightened Expertise,Gimmick,Enhanced Agility,Heightened Attack,Magnetic Manipulation,,Enhanced Strength,Enhanced Stamina,Flight
-56,3,Magnetic Manipulation,Enhanced Strength,Heightened Expertise,Gimmick,Lightning/Electrical Control,Heightened Attack,Magnetic Manipulation,,Enhanced Strength,Enhanced Stamina,Flight
-57,3,Size Change,Enhanced Strength,Heightened Expertise,Gimmick,Lightning/Electrical Control,Armour,Sonic Abilities,,Enhanced Strength,Enhanced Charisma,Flight
-58,3,Size Change,Enhanced Strength,Heightened Expertise,Gimmick,Enhanced Strength,Enhanced Stamina,Sonic Abilities,,Enhanced Strength,Enhanced Charisma,Flight
-59,3,Phantasmal Forces,Enhanced Strength,Heightened Defense,Gimmick,Enhanced Strength,Enhanced Stamina,Sonic Abilities,,Enhanced Strength,Enhanced Charisma,Flight
-60,3,Invisibility,Enhanced Strength,Heightened Defense,Gimmick,Enhanced Stamina,Enhanced Stamina,Sonic Abilities,,Enhanced Strength,Enhanced Charisma,Flight
-61,2,Sonic Abilities,Enhanced Strength,Heightened Defense,Gimmick,Enhanced Stamina,Enhanced Stamina,Death Touch,,Enhanced Strength,Heightened Speed,Flight
-62,2,Multiplex,Enhanced Strength,Heightened Defense,Gimmick,Immateriality,Enhanced Stamina,Invisibility,,Enhanced Strength,Heightened Speed,Flight
-63,2,Inherent Power,Enhanced Strength,Heightened Defense,Gimmick,Ego Change,Enhanced Stamina,Invisibility,,Enhanced Strength,Heightened Speed,Flight
-64,2,Inherent Power,Heightened Defense,Heightened Defense,Fast Recovery,Astral Projection,Enhanced Stamina,Invisibility,,Heightened Defense,Enhanced Agility,Enhanced Agility
-65,2,Environment Control,Heightened Defense,Heightened Defense,Fast Recovery,Astral Projection,Enhanced Stamina,Invisibility,,Heightened Defense,Enhanced Agility,Enhanced Agility
-66,2,Armour,Heightened Defense,Heightened Defense,Fast Recovery,Astral Projection,Flight,Temperature Control,,Heightened Defense,Enhanced Agility,Enhanced Agility
-67,2,Armour,Heightened Defense,Heightened Defense,Mind Power,Astral Projection,Flight,Temperature Control,,Heightened Defense,Enhanced Agility,Enhanced Agility
-68,2,Force Beam,Heightened Defense,Gimmick,Mind Power,Astral Projection,Flight,Temperature Control,,Heightened Defense,Adaption,Enhanced Agility
-69,2,Force Beam,Heightened Defense,Self Discipline,Mind Power,Astral Projection,Flight,Temperature Control,,Heightened Defense,Adaption,Enhanced Agility
-70,2,Enhanced Strength,Heightened Defense,Self Discipline,Mind Power,Astral Projection,Flight,Temperature Control,,Heightened Defense,Adaption,Enhanced Agility
-71,2,Enhanced Strength,Heightened Attack,Self Discipline,Cybernetics,Astral Projection,Flight,Robotic Body,,Heightened Attack,Density Control,Heightened Expertise
-72,2,Enhanced Strength,Heightened Attack,Self Discipline,Cybernetics,Terra Generation,Water Breathing,Robotic Body,,Heightened Attack,Density Control,Heightened Expertise
-73,2,Enhanced Strength,Heightened Attack,Self Discipline,Cybernetics,Density Control,Water Breathing,Robotic Body,,Heightened Attack,Out of Phase Detection,Immortality
-74,2,Enhanced Strength,Heightened Attack,Self Discipline,Cybernetics,Temperature Control,Water Breathing,Robotic Body,,Heightened Attack,Non-Requirement of Air,Water Breathing
-75,2,Immortality,Heightened Attack,Self Discipline,Cybernetics,Paralysis Ray,Water Breathing,Fast Recovery,,Heightened Attack,Non-Requirement of Air,Water Breathing
-76,2,Shape Shift,Heightened Attack,Weakness Detection,Cybernetics,Paralysis Ray,Water Breathing,Fast Recovery,,Heightened Attack,Non-Requirement of Air,Water Breathing
-77,2,Animal Ability,Heightened Attack,Weakness Detection,Cybernetics,Disintegration Beam,Water Breathing,Fast Recovery,,Heightened Attack,Heightened Senses,Water Breathing
-78,2,Animal Ability,Heightened Attack,Weakness Detection,Cybernetics,Defect,Water Breathing,Fast Recovery,,Heightened Attack,Heightened Senses,Water Breathing
-79,2,Flight,Heightened Attack,Heightened Senses,Cybernetics,Pet or Companion,Water Breathing,Armour,,Heightened Attack,Self Discipline,Water Breathing
-80,2,Flight,Heightened Attack,Heightened Senses,Cybernetics,Time Travel,Water Breathing,Armour,,Mutation,Flight,Water Breathing
-81,2,Flight,Flight,Flight,Cybernetics,Invisibility,Water Breathing,Armour,,Flight,Flight,Water Breathing
-82,2,Flight,Flight,Flight,Cybernetics,Invisibility,Ego Change,Armour,,Flight,Flight,Water Breathing
-83,2,Flight,Flight,Flight,Cybernetics,Invisibility,Ego Change,Armour,,Flight,Flight,Water Breathing
-84,2,Flight,Flight,Flight,Cybernetics,Invisibility,Ego Change,Force Beam,,Flight,Flight,Water Breathing
-85,2,Flight,Flight,Flight,Pet or Companion,Invisibility,Ego Change,Force Beam,,Flight,Flight,Water Breathing
-86,2,Flight,Flight,Flight,Pet or Companion,Shape Shift,Enhanced Agility,Force Beam,,Flight,Flight,Out of Phase Detection
-87,2,Flight,Flight,Flight,Pet or Companion,Shape Shift,Enhanced Agility,Force Beam,,Flight,Flight,Enhanced Strength
-88,2,Flight,Flight,Flight,Pet or Companion,Immortality,Enhanced Agility,Force Beam,,Flight,Heightened Attack,Enhanced Strength
-89,2,Flight,Flight,Pet or Companion,Pet or Companion,Phantasmal Forces,Enhanced Agility,Cybernetics,,Flight,Heightened Attack,Enhanced Strength
-90,2,Flight,Flight,Pet or Companion,Pet or Companion,Magic Spells,Enhanced Agility,Cybernetics,,Flight,Heightened Attack,Enhanced Strength
-91,1,Heightened Defense,Flight,Pet or Companion,Pet or Companion,Magic Spells,Enhanced Agility,Special Vehicle,,Flight,Heightened Defense,Enhanced Strength
-92,1,Heightened Defense,Flight,Pet or Companion,Pet or Companion,Magic Spells,Enhanced Agility,Special Vehicle,,Self Discipline,Heightened Defense,Enhanced Strength
-93,1,Heightened Attack,Flight,Pet or Companion,Pet or Companion,Magic Spells,Enhanced Agility,Special Vehicle,,Self Discipline,Heightened Defense,Enhanced Strength
-94,1,Heightened Attack,Flight,Ego Change,Pet or Companion,Magic Spells,Enhanced Agility,Special Weapon,,Self Discipline,Heightened Expertise,Enhanced Strength
-95,1,Mutation,Self Discipline,Ego Change,Pet or Companion,Magic Spells,Enhanced Agility,Special Weapon,,Self Discipline,Heightened Expertise,Enhanced Strength
-96,1,Organic Power,Self Discipline,Ego Change,Animal Affinity,Magic Spells,Enhanced Agility,Special Weapon,,Self Discipline,Heightened Expertise,Enhanced Strength
-97,1,Organic Power,Self Discipline,Ego Change,Animal Affinity,Magic Spells,Density Control,Heightened Attack,,Self Discipline,Enhanced Strength,Enhanced Strength
-98,1,Organic Power,Self Discipline,Ego Change,Animal Affinity,Magic Spells,Dimensional Gate,Time Travel,,Pet or Companion,Enhanced Strength,Heightened Attack
-99,1,Organic Power,Self Discipline,Ego Change,Animal Affinity,Magic Spells,Dimensional Gate,Time Travel,,Pet or Companion,Enhanced Strength,Heightened Senses
-100,1,Organic Power,Self Discipline,Cybernetics,Animal Affinity,Death Touch,Time Travel,Time Travel,,Pet or Companion,Enhanced Intelligence,
+2,6,Heightened Senses,Heightened Senses,Heightened Attack,Armour,Self Discipline,Heightened Defense,Mind Control,Heightened Senses,Heightened Senses,Death Touch,Self Discipline
+3,6,Heightened Speed,Heightened Senses,Heightened Attack,Armour,Self Discipline,Heightened Defense,Mind Control,Heightened Speed,Heightened Senses,Time Travel,Enhanced Intelligence
+4,6,Heightened Speed,Heightened Senses,Heightened Attack,Armour,Enhanced Intelligence,Heightened Defense,Mind Control,Heightened Speed,Heightened Senses,Shape Shift,Enhanced Intelligence
+5,5,Enhanced Charisma,Heightened Senses,Heightened Attack,Armour,Enhanced Intelligence,Heightened Defense,Teleportation,Enhanced Charisma,Water Breathing,Shape Shift,Enhanced Intelligence
+6,5,Enhanced Charisma,Enhanced Intelligence,Heightened Attack,Organic Powers,Enhanced Intelligence,Heightened Defense,Teleportation,Enhanced Charisma,Water Breathing,Force Beam,Heightened Defense
+7,5,Enhanced Stamina,Enhanced Intelligence,Heightened Attack,Organic Powers,Enhanced Intelligence,Heightened Defense,Teleportation,Enhanced Stamina,Water Breathing,Pet or Companion,Heightened Defense
+8,5,Enhanced Stamina,Enhanced Intelligence,Heightened Attack,Organic Powers,Enhanced Intelligence,Heightened Defense,Force Field,Enhanced Stamina,Water Breathing,Pet or Companion,Heightened Defense
+9,5,Regeneration,Enhanced Intelligence,Enhanced Charisma,Organic Powers,Enhanced Intelligence,Heightened Defense,Force Field,Water Breathing,Enhanced Intelligence,Special Vehjcle,Heightened Defense
+10,5,Regeneration,Enhanced Intelligence,Enhanced Charisma,Organic Powers,Flight,Heightened Defense,Force Field,Regeneration,Enhanced Intelligence,Special Weapon,Heightened Defense
+11,4,Enhanced Intelligence,Enhanced Intelligence,Enhanced Charisma,Special Weapon,Flight,Heightened Defense,Force Field,Enhanced Intelligence,Enhanced Intelligence,Robotic Body,Enhanced Stamina
+12,4,Enhanced Intelligence,Enhanced Intelligence,Enhanced Charisma,Special Weapon,Flight,Enhanced Strength,Light Control,Enhanced Intelligence,Enhanced Intelligence,Regeneration,Enhanced Stamina
+13,4,Enhanced Agility,Enhanced Intelligence,Enhanced Charisma,Special Weapon,Flight,Enhanced Strength,Light Control,Enhanced Agility,Enhanced Intelligence,Invulnerability,Enhanced Stamina
+14,4,Enhanced Agility,Enhanced Intelligence,Enhanced Agility,Special Weapon,Flight,Enhanced Strength,Light Control,Enhanced Agility,Enhanced Intelligence,Cybernetics,Enhanced Stamina
+15,4,Enhanced Agility,Enhanced Intelligence,Enhanced Agility,Special Weapon,Flight,Enhanced Strength,Mind Power,Enhanced Agility,Enhanced Intelligence,Armour,Enhanced Stamina
+16,4,Self Discipline,Enhanced Charisma,Enhanced Agility,Special Weapon,Flight,Enhanced Strength,Mind Power,Enhanced Strength,Enhanced Charisma,Armour,Enhanced Stamina
+17,4,Self Discipline,Enhanced Charisma,Enhanced Agility,Special Weapon,Revivication,Enhanced Strength,Mind Power,Enhanced Strength,Enhanced Charisma,Phantasmal Forces,Enhanced Stamina
+18,4,Self Discipline,Enhanced Charisma,Enhanced Agility,Special Weapon,Magic Device,Enhanced Strength,Gravity Control,Enhanced Strength,Enhanced Charisma,Temperature Control,Enhanced Stamina
+19,4,Adaption,Enhanced Charisma,Enhanced Agility,Special Weapon,Magic Device,Enhanced Strength,Gravity Control,Adaption,Enhanced Charisma,Immortality,Enhanced Stamina
+20,4,Revivication,Enhanced Charisma,Enhanced Agility,Special Weapon,Magic Device,Enhanced Strength,Gravity Control,Revivication,Non-Requirement of Air,Elasticity,Adaption
+21,3,Air Generation,Enhanced Stamina,Enhanced Agility,Special Weapon,Magic Device,Enhanced Strength,Darkness Generation,Non-Requirement of Air,Non-Requirement of Air,Dimensional Gate,Adaption
+22,3,Fast Recovery,Enhanced Stamina,Enhanced Agility,Special Weapon,Magic Device,Heightened Expertise,Darkness Generation,Fast Recovery,Enhanced Stamina,Mutation,Adaption
+23,3,Invulnerability,Enhanced Stamina,Enhanced Agility,Special Weapon,Magic Device,Heightened Expertise,Darkness Generation,Fast Recovery,Enhanced Stamina,Paralysis Ray,Adaption
+24,3,Emotion Control,Enhanced Stamina,Enhanced Agility,Special Weapon,Magic Device,Heightened Expertise,Darkness Generation,Self Discipline,Enhanced Stamina,Ego Change,Adaption
+25,3,Light Control,Enhanced Stamina,Enhanced Strength,Special Weapon,Magic Device,Heightened Expertise,Darkness Generation,Self Discipline,Enhanced Stamina,Sonic Abilities,Adaption
+26,3,Force Field,Enhanced Stamina,Enhanced Strength,Special Weapon,Magic Device,Heightened Expertise,Energy Absorption,Force Field,Enhanced Stamina,Disintegration Beam,Heightened Speed
+27,3,Mind Control,Enhanced Stamina,Enhanced Strength,Special Weapon,Light Control,Heightened Expertise,Energy Absorption,Mind Control,Enhanced Stamina,Flame Generation,Heightened Speed
+28,3,Mimic,Enhanced Stamina,Enhanced Strength,Special Weapon,Light Control,Heightened Expertise,Energy Absorption,Air Generation,Enhanced Stamina,Weakness Detection,Heightened Speed
+29,3,Darkness Generation,Enhanced Stamina,Enhanced Strength,Special Weapon,Out of Phase Detection,Heightened Expertise,Weakness Detection,Darkness Generation,Enhanced Stamina,Inherent Power,Heightened Speed
+30,3,Weakness Detection,Enhanced Stamina,Enhanced Strength,Special Weapon,Out of Phase Detection,Heightened Expertise,Weakness Detection,Weakness Detection,Enhanced Stamina,Emotion Control,Heightened Speed
+31,3,Mind Power,Enhanced Stamina,Enhanced Strength,Special Weapon,Out of Phase Detection,Heightened Expertise,Weakness Detection,Mind Power,Enhanced Stamina,Animal Affinity,Heightened Speed
+32,3,Defect,Enhanced Stamina,Enhanced Strength,Special Weapon,Out of Phase Detection,Heightened Expertise,Weakness Detection,Defect,Enhanced Stamina,Darkness Generation,Enhanced Charisma
+33,3,Weather Control,Enhanced Stamina,Enhanced Strength,Special Vehjcle,Out of Phase Detection,Enhanced Intelligence,Weakness Detection,Weather Control,Enhanced Stamina,Energy Absorption,Enhanced Charisma
+34,3,Gravity Control,Enhanced Stamina,Enhanced Strength,Special Vehjcle,Mind Control,Enhanced Intelligence,Weakness Detection,Gravity Control,Enhanced Stamina,Force Field,Enhanced Charisma
+35,3,Immateriality,Enhanced Stamina,Enhanced Strength,Special Vehjcle,Mind Control,Enhanced Intelligence,Pet or Companion,Immateriality,Enhanced Stamina,Gravity Control,Enhanced Charisma
+36,3,Dimensional Gate,Enhanced Agility,Enhanced Intelligence,Special Vehjcle,Mind Control,Out of Phase Detection,Pet or Companion,Dimensional Gate,Enhanced Agility,Light Control,Enhanced Charisma
+37,3,Teleportation,Enhanced Agility,Enhanced Intelligence,Special Vehjcle,Teleportation,Out of Phase Detection,Pet or Companion,Teleportation,Enhanced Agility,Mind Power,Enhanced Charisma
+38,3,Energy Absorption,Enhanced Agility,Enhanced Intelligence,Special Vehjcle,Teleportation,Out of Phase Detection,Pet or Companion,Energy Absorption,Enhanced Agility,Mind Control,Non-Requirement of Air
+39,3,Terra Generation,Enhanced Agility,Enhanced Intelligence,Special Vehjcle,Teleportation,Heightened Senses,Pet or Companion,Light Control,Enhanced Agility,Immateriality,Non-Requirement of Air
+40,3,Flame Generation,Enhanced Agility,Enhanced Stamina,Special Vehjcle,Emotion Control,Heightened Senses,Pet or Companion,Light Control,Enhanced Agility,Mimic,Non-Requirement of Air
+41,3,Flame Generation,Enhanced Agility,Enhanced Stamina,Special Vehjcle,Dimensional Gate,Heightened Senses,Flame Generation,Flame Generation,Enhanced Agility,Ice Gneration,Non-Requirement of Air
+42,3,Metamorphosis,Enhanced Agility,Enhanced Stamina,Special Vehjcle,Dimensional Gate,Heightened Senses,Flame Generation,Flame Generation,Enhanced Agility,Teleportation,Non-Requirement of Air
+43,3,Ego Change,Enhanced Agility,Enhanced Stamina,Special Vehjcle,Weather Control,Heightened Senses,Ice Generation,Lightning/Electrical Control,Enhanced Agility,Weather Control,Non-Requirement of Air
+44,3,Lightning/Electrical Control,Enhanced Agility,Enhanced Stamina,Gimmick,Weather Control,Heightened Senses,Ice Generation,Lightning/Electrical Control,Enhanced Agility,Multiplex,Mutation
+45,3,Lightning/Electrical Control,Enhanced Agility,Enhanced Stamina,Gimmick,Weakness Detection,Heightened Senses,Paralysis Ray,Metamorphosis,Enhanced Agility,Lightning/Electrical Control,Mutation
+46,3,Disintegration Beam,Enhanced Agility,Enhanced Stamina,Gimmick,Weakness Detection,Heightened Senses,Paralysis Ray,Disintegration Beam,Enhanced Agility,Magnetic Manipulation,Mutation
+47,3,Elasticity,Enhanced Agility,Enhanced Stamina,Gimmick,Weakness Detection,Fast Recovery,Paralysis Ray,Heightened Expertise,Enhanced Agility,Body Augmentation,Flight
+48,3,Elasticity,Enhanced Agility,Heightened Speed,Gimmick,Darkness Generation,Heightened Attack,Paralysis Ray,Astral Projection,Enhanced Agility,Organic Powers,Flight
+49,3,Elasticity,Enhanced Agility,Heightened Speed,Gimmick,Darkness Generation,Heightened Attack,Paralysis Ray,Robotic Body,Enhanced Agility,Organic Powers,Flight
+50,3,Temperature Control,Enhanced Strength,Heightened Speed,Gimmick,Mind Power,Heightened Attack,Paralysis Ray,Temperature Control,Enhanced Strength,Gimmick,Flight
+51,3,Ice Generation,Enhanced Strength,Heightened Speed,Gimmick,Mind Power,Heightened Attack,Lightning/Electrical Control,Ice Generation,Enhanced Strength,Environment Control,Flight
+52,3,Ice Generation,Enhanced Strength,Heightened Speed,Gimmick,Mind Power,Heightened Attack,Lightning/Electrical Control,Ice Generation,Enhanced Strength,Defect,Flight
+53,3,Body Augmentation,Enhanced Strength,Heightened Expertise,Gimmick,Air Generation,Heightened Attack,Lightning/Electrical Control,Body Augmentation,Enhanced Strength,Enhanced Stamina,Flight
+54,3,Body Augmentation,Enhanced Strength,Heightened Expertise,Gimmick,Enhanced Agility,Heightened Attack,Magnetic Manipulation,Body Augmentation,Enhanced Strength,Enhanced Stamina,Flight
+55,3,Body Augmentation,Enhanced Strength,Heightened Expertise,Gimmick,Enhanced Agility,Heightened Attack,Magnetic Manipulation,Paralysis Ray,Enhanced Strength,Enhanced Stamina,Flight
+56,3,Magnetic Manipulation,Enhanced Strength,Heightened Expertise,Gimmick,Lightning/Electrical Control,Heightened Attack,Magnetic Manipulation,Magnetic Manipulation,Enhanced Strength,Enhanced Stamina,Flight
+57,3,Size Change,Enhanced Strength,Heightened Expertise,Gimmick,Lightning/Electrical Control,Armour,Sonic Abilities,Size Change,Enhanced Strength,Enhanced Charisma,Flight
+58,3,Size Change,Enhanced Strength,Heightened Expertise,Gimmick,Enhanced Strength,Enhanced Stamina,Sonic Abilities,Size Change,Enhanced Strength,Enhanced Charisma,Flight
+59,3,Phantasmal Forces,Enhanced Strength,Heightened Defense,Gimmick,Enhanced Strength,Enhanced Stamina,Sonic Abilities,Phantasmal Forces,Enhanced Strength,Enhanced Charisma,Flight
+60,3,Invisibility,Enhanced Strength,Heightened Defense,Gimmick,Enhanced Stamina,Enhanced Stamina,Sonic Abilities,Invisibility,Enhanced Strength,Enhanced Charisma,Flight
+61,2,Sonic Abilities,Enhanced Strength,Heightened Defense,Gimmick,Enhanced Stamina,Enhanced Stamina,Death Touch,Sonic Abilities,Enhanced Strength,Heightened Speed,Flight
+62,2,Multiplex,Enhanced Strength,Heightened Defense,Gimmick,Immateriality,Enhanced Stamina,Invisibility,Terra Generation,Enhanced Strength,Heightened Speed,Flight
+63,2,Inherent Power,Enhanced Strength,Heightened Defense,Gimmick,Ego Change,Enhanced Stamina,Invisibility,Inherent Power,Enhanced Strength,Heightened Speed,Flight
+64,2,Inherent Power,Heightened Defense,Heightened Defense,Fast Recovery,Astral Projection,Enhanced Stamina,Invisibility,Inherent Power,Heightened Defense,Enhanced Agility,Enhanced Agility
+65,2,Environment Control,Heightened Defense,Heightened Defense,Fast Recovery,Astral Projection,Enhanced Stamina,Invisibility,Environment Control,Heightened Defense,Enhanced Agility,Enhanced Agility
+66,2,Armour,Heightened Defense,Heightened Defense,Fast Recovery,Astral Projection,Flight,Temperature Control,Armour,Heightened Defense,Enhanced Agility,Enhanced Agility
+67,2,Armour,Heightened Defense,Heightened Defense,Mind Power,Astral Projection,Flight,Temperature Control,Armour,Heightened Defense,Enhanced Agility,Enhanced Agility
+68,2,Force Beam,Heightened Defense,Gimmick,Mind Power,Astral Projection,Flight,Temperature Control,Cybernetics,Heightened Defense,Adaption,Enhanced Agility
+69,2,Force Beam,Heightened Defense,Self Discipline,Mind Power,Astral Projection,Flight,Temperature Control,Force Beam,Heightened Defense,Adaption,Enhanced Agility
+70,2,Enhanced Strength,Heightened Defense,Self Discipline,Mind Power,Astral Projection,Flight,Temperature Control,Special Weapon,Heightened Defense,Adaption,Enhanced Agility
+71,2,Enhanced Strength,Heightened Attack,Self Discipline,Cybernetics,Astral Projection,Flight,Robotic Body,Special Vehicle,Heightened Attack,Density Control,Heightened Expertise
+72,2,Enhanced Strength,Heightened Attack,Self Discipline,Cybernetics,Terra Generation,Water Breathing,Robotic Body,Pet or Companion,Heightened Attack,Density Control,Heightened Expertise
+73,2,Enhanced Strength,Heightened Attack,Self Discipline,Cybernetics,Density Control,Water Breathing,Robotic Body,Pet or Companion,Heightened Attack,Out of Phase Detection,Immortality
+74,2,Enhanced Strength,Heightened Attack,Self Discipline,Cybernetics,Temperature Control,Water Breathing,Robotic Body,Mutation,Heightened Attack,Non-Requirement of Air,Water Breathing
+75,2,Immortality,Heightened Attack,Self Discipline,Cybernetics,Paralysis Ray,Water Breathing,Fast Recovery,Immortality,Heightened Attack,Non-Requirement of Air,Water Breathing
+76,2,Shape Shift,Heightened Attack,Weakness Detection,Cybernetics,Paralysis Ray,Water Breathing,Fast Recovery,Shape Shift,Heightened Attack,Non-Requirement of Air,Water Breathing
+77,2,Animal Affinity,Heightened Attack,Weakness Detection,Cybernetics,Disintegration Beam,Water Breathing,Fast Recovery,Animal Affinity,Heightened Attack,Heightened Senses,Water Breathing
+78,2,Animal Affinity,Heightened Attack,Weakness Detection,Cybernetics,Defect,Water Breathing,Fast Recovery,Animal Affinity,Heightened Attack,Heightened Senses,Water Breathing
+79,2,Flight,Heightened Attack,Heightened Senses,Cybernetics,Pet or Companion,Water Breathing,Armour,Out of Phase Detection,Heightened Attack,Self Discipline,Water Breathing
+80,2,Flight,Heightened Attack,Heightened Senses,Cybernetics,Time Travel,Water Breathing,Armour,Flight,Mutation,Flight,Water Breathing
+81,2,Flight,Flight,Flight,Cybernetics,Invisibility,Water Breathing,Armour,Flight,Flight,Flight,Water Breathing
+82,2,Flight,Flight,Flight,Cybernetics,Invisibility,Ego Change,Armour,Flight,Flight,Flight,Water Breathing
+83,2,Flight,Flight,Flight,Cybernetics,Invisibility,Ego Change,Armour,Flight,Flight,Flight,Water Breathing
+84,2,Flight,Flight,Flight,Cybernetics,Invisibility,Ego Change,Force Beam,Flight,Flight,Flight,Water Breathing
+85,2,Flight,Flight,Flight,Pet or Companion,Invisibility,Ego Change,Force Beam,Flight,Flight,Flight,Water Breathing
+86,2,Flight,Flight,Flight,Pet or Companion,Shape Shift,Enhanced Agility,Force Beam,Flight,Flight,Flight,Out of Phase Detection
+87,2,Flight,Flight,Flight,Pet or Companion,Shape Shift,Enhanced Agility,Force Beam,Flight,Flight,Flight,Enhanced Strength
+88,2,Flight,Flight,Flight,Pet or Companion,Immortality,Enhanced Agility,Force Beam,Flight,Flight,Heightened Attack,Enhanced Strength
+89,2,Flight,Flight,Pet or Companion,Pet or Companion,Phantasmal Forces,Enhanced Agility,Cybernetics,Flight,Flight,Heightened Attack,Enhanced Strength
+90,2,Flight,Flight,Pet or Companion,Pet or Companion,Magic Spells,Enhanced Agility,Cybernetics,Flight,Flight,Heightened Attack,Enhanced Strength
+91,1,Heightened Defense,Flight,Pet or Companion,Pet or Companion,Magic Spells,Enhanced Agility,Special Vehicle,Heightened Defense,Flight,Heightened Defense,Enhanced Strength
+92,1,Heightened Defense,Flight,Pet or Companion,Pet or Companion,Magic Spells,Enhanced Agility,Special Vehicle,Heightened Defense,Self Discipline,Heightened Defense,Enhanced Strength
+93,1,Heightened Attack,Flight,Pet or Companion,Pet or Companion,Magic Spells,Enhanced Agility,Special Vehicle,Heightened Attack,Self Discipline,Heightened Defense,Enhanced Strength
+94,1,Heightened Attack,Flight,Ego Change,Pet or Companion,Magic Spells,Enhanced Agility,Special Weapon,Heightened Attack,Self Discipline,Heightened Expertise,Enhanced Strength
+95,1,Mutation,Self Discipline,Ego Change,Pet or Companion,Magic Spells,Enhanced Agility,Special Weapon,Organic Powers,Self Discipline,Heightened Expertise,Enhanced Strength
+96,1,Organic Powers,Self Discipline,Ego Change,Animal Affinity,Magic Spells,Enhanced Agility,Special Weapon,Organic Powers,Self Discipline,Heightened Expertise,Enhanced Strength
+97,1,Organic Powers,Self Discipline,Ego Change,Animal Affinity,Magic Spells,Density Control,Heightened Attack,Organic Powers,Self Discipline,Enhanced Strength,Enhanced Strength
+98,1,Organic Powers,Self Discipline,Ego Change,Animal Affinity,Magic Spells,Dimensional Gate,Time Travel,Organic Powers,Pet or Companion,Enhanced Strength,Heightened Attack
+99,1,Organic Powers,Self Discipline,Ego Change,Animal Affinity,Magic Spells,Dimensional Gate,Time Travel,Organic Powers,Pet or Companion,Enhanced Strength,Heightened Attack
+100,1,Organic Powers,Self Discipline,Cybernetics,Animal Affinity,Death Touch,Time Travel,Time Travel,Organic Powers,Pet or Companion,Enhanced Intelligence,Heightened Senses
