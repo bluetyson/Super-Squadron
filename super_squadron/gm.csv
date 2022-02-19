@@ -1,4 +1,5 @@
 ﻿Characteristic,,Reaction,Reaction_ReactionDM,Loyalty,Loyalty_MoraleDM,Morale
+0,,Overwhelmed. Will do anything without question,-40,Suicidal. Never checks morale. Will do anything without question,-50,"Suicidal. The character attempts suicide, which is automatically successful if they have the means."
 1,,Overwhelmed. Will do anything without question,-40,Suicidal. Never checks morale. Will do anything without question,-50,"Suicidal. The character attempts suicide, which is automatically successful if they have the means."
 2,,Overwhelmed. Will do anything without question,-40,Suicidal. Never checks morale. Will do anything without question,-50,"Suicidal. The character attempts suicide, which is automatically successful if they have the means."
 3,,Overwhelmed. Will do anything without question,-40,Suicidal. Never checks morale. Will do anything without question,-50,"Kamikaze. The character will attack the nearest opponent at a -25% DM. Only one attack may be made, doing double damage if successful. If their opp is still on their feet, they will surrender unconditionally, otherwise flee."
@@ -29,31 +30,31 @@
 28,,Responsive. Talkative.,-20,Enthusiastic. Will normally back up employer.,-25,Defeated. Surrenders as the circumstances allow.
 29,,Friendly. Interested.,-10,Enthusiastic. Will normally back up employer.,-25,Defeated. Surrenders as the circumstances allow.
 30,,Friendly. Interested.,-10,Enthusiastic. Will normally back up employer.,-25,Defeated. Surrenders as the circumstances allow.
-31,,Friendly. Interested.,-10,Content. Average loyalty. Happy to server.,-10,Defeated. Surrenders as the circumstances allow.
-32,,Friendly. Interested.,-10,Content. Average loyalty. Happy to server.,-10,Defeated. Surrenders as the circumstances allow.
-33,,Friendly. Interested.,-10,Content. Average loyalty. Happy to server.,-10,Defeated. Surrenders as the circumstances allow.
-34,,Friendly. Interested.,-10,Content. Average loyalty. Happy to server.,-10,Defeated. Surrenders as the circumstances allow.
-35,,Friendly. Interested.,-10,Content. Average loyalty. Happy to server.,-10,Defeated. Surrenders as the circumstances allow.
-36,,Friendly. Interested.,-10,Content. Average loyalty. Happy to server.,-10,Defeated. Surrenders as the circumstances allow.
-37,,Friendly. Interested.,-10,Content. Average loyalty. Happy to server.,-10,Defeated. Surrenders as the circumstances allow.
-38,,Friendly. Interested.,-10,Content. Average loyalty. Happy to server.,-10,Defeated. Surrenders as the circumstances allow.
-39,,Friendly. Interested.,-10,Content. Average loyalty. Happy to server.,-10,Defeated. Surrenders as the circumstances allow.
-40,,Friendly. Interested.,-10,Content. Average loyalty. Happy to server.,-10,Defeated. Surrenders as the circumstances allow.
-41,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10,Defeated. Surrenders as the circumstances allow.
-42,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10,Defeated. Surrenders as the circumstances allow.
-43,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10,Defeated. Surrenders as the circumstances allow.
-44,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10,Defeated. Surrenders as the circumstances allow.
-45,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10,Defeated. Surrenders as the circumstances allow.
-46,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10,Defeated. Surrenders as the circumstances allow.
-47,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10,Defeated. Surrenders as the circumstances allow.
-48,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10,Defeated. Surrenders as the circumstances allow.
-49,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10,Defeated. Surrenders as the circumstances allow.
-50,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10,Defeated. Surrenders as the circumstances allow.
-51,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10,"Panics. The character continues to fight for 1dr rounds at a +15% DM, after that time they roll again on the morale table as long as one opponent stil stands, regardless of other considerations."
-52,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10,"Panics. The character continues to fight for 1dr rounds at a +15% DM, after that time they roll again on the morale table as long as one opponent stil stands, regardless of other considerations."
-53,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10,"Panics. The character continues to fight for 1dr rounds at a +15% DM, after that time they roll again on the morale table as long as one opponent stil stands, regardless of other considerations."
-54,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10,"Panics. The character continues to fight for 1dr rounds at a +15% DM, after that time they roll again on the morale table as long as one opponent stil stands, regardless of other considerations."
-55,,Non-Committing,0,Content. Average loyalty. Happy to server.,-10,"Panics. The character continues to fight for 1dr rounds at a +15% DM, after that time they roll again on the morale table as long as one opponent stil stands, regardless of other considerations."
+31,,Friendly. Interested.,-10,Content. Average loyalty. Happy to serve.,-10,Defeated. Surrenders as the circumstances allow.
+32,,Friendly. Interested.,-10,Content. Average loyalty. Happy to serve.,-10,Defeated. Surrenders as the circumstances allow.
+33,,Friendly. Interested.,-10,Content. Average loyalty. Happy to serve.,-10,Defeated. Surrenders as the circumstances allow.
+34,,Friendly. Interested.,-10,Content. Average loyalty. Happy to serve.,-10,Defeated. Surrenders as the circumstances allow.
+35,,Friendly. Interested.,-10,Content. Average loyalty. Happy to serve.,-10,Defeated. Surrenders as the circumstances allow.
+36,,Friendly. Interested.,-10,Content. Average loyalty. Happy to serve.,-10,Defeated. Surrenders as the circumstances allow.
+37,,Friendly. Interested.,-10,Content. Average loyalty. Happy to serve.,-10,Defeated. Surrenders as the circumstances allow.
+38,,Friendly. Interested.,-10,Content. Average loyalty. Happy to serve.,-10,Defeated. Surrenders as the circumstances allow.
+39,,Friendly. Interested.,-10,Content. Average loyalty. Happy to serve.,-10,Defeated. Surrenders as the circumstances allow.
+40,,Friendly. Interested.,-10,Content. Average loyalty. Happy to serve.,-10,Defeated. Surrenders as the circumstances allow.
+41,,Non-Committing,0,Content. Average loyalty. Happy to serve.,-10,Defeated. Surrenders as the circumstances allow.
+42,,Non-Committing,0,Content. Average loyalty. Happy to serve.,-10,Defeated. Surrenders as the circumstances allow.
+43,,Non-Committing,0,Content. Average loyalty. Happy to serve.,-10,Defeated. Surrenders as the circumstances allow.
+44,,Non-Committing,0,Content. Average loyalty. Happy to serve.,-10,Defeated. Surrenders as the circumstances allow.
+45,,Non-Committing,0,Content. Average loyalty. Happy to serve.,-10,Defeated. Surrenders as the circumstances allow.
+46,,Non-Committing,0,Content. Average loyalty. Happy to serve.,-10,Defeated. Surrenders as the circumstances allow.
+47,,Non-Committing,0,Content. Average loyalty. Happy to serve.,-10,Defeated. Surrenders as the circumstances allow.
+48,,Non-Committing,0,Content. Average loyalty. Happy to serve.,-10,Defeated. Surrenders as the circumstances allow.
+49,,Non-Committing,0,Content. Average loyalty. Happy to serve.,-10,Defeated. Surrenders as the circumstances allow.
+50,,Non-Committing,0,Content. Average loyalty. Happy to serve.,-10,Defeated. Surrenders as the circumstances allow.
+51,,Non-Committing,0,Content. Average loyalty. Happy to serve.,-10,"Panics. The character continues to fight for 1dr rounds at a +15% DM, after that time they roll again on the morale table as long as one opponent stil stands, regardless of other considerations."
+52,,Non-Committing,0,Content. Average loyalty. Happy to serve.,-10,"Panics. The character continues to fight for 1dr rounds at a +15% DM, after that time they roll again on the morale table as long as one opponent stil stands, regardless of other considerations."
+53,,Non-Committing,0,Content. Average loyalty. Happy to serve.,-10,"Panics. The character continues to fight for 1dr rounds at a +15% DM, after that time they roll again on the morale table as long as one opponent stil stands, regardless of other considerations."
+54,,Non-Committing,0,Content. Average loyalty. Happy to serve.,-10,"Panics. The character continues to fight for 1dr rounds at a +15% DM, after that time they roll again on the morale table as long as one opponent stil stands, regardless of other considerations."
+55,,Non-Committing,0,Content. Average loyalty. Happy to serve.,-10,"Panics. The character continues to fight for 1dr rounds at a +15% DM, after that time they roll again on the morale table as long as one opponent stil stands, regardless of other considerations."
 56,,Non-Committing,0,Average. Content to be a non-entity.,0,"Panics. The character continues to fight for 1dr rounds at a +15% DM, after that time they roll again on the morale table as long as one opponent stil stands, regardless of other considerations."
 57,,Non-Committing,0,Average. Content to be a non-entity.,0,"Panics. The character continues to fight for 1dr rounds at a +15% DM, after that time they roll again on the morale table as long as one opponent stil stands, regardless of other considerations."
 58,,Non-Committing,0,Average. Content to be a non-entity.,0,"Panics. The character continues to fight for 1dr rounds at a +15% DM, after that time they roll again on the morale table as long as one opponent stil stands, regardless of other considerations."
