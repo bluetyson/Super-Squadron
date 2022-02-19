@@ -1,103 +1,103 @@
-﻿Characteristic,Strength,Strength_HT,Strength_DD,Agility,Agility_Move,Agility_Accuracy,Agility_HT,Agility_DD
-0,Pathetic,-2,-7,Wet Week,20,-40,-2,-2
-1,Weakling,-1,-3,Snail,40,-20,-1,-1
-2,Weakling,-1,-3,Snail,40,-20,-1,-1
-3,Weakling,-1,-3,Snail,40,-20,-1,-1
-4,Puny,0,-1,Slow,45,-10,-1,0
-5,Puny,0,-1,Slow,45,-10,-1,0
-6,Puny,0,-1,Slow,45,-10,-1,0
-7,Puny,0,-1,Slow,45,-10,-1,0
-8,Average Person,0,0,Average Person,50,0,0,0
-9,Average Person,0,0,Average Person,50,0,0,0
-10,Average Person,0,0,Average Person,50,0,0,0
-11,Average Person,0,0,Average Person,50,0,0,0
-12,Average Person,0,0,Average Person,50,0,0,0
-13,Average SB,0,1,Average SB,55,0,1,0
-14,Average SB,0,1,Average SB,55,0,1,0
-15,Average SB,0,1,Average SB,55,0,1,0
-16,Average SB,0,1,Average SB,55,0,1,0
-17,Strength of two men,1,1d4,Quick,60,0,1,0
-18,Strength of two men,1,1d4,Quick,60,0,1,0
-19,Strength of two men,1,1d4,Quick,60,0,1,0
-20,Strength of two men,1,1d4,Quick,60,0,1,0
-21,Strength of three men,3,1d8,Fast,70,5,2,1
-22,Strength of three men,3,1d8,Fast,70,5,2,1
-23,Strength of three men,3,1d8,Fast,70,5,2,1
-24,Strength of three men,3,1d8,Fast,70,5,2,1
-25,Strength of three men,3,1d8,Fast,70,5,2,1
-26,Strength of five men,5,1d10,Speedy,80,5,3,2
-27,Strength of five men,5,1d10,Speedy,80,5,3,2
-28,Strength of five men,5,1d10,Speedy,80,5,3,2
-29,Strength of five men,5,1d10,Speedy,80,5,3,2
-30,Strength of five men,5,1d10,Speedy,80,5,3,2
-31,Strength of five men,5,1d10,Speedy,80,5,3,2
-32,Strength of five men,5,1d10,Speedy,80,5,3,2
-33,Strength of five men,5,1d10,Speedy,80,5,3,2
-34,Strength of five men,5,1d10,Speedy,80,5,3,2
-35,Strength of five men,5,1d10,Speedy,80,5,3,2
-36,Strength of five men,5,1d10,Speedy,80,5,3,2
-37,Strength of five men,5,1d10,Speedy,80,5,3,2
-38,Strength of five men,5,1d10,Speedy,80,5,3,2
-39,Strength of five men,5,1d10,Speedy,80,5,3,2
-40,Strength of five men,5,1d10,Speedy,80,5,3,2
-41,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2
-42,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2
-43,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2
-44,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2
-45,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2
-46,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2
-47,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2
-48,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2
-49,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2
-50,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2
-51,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2
-52,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2
-53,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2
-54,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2
-55,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2
-56,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2
-57,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2
-58,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2
-59,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2
-60,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2
-61,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2
-62,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2
-63,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2
-64,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2
-65,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2
-66,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2
-67,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3
-68,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3
-69,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3
-70,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3
-71,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3
-72,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3
-73,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3
-74,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3
-75,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3
-76,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3
-77,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3
-78,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3
-79,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3
-80,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3
-81,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3
-82,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3
-83,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3
-84,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3
-85,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3
-86,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3
-87,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3
-88,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3
-89,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3
-90,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3
-91,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3
-92,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3
-93,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3
-94,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3
-95,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3
-96,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3
-97,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3
-98,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3
-99,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3
-100,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3
-101,Tough,1d12+12,3d10+4,Grease Lightning,180,15,5,3
+﻿Characteristic,Strength,Strength_HT,Strength_DD,Agility,Agility_Move,Agility_Accuracy,Agility_HT,Agility_DD,Charisma,Charisma_ReactionHero,Charisma_ReactionVillain
+0,Pathetic,-2,-7,Wet Week,20,-40,-2,-2,Super Freak,25,-40
+1,Weakling,-1,-3,Snail,40,-20,-1,-1,Creepy,15,-20
+2,Weakling,-1,-3,Snail,40,-20,-1,-1,Creepy,15,-20
+3,Weakling,-1,-3,Snail,40,-20,-1,-1,Ugly,10,-10
+4,Puny,0,-1,Slow,45,-10,-1,0,Ugly,10,-10
+5,Puny,0,-1,Slow,45,-10,-1,0,Ugly,10,-10
+6,Puny,0,-1,Slow,45,-10,-1,0,Plain,5,-5
+7,Puny,0,-1,Slow,45,-10,-1,0,Plain,5,-5
+8,Average Person,0,0,Average Person,50,0,0,0,Plain,5,-5
+9,Average Person,0,0,Average Person,50,0,0,0,Plain,5,-5
+10,Average Person,0,0,Average Person,50,0,0,0,Average Person,0,0
+11,Average Person,0,0,Average Person,50,0,0,0,Average Person,0,0
+12,Average Person,0,0,Average Person,50,0,0,0,Average Person,0,0
+13,Average SB,0,1,Average SB,55,0,1,0,Average SB,-5,5
+14,Average SB,0,1,Average SB,55,0,1,0,Average SB,-5,5
+15,Average SB,0,1,Average SB,55,0,1,0,Average SB,-5,5
+16,Average SB,0,1,Average SB,55,0,1,0,Cute,-10,10
+17,Strength of two men,1,1d4,Quick,60,0,1,0,Cute,-10,10
+18,Strength of two men,1,1d4,Quick,60,0,1,0,Cute,-10,10
+19,Strength of two men,1,1d4,Quick,60,0,1,0,Attractive,-15,20
+20,Strength of two men,1,1d4,Quick,60,0,1,0,Attractive,-15,20
+21,Strength of three men,3,1d8,Fast,70,5,2,1,Spunkie,-20,30
+22,Strength of three men,3,1d8,Fast,70,5,2,1,Spunkie,-20,30
+23,Strength of three men,3,1d8,Fast,70,5,2,1,Spunkie,-20,30
+24,Strength of three men,3,1d8,Fast,70,5,2,1,Spunkie,-20,30
+25,Strength of three men,3,1d8,Fast,70,5,2,1,Spunkie,-20,30
+26,Strength of five men,5,1d10,Speedy,80,5,3,2,Stunning,-25,40
+27,Strength of five men,5,1d10,Speedy,80,5,3,2,Stunning,-25,40
+28,Strength of five men,5,1d10,Speedy,80,5,3,2,Stunning,-25,40
+29,Strength of five men,5,1d10,Speedy,80,5,3,2,Stunning,-25,40
+30,Strength of five men,5,1d10,Speedy,80,5,3,2,Stunning,-25,40
+31,Strength of five men,5,1d10,Speedy,80,5,3,2,Fantastic,-35,50
+32,Strength of five men,5,1d10,Speedy,80,5,3,2,Fantastic,-35,50
+33,Strength of five men,5,1d10,Speedy,80,5,3,2,Fantastic,-35,50
+34,Strength of five men,5,1d10,Speedy,80,5,3,2,Fantastic,-35,50
+35,Strength of five men,5,1d10,Speedy,80,5,3,2,Fantastic,-35,50
+36,Strength of five men,5,1d10,Speedy,80,5,3,2,Fantastic,-35,50
+37,Strength of five men,5,1d10,Speedy,80,5,3,2,Fantastic,-35,50
+38,Strength of five men,5,1d10,Speedy,80,5,3,2,Fantastic,-35,50
+39,Strength of five men,5,1d10,Speedy,80,5,3,2,Fantastic,-35,50
+40,Strength of five men,5,1d10,Speedy,80,5,3,2,Fantastic,-35,50
+41,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50
+42,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50
+43,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50
+44,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50
+45,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50
+46,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50
+47,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50
+48,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50
+49,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50
+50,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50
+51,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50
+52,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50
+53,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50
+54,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50
+55,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50
+56,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50
+57,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50
+58,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50
+59,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50
+60,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50
+61,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50
+62,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50
+63,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50
+64,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50
+65,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50
+66,Strength of ten men,1d6+4,1d12+3,Rapid,100,10,4,2,Fantastic,-35,50
+67,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50
+68,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50
+69,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50
+70,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50
+71,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50
+72,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50
+73,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50
+74,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50
+75,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50
+76,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50
+77,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50
+78,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50
+79,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50
+80,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50
+81,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50
+82,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50
+83,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50
+84,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50
+85,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50
+86,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50
+87,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50
+88,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50
+89,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50
+90,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50
+91,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50
+92,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50
+93,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50
+94,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50
+95,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50
+96,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50
+97,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50
+98,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50
+99,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50
+100,Strength of twenty men,1d10+7,2d10+3,Swift,135,10,4,3,Fantastic,-35,50
+101,Tough,1d12+12,3d10+4,Grease Lightning,180,15,5,3,Fantastic,-35,50
