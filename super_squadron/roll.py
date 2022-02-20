@@ -61,4 +61,21 @@ def roll_main_statistics(Statistics):
                 print(key, Statistics[key])
         print("Total:", stats_total)
     return Statistics
-	
+
+def roll_ap(deviceap):
+    if 'x' in deviceap:
+        if '+' in deviceap:
+            roll_plus = deviceap.split('+')
+            plus = int(roll_plus[1])
+            roll_mult = roll_plus[0].split('x')
+            roll_list = roll_mult[0].split('d')
+            devap = roll_effects(roll_list[0],roll_list[1]) * int(roll_mult[1]) + plus
+            return devap
+        else:
+            roll_mult = deviceap.split('x')
+            roll_list = roll_mult[0].split('d')
+            devap = roll_effects(roll_list[0],roll_list[1]) * int(roll_mult[1])
+    else:
+        pass
+        #has or in it
+

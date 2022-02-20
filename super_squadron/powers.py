@@ -46,6 +46,8 @@ class Adaption(PowerBase):
 						 powers_dict[powername].devicerange, powers_dict[powername].choices)
 		self.strdetails = '1AP for light adaption, 5AP for heavy'
 		Character['Powers']['Detail']['Adaption']['StrDetails'] = self.strdetails
+		if ['Powers']['Detail'][powername]['Device'] in Character:
+			pass  #do device ap check
 
 powername = 'Air Generation'
 class AirGeneration(PowerBase):
@@ -55,16 +57,19 @@ class AirGeneration(PowerBase):
 						 powers_dict[powername].duration, powers_dict[powername].durationunit, powers_dict[powername].range,\
 						 powers_dict[powername].devicerange, powers_dict[powername].choices)
 		self.strdetails = 'Create high intensity wind blasts, sand or dust storms, or oxgen from water or carbon dioxide.'
-		Character['Powers']['Detail']['Air Generation']['StrDetails'] = self.strdetails
-		Character['Powers']['Detail']['Air Generation']['Blast'] = {}
-		Character['Powers']['Detail']['Air Generation']['Damage'] = {}
-		Character['Powers']['Detail']['Air Generation']['Storm'] = {}
-		Character['Powers']['Detail']['Air Generation']['Oxygen'] = {}
-		Character['Powers']['Detail']['Air Generation']['Blast']['APCost'] = self.apcost
-		Character['Powers']['Detail']['Air Generation']['Blast']['MaxAP'] = self.maxap
-		Character['Powers']['Detail']['Air Generation']['Damage']['AP'] = self.damageap
-		Character['Powers']['Detail']['Air Generation']['Blast']['Range'] = (Character['Statistics']['Stamina']+Character['Statistics']['Agility'])*2
-		Character['Powers']['Detail']['Air Generation']['Storm']['AreaEffect'] = normal_round(Character['Statistics']['Stamina']/5)
-		Character['Powers']['Detail']['Air Generation']['Storm']['Penalty'] = 20
-		Character['Powers']['Detail']['Air Generation']['Oxygen']['APCost'] = "1"
-		Character['Powers']['Detail']['Air Generation']['Oxygen']['Volume'] = "1"
+		Character['Powers']['Detail'][powername]['StrDetails'] = self.strdetails
+		Character['Powers']['Detail'][powername]['Blast'] = {}
+		Character['Powers']['Detail'][powername]['Damage'] = {}
+		Character['Powers']['Detail'][powername]['Storm'] = {}
+		Character['Powers']['Detail'][powername]['Oxygen'] = {}
+		Character['Powers']['Detail'][powername]['Blast']['APCost'] = self.apcost
+		Character['Powers']['Detail'][powername]['Blast']['MaxAP'] = self.maxap
+		Character['Powers']['Detail'][powername]['Damage']['AP'] = self.damageap
+		Character['Powers']['Detail'][powername]['Blast']['Range'] = (Character['Statistics']['Stamina']+Character['Statistics']['Agility'])*2
+		Character['Powers']['Detail'][powername]['Storm']['AreaEffect'] = normal_round(Character['Statistics']['Stamina']/5)
+		Character['Powers']['Detail'][powername]['Storm']['Penalty'] = 20
+		Character['Powers']['Detail'][powername]['Oxygen']['APCost'] = "1"
+		Character['Powers']['Detail'][powername]['Oxygen']['Volume'] = "1"
+		if ['Powers']['Detail'][powername]['Device'] in Character:
+			pass  #do device ap check
+			['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
