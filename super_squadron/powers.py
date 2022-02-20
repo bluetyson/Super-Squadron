@@ -31,7 +31,6 @@ def printtest():
 	print("Super Squadron")
 
 df = pd.read_csv('data/power_details.csv')
-#print(df.head())
 powers_dict = {}
 
 for index, row in df.iterrows():
