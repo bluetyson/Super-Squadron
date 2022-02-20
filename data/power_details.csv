@@ -16,7 +16,7 @@
 14,Ego Change,NA,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
 15,Elasticity,1per10,No Limit,Personal,NA,NA,Until reversed,NA,NA,NA,No
 16,Emotion Control,5,No Limit,Character,3d10,NA,1d4*Ego*-1+25,turns,Intelligencex2,2d10x3,No
-17,Energy Absorption,NA,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
+17,Energy Absorption,NA,NA,Personal,NA,NA,Permanent,NA,NA,NA,Yes
 18,Enhanced Agility,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
 19,Enhanced Charisma,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
 20,Enhanced Intelligence,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
@@ -26,7 +26,7 @@
 24,Fast Recovery,0,6,Personal,NA,NA,Permanent,NA,NA,NA,No
 25,Flame Generation,1,4,Character/object,1d8x5,1d4,Permanent,NA,Unlimited,Unlimited,No
 26,Flight,0,20,Personal,20,NA,Permanent,NA,Unlimited,Unlimited,No
-27,Force Beam,1,4,Character/object,2d4x4,1d4,Instantaneous,NA,Strengthx10+Agilityx10,2d10x20,No
+27,Force Beam,1,4,Character/object,2d4x4,1d4,Instantaneous,NA,Strengthx10+Agilityx10,2d10x20,Yes
 28,Force Field,2,No Limit,Character,2d10x10,1d6,3,round+,Strength+Stamina,NA,No
 29,Gimmick,0,NA,Variable,NA,NA,Variable,NA,Variable,Variable,Yes
 30,Gravity Control,8,No Limit,Stamina square metres or 1d10 square metres,1d8x8,NA,3,round+,Strength+Stamina,1d10x4,No
@@ -38,18 +38,18 @@
 36,Ice Generation,1,4,Character/object,1d8x5,1d4,Instantaneous,NA,Strength+Agility,3d10+20,No
 37,Immateriality,5,5,Character,NA,NA,Until reversed,NA,Touch,NA,No
 38,Immortality,NA,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
-39,Inherent Power,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
-40,Invisibility,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
-41,Invulnerability,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
-42,Light Control,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
-43,Lightning/Electrical Control,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
-44,Magic Device,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
-45,Magic Spells,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
-46,Magnetic Manipulation,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
-47,Metamorphosis,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
-48,Mimic,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
-49,Mind Control,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
-50,Mind Power,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
+39,Inherent Power,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,Yes
+40,Invisibility,10,No Limit,Personal,1d6x5,NA,1,hour,NA,NA,No
+41,Invulnerability,1,No Limit,Personal,1d8x4,NA,1,round+,NA,NA,No
+42,Light Control,3,3,Character,1d8x6,1d4,Instantaneous,NA,Intelligencex2,3d10,Yes
+43,Lightning/Electrical Control,3,6,Character/object,1d8x6,1d8,Instantaneous,NA,Agilityx2,4d10,No
+44,Magic Device,Variable,NA,Variable,1d10x10+15,Variable,Variable,NA,Variable,NA,Yes
+45,Magic Spells,Variable,Variable,Variable,NA,Variable,Variable,NA,Variable,NA,Yes
+46,Magnetic Manipulation,1,No Limit,Object,1d10x4,Variable,1,round,Variable,Variable,No
+47,Metamorphosis,5,5,2 cubic metres,1d8x5,Varoab;e,1d6,round,Strength+Agility,4d10,Yes
+48,Mimic,8,No Limit,Personal,NA,Variable,3,round,Touch,NA,Yes
+49,Mind Control,15,15,Characters,NA,NA,Strength/-2+Ego/-2+Intelligence/-2+24,hour,2000,NA,No
+50,Mind Power,10,10,Personal,NA,NA,Instantaneous,NA,NA,NA,Yes
 51,Multiplex,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
 52,Mutation,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
 53,Non-Requirement of Air,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
