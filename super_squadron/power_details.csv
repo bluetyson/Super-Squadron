@@ -1,78 +1,79 @@
 ,Power,APCost,MaxAP,AreaEffect,DeviceAP,DamageAP,Duration,DurationUnit,Range,DeviceRange
-0,Adaption,0,0,NA,0,0,0,NA,NA,NA
-1,Air Generation,0,0,NA,0,0,0,NA,NA,NA
-2,Animal Affinity,0,0,NA,0,0,0,NA,NA,NA
-3,Armour,0,0,NA,0,0,0,NA,NA,NA
-4,Astral Projection,0,0,NA,0,0,0,NA,NA,NA
-5,Body Augmentation,0,0,NA,0,0,0,NA,NA,NA
-6,Cybernetics,0,0,NA,0,0,0,NA,NA,NA
-7,Darkness Generation,0,0,NA,0,0,0,NA,NA,NA
-8,Death Touch,0,0,NA,0,0,0,NA,NA,NA
-9,Defect,0,0,NA,0,0,0,NA,NA,NA
-10,Density Control,0,0,NA,0,0,0,NA,NA,NA
-11,Dimensional Gate,0,0,NA,0,0,0,NA,NA,NA
-12,Disintegration Beam,0,0,NA,0,0,0,NA,NA,NA
-13,Ego Change,0,0,NA,0,0,0,NA,NA,NA
-14,Elasticity,0,0,NA,0,0,0,NA,NA,NA
-15,Emotion Control,0,0,NA,0,0,0,NA,NA,NA
-16,Energy Absorption,0,0,NA,0,0,0,NA,NA,NA
-17,Enhanced Agility,0,0,NA,0,0,0,NA,NA,NA
-18,Enhanced Charisma,0,0,NA,0,0,0,NA,NA,NA
-19,Enhanced Intelligence,0,0,NA,0,0,0,NA,NA,NA
-20,Enhanced Stamina,0,0,NA,0,0,0,NA,NA,NA
-21,Enhanced Strength,0,0,NA,0,0,0,NA,NA,NA
-22,Environment Control,0,0,NA,0,0,0,NA,NA,NA
-23,Fast Recovery,0,0,NA,0,0,0,NA,NA,NA
-24,Flame Generation,0,0,NA,0,0,0,NA,NA,NA
-25,Flight,0,0,NA,0,0,0,NA,NA,NA
-26,Force Beam,0,0,NA,0,0,0,NA,NA,NA
-27,Force Field,0,0,NA,0,0,0,NA,NA,NA
-28,Gimmick,0,0,NA,0,0,0,NA,NA,NA
-29,Gravity Control,0,0,NA,0,0,0,NA,NA,NA
-30,Heightened Attack,0,0,NA,0,0,0,NA,NA,NA
-31,Heightened Defense,0,0,NA,0,0,0,NA,NA,NA
-32,Heightened Expertise,0,0,NA,0,0,0,NA,NA,NA
-33,Heightened Senses,0,0,NA,0,0,0,NA,NA,NA
-34,Heightened Speed,0,0,NA,0,0,0,NA,NA,NA
-35,Ice Generation,0,0,NA,0,0,0,NA,NA,NA
-36,Ice Gneration,0,0,NA,0,0,0,NA,NA,NA
-37,Immateriality,0,0,NA,0,0,0,NA,NA,NA
-38,Immortality,0,0,NA,0,0,0,NA,NA,NA
-39,Inherent Power,0,0,NA,0,0,0,NA,NA,NA
-40,Invisibility,0,0,NA,0,0,0,NA,NA,NA
-41,Invulnerability,0,0,NA,0,0,0,NA,NA,NA
-42,Light Control,0,0,NA,0,0,0,NA,NA,NA
-43,Lightning/Electrical Control,0,0,NA,0,0,0,NA,NA,NA
-44,Magic Device,0,0,NA,0,0,0,NA,NA,NA
-45,Magic Spells,0,0,NA,0,0,0,NA,NA,NA
-46,Magnetic Manipulation,0,0,NA,0,0,0,NA,NA,NA
-47,Metamorphosis,0,0,NA,0,0,0,NA,NA,NA
-48,Mimic,0,0,NA,0,0,0,NA,NA,NA
-49,Mind Control,0,0,NA,0,0,0,NA,NA,NA
-50,Mind Power,0,0,NA,0,0,0,NA,NA,NA
-51,Multiplex,0,0,NA,0,0,0,NA,NA,NA
-52,Mutation,0,0,NA,0,0,0,NA,NA,NA
-53,Non-Requirement of Air,0,0,NA,0,0,0,NA,NA,NA
-54,Organic Powers,0,0,NA,0,0,0,NA,NA,NA
-55,Out of Phase Detection,0,0,NA,0,0,0,NA,NA,NA
-56,Paralysis Ray,0,0,NA,0,0,0,NA,NA,NA
-57,Pet or Companion,0,0,NA,0,0,0,NA,NA,NA
-58,Phantasmal Forces,0,0,NA,0,0,0,NA,NA,NA
-59,Regeneration,0,0,NA,0,0,0,NA,NA,NA
-60,Revivication,0,0,NA,0,0,0,NA,NA,NA
-61,Robotic Body,0,0,NA,0,0,0,NA,NA,NA
-62,Roll again twice,0,0,NA,0,0,0,NA,NA,NA
-63,Self Discipline,0,0,NA,0,0,0,NA,NA,NA
-64,Shape Shift,0,0,NA,0,0,0,NA,NA,NA
-65,Size Change,0,0,NA,0,0,0,NA,NA,NA
-66,Sonic Abilities,0,0,NA,0,0,0,NA,NA,NA
-67,Special Vehicle,0,0,NA,0,0,0,NA,NA,NA
-68,Special Vehjcle,0,0,NA,0,0,0,NA,NA,NA
-69,Special Weapon,0,0,NA,0,0,0,NA,NA,NA
-70,Teleportation,0,0,NA,0,0,0,NA,NA,NA
-71,Temperature Control,0,0,NA,0,0,0,NA,NA,NA
-72,Terra Generation,0,0,NA,0,0,0,NA,NA,NA
-73,Time Travel,0,0,NA,0,0,0,NA,NA,NA
-74,Water Breathing,0,0,NA,0,0,0,NA,NA,NA
-75,Weakness Detection,0,0,NA,0,0,0,NA,NA,NA
-76,Weather Control,0,0,NA,0,0,0,NA,NA,NA
+0,Adaption,Variable,5,Personal,1d10x4,NA,1,round+,NA,NA
+1,Air Generation,1,3,Character/object,1d8x5,1d4,Instantaneous,NA,Strength*2+Agility*2,6d10+20
+2,Animal Affinity,10,10,Range cubic metres,20or10,NA,2d12,hours,Intelligence*3,1d10x6
+3,Armour,NA,NA,Personal,NA,NA,Permanent,NA,NA,NA
+4,Astral Projection,15,15,Personal,NA,NA,Stamina+10,hours,NA,NA
+5,Body Augmentation,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+6,Cybernetics,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+7,Darkness Generation,8,No Limit,Range cubic metres,1d6x3,NA,3,round,Intelligence,1d10
+8,Death Touch,10or20,20,Character,1d3x10,Description,Instantaneous,NA,HTH,HTH
+9,Defect,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+10,Density Control,5,5,Personal,1d4x10,Description,1,round+,NA,NA
+11,Dimensional Gate,20,No Limit,2 square metres,1d4x15+10,NA,1,round+,5,5
+,Disguise,All,All,Personal,NA,NA,Until host found,NA,NA,NA
+12,Disintegration Beam,1,4,Character/object,1d8x5,1d6,Instantaneous,NA,Strength*15,1d20*20
+13,Ego Change,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+14,Elasticity,1per10,No Limit,Personal,NA,NA,Until reversed,NA,NA,NA
+15,Emotion Control,5,No Limit,Character,3d10,NA,1d4*Ego*-1+25,turns,Intelligencex2,2d10x3
+16,Energy Absorption,NA,NA,Personal,NA,NA,Permanent,NA,NA,NA
+17,Enhanced Agility,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+18,Enhanced Charisma,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+19,Enhanced Intelligence,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+20,Enhanced Stamina,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+21,Enhanced Strength,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+22,Environment Control,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+23,Fast Recovery,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+24,Flame Generation,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+25,Flight,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+26,Force Beam,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+27,Force Field,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+28,Gimmick,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+29,Gravity Control,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+30,Heightened Attack,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+31,Heightened Defense,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+32,Heightened Expertise,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+33,Heightened Senses,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+34,Heightened Speed,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+35,Ice Generation,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+36,Ice Gneration,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+37,Immateriality,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+38,Immortality,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+39,Inherent Power,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+40,Invisibility,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+41,Invulnerability,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+42,Light Control,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+43,Lightning/Electrical Control,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+44,Magic Device,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+45,Magic Spells,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+46,Magnetic Manipulation,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+47,Metamorphosis,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+48,Mimic,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+49,Mind Control,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+50,Mind Power,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+51,Multiplex,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+52,Mutation,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+53,Non-Requirement of Air,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+54,Organic Powers,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+55,Out of Phase Detection,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+56,Paralysis Ray,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+57,Pet or Companion,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+58,Phantasmal Forces,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+59,Regeneration,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+60,Revivication,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+61,Robotic Body,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+62,Roll again twice,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+63,Self Discipline,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+64,Shape Shift,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+65,Size Change,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+66,Sonic Abilities,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+67,Special Vehicle,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+68,Special Vehjcle,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+69,Special Weapon,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+70,Teleportation,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+71,Temperature Control,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+72,Terra Generation,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+73,Time Travel,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+74,Water Breathing,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+75,Weakness Detection,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
+76,Weather Control,0,NA,Personal,NA,NA,Permanent,NA,NA,NA
