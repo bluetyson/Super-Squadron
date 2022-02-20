@@ -69,10 +69,10 @@
 67,Special Vehicle,Variable,Variable,Variable,Variable,Variable,Variable,Variable,Variable,Variable,Yes
 68,Special Weapon,Variable,Variable,Character,NA,Variable,Instantaneous,NA,Variable,Variable,No
 69,Subduction,0,0,Character,NA,NA,Permanent,NA,HTH,NA,No
-70,Teleportation,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
-71,Temperature Control,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
-72,Terra Generation,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
-73,Time Travel,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
-74,Water Breathing,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
-75,Weakness Detection,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
-76,Weather Control,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
+70,Teleportation,10 per 90kg,No Limit,Characters,1d10x10+10,NA,Instantaneous,NA,1E+13,1E+13,No
+71,Temperature Control,2 per 10 degrees,No Limit,Personal,1d8x4,NA,1,turn+,HTH,HTH,Yes
+72,Terra Generation,2,6,Character/object,1d8x6,1d6,Instantaneous,NA,Strength/2+Agility/2,2d10+10,No
+73,Time Travel,20 per 90kg,No Limit,Characters,1d6x10+10,NA,Instantaneous,NA,5000000000,5000000000,No
+74,Water Breathing,0,0,Personal,NA,NA,Permanent or 48 hours,NA,NA,NA,No
+75,Weakness Detection,1,No Limit,Personal,1d10x3,NA,Permanent,NA,Intelligence,2d10,No
+76,Weather Control,Variable,No Limit,Stamina square metres or 1d20 square metres,2d6x5,Variable,1,round,Stamina,1d12x5,No
