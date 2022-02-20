@@ -23,13 +23,20 @@ if __name__ == '__main__':
         Character = json.load(f)
 
 
+    dict2 = {}
 
     print(Character)
-    Character['Powers']['Number'] == 4
+    Character['Powers']['Number'] = 4
     Character['Powers']['List'].append('Adaption')
     Character['Powers']['Detail']['Adaption'] = {}
+    dict2['Adaption'] = powers.Adaption
+    ad = dict2['Adaption'](Character)
 
-    ad = powers.Adaption(Character)
+    Character['Powers']['Number'] = 5
+    Character['Powers']['List'].append('Air Generation')
+    Character['Powers']['Detail']['Air Generation'] = {}
+    dict2['Air Generation'] = powers.AirGeneration
+    ad = dict2['Air Generation'](Character)
 
     print(Character)
 
