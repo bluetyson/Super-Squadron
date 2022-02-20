@@ -1,78 +1,78 @@
-,Power,APCost,MaxAP,AreaEffect,DeviceAP,DamageAP,Duration,DurationUnit,Range,DeviceRange,Choices
-0,Adaption,Variable,5,Personal,1d10x4,NA,1,round+,NA,NA,No
-1,Air Generation,1,3,Character/object,1d8x5,1d4,Instantaneous,NA,Strengthx2+Agilityx2,6d10+20,No
-2,Animal Affinity,10,10,Range cubic metres,20or10,NA,2d12,hours,Intelligencex3,1d10x6,Yes
-3,Armour,NA,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
-4,Astral Projection,15,15,Personal,NA,NA,Stamina+10,hours,NA,NA,No
-5,Body Augmentation,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,Yes
-6,Cybernetics,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,Yes
-7,Darkness Generation,8,No Limit,Range cubic metres,1d6x3,NA,3,round,Intelligence,1d10,No
-8,Death Touch,10or20,20,Character,1d3x10,Description,Instantaneous,NA,HTH,HTH,No
-9,Defect,NA,NA,Personal,NA,NA,Permanent,NA,NA,NA,Yes
-10,Density Control,5,5,Personal,1d4x10,Description,1,round+,NA,NA,No
-11,Dimensional Gate,20,No Limit,2 square metres,1d4x15+10,NA,1,round+,5,5,No
-12,Disguise,All,All,Personal,NA,NA,Until host found,NA,NA,NA,No
-13,Disintegration Beam,1,4,Character/object,1d8x5,1d6,Instantaneous,NA,Strengthx15,1d20*20,No
-14,Ego Change,NA,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
-15,Elasticity,1per10,No Limit,Personal,NA,NA,Until reversed,NA,NA,NA,No
-16,Emotion Control,5,No Limit,Character,3d10,NA,1d4*Ego*-1+25,turns,Intelligencex2,2d10x3,No
-17,Energy Absorption,NA,NA,Personal,NA,NA,Permanent,NA,NA,NA,Yes
-18,Enhanced Agility,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
-19,Enhanced Charisma,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
-20,Enhanced Intelligence,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
-21,Enhanced Stamina,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
-22,Enhanced Strength,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
-23,Environment Control,10,No Limit,Stamina square metres or 1d10 square metres,1d4x10+4,NA,1,turn+,Strength+Stamina,1d4x15,No
-24,Fast Recovery,0,6,Personal,NA,NA,Permanent,NA,NA,NA,No
-25,Flame Generation,1,4,Character/object,1d8x5,1d4,Permanent,NA,Unlimited,Unlimited,No
-26,Flight,0,20,Personal,20,NA,Permanent,NA,Unlimited,Unlimited,No
-27,Force Beam,1,4,Character/object,2d4x4,1d4,Instantaneous,NA,Strengthx10+Agilityx10,2d10x20,Yes
-28,Force Field,2,No Limit,Character,2d10x10,1d6,3,round+,Strength+Stamina,NA,No
-29,Gimmick,0,NA,Variable,NA,NA,Variable,NA,Variable,Variable,Yes
-30,Gravity Control,8,No Limit,Stamina square metres or 1d10 square metres,1d8x8,NA,3,round+,Strength+Stamina,1d10x4,No
-31,Heightened Attack,NA,NA,Character,NA,NA,Permanent,NA,NA,NA,No
-32,Heightened Defense,NA,NA,Character,NA,NA,Permanent,NA,NA,NA,No
-33,Heightened Expertise,NA,NA,Character,NA,NA,Permanent,NA,NA,NA,No
-34,Heightened Senses,1to3,6,Personal,NA,NA,1,round,Stamina+2,NA,Yes
-35,Heightened Speed,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
-36,Ice Generation,1,4,Character/object,1d8x5,1d4,Instantaneous,NA,Strength+Agility,3d10+20,No
-37,Immateriality,5,5,Character,NA,NA,Until reversed,NA,Touch,NA,No
-38,Immortality,NA,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
-39,Inherent Power,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,Yes
-40,Invisibility,10,No Limit,Personal,1d6x5,NA,1,hour,NA,NA,No
-41,Invulnerability,1,No Limit,Personal,1d8x4,NA,1,round+,NA,NA,No
-42,Light Control,3,3,Character,1d8x6,1d4,Instantaneous,NA,Intelligencex2,3d10,Yes
-43,Lightning/Electrical Control,3,6,Character/object,1d8x6,1d8,Instantaneous,NA,Agilityx2,4d10,No
-44,Magic Device,Variable,NA,Variable,1d10x10+15,Variable,Variable,NA,Variable,NA,Yes
-45,Magic Spells,Variable,Variable,Variable,NA,Variable,Variable,NA,Variable,NA,Yes
-46,Magnetic Manipulation,1,No Limit,Object,1d10x4,Variable,1,round,Variable,Variable,No
-47,Metamorphosis,5,5,2 cubic metres,1d8x5,Varoab;e,1d6,round,Strength+Agility,4d10,Yes
-48,Mimic,8,No Limit,Personal,NA,Variable,3,round,HTH,NA,Yes
-49,Mind Control,15,15,Characters,NA,NA,Strength/-2+Ego/-2+Intelligence/-2+24,hour,2000,NA,No
-50,Mind Power,10,10,Personal,NA,NA,Instantaneous,NA,NA,NA,Yes
-51,Multiplex,15,15,Personal,NA,NA,Until reversed,NA,NA,NA,No
-52,Mutation,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,Yes
-53,Non-Requirement of Air,0,0,Personal,NA,NA,Permanet or 48 hours,NA,NA,NA,No
-54,Organic Powers,Variable,Variable,Variable,Varialbe,Variable,Variable,NA,Variable,Variable,Yes
-55,Out of Phase Detection,0,NA,Personal,NA,NA,Permanent,NA,Intelligencex3,NA,No
-56,Paralysis Ray,5,No Limit,Character,1d6x5,NA,1d4x-1+Stamina*-1+Luck*-1+24,turns,Agilityx3,NA,No
-57,Pet or Companion,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,Yes
-58,Phantasmal Forces,5,Variable,Sigh,1d8x5,Variable,3,round+,Sight,Sight,No
-59,Regeneration,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
-60,Revivication,45 or All,45 or All,Character,45,NA,Permanent,NA,HTH,NA,No
-61,Robotic Body,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,Yes
-62,Self Discipline,1,No Limit,Personal,NA,NA,1,round,NA,NA,No
-63,Shape Shift,2,No Limit,Personal,1d12x2,NA,1,turn,NA,NA,Yes
-64,Size Change,1 per metre,No Limit,Personal,2d10x3,NA,Until reversed,NA,NA,NA,Yes
-65,Sonic Abilities,4,4,Character/object,1d10x4,2d6,Instantaneous,NA,Strength+Stamina,1d10x4,No
-66,Special,Variable,Variable,Variable,NA,NA,Variable,NA,Variable,NA,Yes
-67,Special Vehicle,Variable,Variable,Variable,Variable,Variable,Variable,Variable,Variable,Variable,Yes
-68,Special Weapon,Variable,Variable,Character,NA,Variable,Instantaneous,NA,Variable,Variable,No
-69,Subduction,0,0,Character,NA,NA,Permanent,NA,HTH,NA,No
-70,Teleportation,10 per 90kg,No Limit,Characters,1d10x10+10,NA,Instantaneous,NA,1E+13,1E+13,No
-71,Temperature Control,2 per 10 degrees,No Limit,Personal,1d8x4,NA,1,turn+,HTH,HTH,Yes
-72,Terra Generation,2,6,Character/object,1d8x6,1d6,Instantaneous,NA,Strength/2+Agility/2,2d10+10,No
-73,Time Travel,20 per 90kg,No Limit,Characters,1d6x10+10,NA,Instantaneous,NA,5000000000,5000000000,No
-74,Water Breathing,0,0,Personal,NA,NA,Permanent or 48 hours,NA,NA,NA,No
-75,Weakness Detection,1,No Limit,Personal,1d10x3,NA,Permanent,NA,Intelligence,2d10,No
-76,Weather Control,Variable,No Limit,Stamina square metres or 1d20 square metres,2d6x5,Variable,1,round,Stamina,1d12x5,No
+Power,APCost,MaxAP,AreaEffect,DeviceAP,DamageAP,Duration,DurationUnit,Range,DeviceRange,Choices
+Adaption,Variable,5,Personal,1d10x4,NA,1,round+,NA,NA,No
+Air Generation,1,3,Character/object,1d8x5,1d4,Instantaneous,NA,Strengthx2+Agilityx2,6d10+20,No
+Animal Affinity,10,10,Range cubic metres,20or10,NA,2d12,hours,Intelligencex3,1d10x6,Yes
+Armour,NA,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
+Astral Projection,15,15,Personal,NA,NA,Stamina+10,hours,NA,NA,No
+Body Augmentation,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,Yes
+Cybernetics,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,Yes
+Darkness Generation,8,No Limit,Range cubic metres,1d6x3,NA,3,round,Intelligence,1d10,No
+Death Touch,10or20,20,Character,1d3x10,Description,Instantaneous,NA,HTH,HTH,No
+Defect,NA,NA,Personal,NA,NA,Permanent,NA,NA,NA,Yes
+Density Control,5,5,Personal,1d4x10,Description,1,round+,NA,NA,No
+Dimensional Gate,20,No Limit,2 square metres,1d4x15+10,NA,1,round+,5,5,No
+Disguise,All,All,Personal,NA,NA,Until host found,NA,NA,NA,No
+Disintegration Beam,1,4,Character/object,1d8x5,1d6,Instantaneous,NA,Strengthx15,1d20*20,No
+Ego Change,NA,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
+Elasticity,1per10,No Limit,Personal,NA,NA,Until reversed,NA,NA,NA,No
+Emotion Control,5,No Limit,Character,3d10,NA,1d4*Ego*-1+25,turns,Intelligencex2,2d10x3,No
+Energy Absorption,NA,NA,Personal,NA,NA,Permanent,NA,NA,NA,Yes
+Enhanced Agility,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
+Enhanced Charisma,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
+Enhanced Intelligence,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
+Enhanced Stamina,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
+Enhanced Strength,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
+Environment Control,10,No Limit,Stamina square metres or 1d10 square metres,1d4x10+4,NA,1,turn+,Strength+Stamina,1d4x15,No
+Fast Recovery,0,6,Personal,NA,NA,Permanent,NA,NA,NA,No
+Flame Generation,1,4,Character/object,1d8x5,1d4,Permanent,NA,Unlimited,Unlimited,No
+Flight,0,20,Personal,20,NA,Permanent,NA,Unlimited,Unlimited,No
+Force Beam,1,4,Character/object,2d4x4,1d4,Instantaneous,NA,Strengthx10+Agilityx10,2d10x20,Yes
+Force Field,2,No Limit,Character,2d10x10,1d6,3,round+,Strength+Stamina,NA,No
+Gimmick,0,NA,Variable,NA,NA,Variable,NA,Variable,Variable,Yes
+Gravity Control,8,No Limit,Stamina square metres or 1d10 square metres,1d8x8,NA,3,round+,Strength+Stamina,1d10x4,No
+Heightened Attack,NA,NA,Character,NA,NA,Permanent,NA,NA,NA,No
+Heightened Defense,NA,NA,Character,NA,NA,Permanent,NA,NA,NA,No
+Heightened Expertise,NA,NA,Character,NA,NA,Permanent,NA,NA,NA,No
+Heightened Senses,1to3,6,Personal,NA,NA,1,round,Stamina+2,NA,Yes
+Heightened Speed,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
+Ice Generation,1,4,Character/object,1d8x5,1d4,Instantaneous,NA,Strength+Agility,3d10+20,No
+Immateriality,5,5,Character,NA,NA,Until reversed,NA,Touch,NA,No
+Immortality,NA,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
+Inherent Power,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,Yes
+Invisibility,10,No Limit,Personal,1d6x5,NA,1,hour,NA,NA,No
+Invulnerability,1,No Limit,Personal,1d8x4,NA,1,round+,NA,NA,No
+Light Control,3,3,Character,1d8x6,1d4,Instantaneous,NA,Intelligencex2,3d10,Yes
+Lightning/Electrical Control,3,6,Character/object,1d8x6,1d8,Instantaneous,NA,Agilityx2,4d10,No
+Magic Device,Variable,NA,Variable,1d10x10+15,Variable,Variable,NA,Variable,NA,Yes
+Magic Spells,Variable,Variable,Variable,NA,Variable,Variable,NA,Variable,NA,Yes
+Magnetic Manipulation,1,No Limit,Object,1d10x4,Variable,1,round,Variable,Variable,No
+Metamorphosis,5,5,2 cubic metres,1d8x5,Varoab;e,1d6,round,Strength+Agility,4d10,Yes
+Mimic,8,No Limit,Personal,NA,Variable,3,round,HTH,NA,Yes
+Mind Control,15,15,Characters,NA,NA,Strength/-2+Ego/-2+Intelligence/-2+24,hour,2000,NA,No
+Mind Power,10,10,Personal,NA,NA,Instantaneous,NA,NA,NA,Yes
+Multiplex,15,15,Personal,NA,NA,Until reversed,NA,NA,NA,No
+Mutation,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,Yes
+Non-Requirement of Air,0,0,Personal,NA,NA,Permanet or 48 hours,NA,NA,NA,No
+Organic Powers,Variable,Variable,Variable,Varialbe,Variable,Variable,NA,Variable,Variable,Yes
+Out of Phase Detection,0,NA,Personal,NA,NA,Permanent,NA,Intelligencex3,NA,No
+Paralysis Ray,5,No Limit,Character,1d6x5,NA,1d4x-1+Stamina*-1+Luck*-1+24,turns,Agilityx3,NA,No
+Pet or Companion,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,Yes
+Phantasmal Forces,5,Variable,Sigh,1d8x5,Variable,3,round+,Sight,Sight,No
+Regeneration,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
+Revivication,45 or All,45 or All,Character,45,NA,Permanent,NA,HTH,NA,No
+Robotic Body,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,Yes
+Self Discipline,1,No Limit,Personal,NA,NA,1,round,NA,NA,No
+Shape Shift,2,No Limit,Personal,1d12x2,NA,1,turn,NA,NA,Yes
+Size Change,1 per metre,No Limit,Personal,2d10x3,NA,Until reversed,NA,NA,NA,Yes
+Sonic Abilities,4,4,Character/object,1d10x4,2d6,Instantaneous,NA,Strength+Stamina,1d10x4,No
+Special,Variable,Variable,Variable,NA,NA,Variable,NA,Variable,NA,Yes
+Special Vehicle,Variable,Variable,Variable,Variable,Variable,Variable,Variable,Variable,Variable,Yes
+Special Weapon,Variable,Variable,Character,NA,Variable,Instantaneous,NA,Variable,Variable,No
+Subduction,0,0,Character,NA,NA,Permanent,NA,HTH,NA,No
+Teleportation,10 per 90kg,No Limit,Characters,1d10x10+10,NA,Instantaneous,NA,1E+13,1E+13,No
+Temperature Control,2 per 10 degrees,No Limit,Personal,1d8x4,NA,1,turn+,HTH,HTH,Yes
+Terra Generation,2,6,Character/object,1d8x6,1d6,Instantaneous,NA,Strength/2+Agility/2,2d10+10,No
+Time Travel,20 per 90kg,No Limit,Characters,1d6x10+10,NA,Instantaneous,NA,5000000000,5000000000,No
+Water Breathing,0,0,Personal,NA,NA,Permanent or 48 hours,NA,NA,NA,No
+Weakness Detection,1,No Limit,Personal,1d10x3,NA,Permanent,NA,Intelligence,2d10,No
+Weather Control,Variable,No Limit,Stamina square metres or 1d20 square metres,2d6x5,Variable,1,round,Stamina,1d12x5,No
