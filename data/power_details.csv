@@ -47,31 +47,32 @@
 45,Magic Spells,Variable,Variable,Variable,NA,Variable,Variable,NA,Variable,NA,Yes
 46,Magnetic Manipulation,1,No Limit,Object,1d10x4,Variable,1,round,Variable,Variable,No
 47,Metamorphosis,5,5,2 cubic metres,1d8x5,Varoab;e,1d6,round,Strength+Agility,4d10,Yes
-48,Mimic,8,No Limit,Personal,NA,Variable,3,round,Touch,NA,Yes
+48,Mimic,8,No Limit,Personal,NA,Variable,3,round,HTH,NA,Yes
 49,Mind Control,15,15,Characters,NA,NA,Strength/-2+Ego/-2+Intelligence/-2+24,hour,2000,NA,No
 50,Mind Power,10,10,Personal,NA,NA,Instantaneous,NA,NA,NA,Yes
-51,Multiplex,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
-52,Mutation,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
-53,Non-Requirement of Air,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
-54,Organic Powers,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
-55,Out of Phase Detection,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
-56,Paralysis Ray,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
-57,Pet or Companion,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
-58,Phantasmal Forces,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
+51,Multiplex,15,15,Personal,NA,NA,Until reversed,NA,NA,NA,No
+52,Mutation,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,Yes
+53,Non-Requirement of Air,0,0,Personal,NA,NA,Permanet or 48 hours,NA,NA,NA,No
+54,Organic Powers,Variable,Variable,Variable,Varialbe,Variable,Variable,NA,Variable,Variable,Yes
+55,Out of Phase Detection,0,NA,Personal,NA,NA,Permanent,NA,Intelligencex3,NA,No
+56,Paralysis Ray,5,No Limit,Character,1d6x5,NA,1d4x-1+Stamina*-1+Luck*-1+24,turns,Agilityx3,NA,No
+57,Pet or Companion,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,Yes
+58,Phantasmal Forces,5,Variable,Sigh,1d8x5,Variable,3,round+,Sight,Sight,No
 59,Regeneration,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
-60,Revivication,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
-61,Robotic Body,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
-62,Self Discipline,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
-63,Shape Shift,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
-64,Size Change,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
-65,Sonic Abilities,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
-66,Special Vehicle,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
-67,Special Weapon,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
-68,Subduction,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
-69,Teleportation,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
-70,Temperature Control,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
-71,Terra Generation,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
-72,Time Travel,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
-73,Water Breathing,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
-74,Weakness Detection,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
-75,Weather Control,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
+60,Revivication,45 or All,45 or All,Character,45,NA,Permanent,NA,HTH,NA,No
+61,Robotic Body,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,Yes
+62,Self Discipline,1,No Limit,Personal,NA,NA,1,round,NA,NA,No
+63,Shape Shift,2,No Limit,Personal,1d12x2,NA,1,turn,NA,NA,Yes
+64,Size Change,1 per metre,No Limit,Personal,2d10x3,NA,Until reversed,NA,NA,NA,Yes
+65,Sonic Abilities,4,4,Character/object,1d10x4,2d6,Instantaneous,NA,Strength+Stamina,1d10x4,No
+66,Special,Variable,Variable,Variable,NA,NA,Variable,NA,Variable,NA,Yes
+67,Special Vehicle,Variable,Variable,Variable,Variable,Variable,Variable,Variable,Variable,Variable,Yes
+68,Special Weapon,Variable,Variable,Character,NA,Variable,Instantaneous,NA,Variable,Variable,No
+69,Subduction,0,0,Character,NA,NA,Permanent,NA,HTH,NA,No
+70,Teleportation,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
+71,Temperature Control,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
+72,Terra Generation,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
+73,Time Travel,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
+74,Water Breathing,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
+75,Weakness Detection,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
+76,Weather Control,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,No
