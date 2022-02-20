@@ -33,11 +33,13 @@ for index, row in df.iterrows():
 	 row['DamageAP'], row['Duration'], row['DurationUnit'], row['Range'], row['DeviceRange'], row['Choices'])
 
 class Adaption(PowerBase):
-	def __init__(self):
+	def __init__(self, Character):
 		super().__init__(powers_dict['Adaption'].name, powers_dict['Adaption'].apcost, powers_dict['Adaption'].maxap,\
 						 powers_dict['Adaption'].areaeffect, powers_dict['Adaption'].deviceap, powers_dict['Adaption'].damageap,\
 						 powers_dict['Adaption'].duration, powers_dict['Adaption'].durationunit, powers_dict['Adaption'].range,\
 						 powers_dict['Adaption'].devicerange, powers_dict['Adaption'].choices)
 		self.strdetails = '1AP for light adaption, 5AP for heavy'
+
+		Character['Powers']['Detail']['Adaption']['StrDetails'] = self.strdetails
 
 
