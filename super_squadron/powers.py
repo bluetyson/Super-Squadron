@@ -142,7 +142,7 @@ class Armour(PowerBase):
 		Character['Powers']['Detail'][powername]['DamageAP'] = self.damageap
 		Character['Powers']['Detail'][powername]['Duration'] = self.duration
 		Character['Powers']['Detail'][powername]['DurationUnit'] = self.durationunit
-		Character['Powers']['Detail'][powername]['Range'] = roll_ap(self.range)
+		Character['Powers']['Detail'][powername]['Range'] = self.range
 		Character['Powers']['Detail'][powername]['Choices'] = self.choices
 		Character['Powers']['Detail'][powername]['DamageReduction'] = {}
 		Character['Powers']['Detail'][powername]['DamageReduction']['HTH'] = 1/3
@@ -172,7 +172,7 @@ class AstralProjection(PowerBase):
 		Character['Powers']['Detail'][powername]['DamageAP'] = self.damageap
 		Character['Powers']['Detail'][powername]['Duration'] = (Character['Statistics']['Stamina'])+10
 		Character['Powers']['Detail'][powername]['DurationUnit'] = self.durationunit
-		Character['Powers']['Detail'][powername]['Range'] = roll_ap(self.range)
+		Character['Powers']['Detail'][powername]['Range'] = self.range
 		Character['Powers']['Detail'][powername]['Choices'] = self.choices
 		Character['Powers']['Detail'][powername]['Speed'] = (Character['Statistics']['Stamina']+Character['Statistics']['Agility'])
 		Character['Powers']['Detail'][powername]['SpeedUnit'] = "km/turn"
@@ -203,7 +203,7 @@ class BodyAugmentation(PowerBase):
 		Character['Powers']['Detail'][powername]['DamageAP'] = self.damageap
 		Character['Powers']['Detail'][powername]['Duration'] = self.duration
 		Character['Powers']['Detail'][powername]['DurationUnit'] = self.durationunit
-		Character['Powers']['Detail'][powername]['Range'] = roll_ap(self.range)
+		Character['Powers']['Detail'][powername]['Range'] = self.range
 		Character['Powers']['Detail'][powername]['Choices'] = self.choices
 		bacheck = roll_effects(1, 3)
 		Character['Powers']['Detail'][powername]['Augmentations'] = {}
@@ -264,7 +264,7 @@ class Cybernetics(PowerBase):
 		Character['Powers']['Detail'][powername]['DamageAP'] = self.damageap
 		Character['Powers']['Detail'][powername]['Duration'] = self.duration
 		Character['Powers']['Detail'][powername]['DurationUnit'] = self.durationunit
-		Character['Powers']['Detail'][powername]['Range'] = roll_ap(self.range)
+		Character['Powers']['Detail'][powername]['Range'] = self.range
 		Character['Powers']['Detail'][powername]['Choices'] = self.choices
 		bacheck = roll_effects(1, 3)
 		Character['Powers']['Detail'][powername]['Augmentations'] = {}
@@ -309,3 +309,27 @@ class Cybernetics(PowerBase):
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
 
+class DarknessGeneration(PowerBase):
+	def __init__(self, Character):
+		powername = 'Darkness Generation'
+		super().__init__(powers_dict[powername].name, powers_dict[powername].apcost, powers_dict[powername].maxap,\
+						 powers_dict[powername].areaeffect, powers_dict[powername].deviceap, powers_dict[powername].damageap,\
+						 powers_dict[powername].duration, powers_dict[powername].durationunit, powers_dict[powername].range,\
+						 powers_dict[powername].devicerange, powers_dict[powername].choices)
+		self.strdetails = 'Dispel light'
+		Character['Powers']['Detail'][powername]['StrDetails'] = self.strdetails
+		Character['Powers']['Detail'][powername]['APCost'] = self.apcost
+		Character['Powers']['Detail'][powername]['MaxAP'] = self.maxap
+		Character['Powers']['Detail'][powername]['AreaEffect'] = self.areaeffect
+		Character['Powers']['Detail'][powername]['DamageAP'] = self.damageap
+		Character['Powers']['Detail'][powername]['Duration'] = self.duration
+		Character['Powers']['Detail'][powername]['DurationUnit'] = self.durationunit
+		Character['Powers']['Detail'][powername]['Range'] = (Character['Statistics']['Intelligence'])*1
+		Character['Powers']['Detail'][powername]['Choices'] = self.choices
+		Character['Powers']['Detail'][powername]['AttackDM'] = 30
+		Character['Powers']['Detail'][powername]['MishapChance'] = "80 - (LK+EXP)"
+		Character['Powers']['Detail'][powername]['MishapDamage'] = "1d2"
+		if 'Device' in Character['Powers']['Detail'][powername]:
+			print(Character['Powers']['Detail'][powername]['Device'])
+			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
+			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)

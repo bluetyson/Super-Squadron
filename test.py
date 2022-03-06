@@ -68,10 +68,17 @@ if __name__ == '__main__':
     ad = dict2[powername](Character)
 
     powername = 'Cybernetics'
-    Character['Powers']['Number'] = 8
+    Character['Powers']['Number'] = 9
     Character['Powers']['List'].append(powername)
     Character['Powers']['Detail'][powername] = {}
     dict2[powername] = powers.Cybernetics
+    ad = dict2[powername](Character)
+
+    powername = 'Darkness Generation'
+    Character['Powers']['Number'] = 10
+    Character['Powers']['List'].append(powername)
+    Character['Powers']['Detail'][powername] = {}
+    dict2[powername] = powers.DarknessGeneration
     ad = dict2[powername](Character)
 
     print(Character)
