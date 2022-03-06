@@ -81,6 +81,13 @@ if __name__ == '__main__':
     dict2[powername] = powers.DarknessGeneration
     ad = dict2[powername](Character)
 
+    powername = 'Death Touch'
+    Character['Powers']['Number'] = 10
+    Character['Powers']['List'].append(powername)
+    Character['Powers']['Detail'][powername] = {}
+    dict2[powername] = powers.DeathTouch
+    ad = dict2[powername](Character)
+
     print(Character)
 
 

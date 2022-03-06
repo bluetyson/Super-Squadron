@@ -333,3 +333,37 @@ class DarknessGeneration(PowerBase):
 			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
+
+class DeathTouch(PowerBase):
+	def __init__(self, Character):
+		powername = 'Death Touch'
+		super().__init__(powers_dict[powername].name, powers_dict[powername].apcost, powers_dict[powername].maxap,\
+						 powers_dict[powername].areaeffect, powers_dict[powername].deviceap, powers_dict[powername].damageap,\
+						 powers_dict[powername].duration, powers_dict[powername].durationunit, powers_dict[powername].range,\
+						 powers_dict[powername].devicerange, powers_dict[powername].choices)
+		self.strdetails = 'Kill or Incapacitate with a touch'
+		Character['Powers']['Detail'][powername]['StrDetails'] = self.strdetails
+		Character['Powers']['Detail'][powername]['APCost'] = 20
+		Character['Powers']['Detail'][powername]['MaxAP'] = self.maxap
+		Character['Powers']['Detail'][powername]['AreaEffect'] = self.areaeffect
+		Character['Powers']['Detail'][powername]['DamageAP'] = self.damageap
+		Character['Powers']['Detail'][powername]['Duration'] = self.duration
+		Character['Powers']['Detail'][powername]['DurationUnit'] = self.durationunit
+		Character['Powers']['Detail'][powername]['Range'] = (Character['Statistics']['Intelligence'])*1
+		Character['Powers']['Detail'][powername]['Choices'] = self.choices
+		Character['Powers']['Detail'][powername]['APCostB'] = 10
+		Character['Powers']['Detail'][powername]['Save'] = "ST + SA + LK + Exp"
+		Character['Powers']['Detail'][powername]['SaveA'] = "0 HT"
+		Character['Powers']['Detail'][powername]['FailA'] = "Death"
+		Character['Powers']['Detail'][powername]['SaveAPermanentDamage'] = "76-00 - LK"
+		Character['Powers']['Detail'][powername]['SaveB'] = "0 HT"
+		Character['Powers']['Detail'][powername]['FailB'] = "0 HT"
+		Character['Powers']['Detail'][powername]['DefensivePowerModifierA'] = "HT / Defensive Multiplier * 4"
+		Character['Powers']['Detail'][powername]['DefensivePowerModifierSaveA'] = "Half Damage"
+		Character['Powers']['Detail'][powername]['DefensivePowerModifierB'] = "HT / Defensive Multiplier * 2"
+		Character['Powers']['Detail'][powername]['DefensivePowerModifierSaveB'] = "Half Damage"
+		Character['Powers']['Detail'][powername]['DefensivePowerModifierPermanentDamage'] = "91-00 - LK"
+		if 'Device' in Character['Powers']['Detail'][powername]:
+			print(Character['Powers']['Detail'][powername]['Device'])
+			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
+			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
