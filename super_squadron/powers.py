@@ -181,8 +181,8 @@ class AstralProjection(PowerBase):
 			Character['Powers']['Detail'][powername]['PowersInAstral'] = "Yes"
 		if Character['Origin']['Origin'] == 'Supernatural':
 			spellscheck = roll_effects(1,100)
-		if spellscheck <= 85:
-			Character['Powers']['Detail'][powername]['SpellsInAstral'] = "Yes"
+			if spellscheck <= 85:
+				Character['Powers']['Detail'][powername]['SpellsInAstral'] = "Yes"
 		if 'Device' in Character['Powers']['Detail'][powername]:
 			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
