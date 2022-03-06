@@ -249,3 +249,63 @@ class BodyAugmentation(PowerBase):
 			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
 
 
+class Cybernetics(PowerBase):
+	def __init__(self, Character):
+		powername = 'Cybernetics'
+		super().__init__(powers_dict[powername].name, powers_dict[powername].apcost, powers_dict[powername].maxap,\
+						 powers_dict[powername].areaeffect, powers_dict[powername].deviceap, powers_dict[powername].damageap,\
+						 powers_dict[powername].duration, powers_dict[powername].durationunit, powers_dict[powername].range,\
+						 powers_dict[powername].devicerange, powers_dict[powername].choices)
+		self.strdetails = 'Mechanical replacement for either limbs or organs'
+		Character['Powers']['Detail'][powername]['StrDetails'] = self.strdetails
+		Character['Powers']['Detail'][powername]['APCost'] = self.apcost
+		Character['Powers']['Detail'][powername]['MaxAP'] = self.maxap
+		Character['Powers']['Detail'][powername]['AreaEffect'] = self.areaeffect
+		Character['Powers']['Detail'][powername]['DamageAP'] = self.damageap
+		Character['Powers']['Detail'][powername]['Duration'] = self.duration
+		Character['Powers']['Detail'][powername]['DurationUnit'] = self.durationunit
+		Character['Powers']['Detail'][powername]['Range'] = roll_ap(self.range)
+		Character['Powers']['Detail'][powername]['Choices'] = self.choices
+		bacheck = roll_effects(1, 3)
+		Character['Powers']['Detail'][powername]['Augmentations'] = {}
+		Character['Powers']['Detail'][powername]['Augmentations']['Augmentations'] = bacheck
+		Character['Powers']['Detail'][powername]['Augmentations']['Type'] = {}
+		Character['Powers']['Detail'][powername]['Augmentations']['Special'] = {}
+		Character['Powers']['Detail'][powername]['Augmentations']['Powers'] = {}
+		for power in range(bacheck):
+			batypecheck = roll_effects(1,8)
+			if batypecheck == 1:
+				Character['Powers']['Detail'][powername]['Augmentations']['Type'][str(power + 1)] = "Hand"
+				Character['Powers']['Detail'][powername]['Augmentations']['Special'][str(power + 1)] = "Stamina:1d8"
+			elif batypecheck == 2:
+				Character['Powers']['Detail'][powername]['Augmentations']['Type'][str(power + 1)] = "Arm"
+				Character['Powers']['Detail'][powername]['Augmentations']['Special'][str(power + 1)] = "Strength:1d8 DD:1d4"
+			elif batypecheck == 3:
+				Character['Powers']['Detail'][powername]['Augmentations']['Type'][str(power + 1)] = "Leg"
+				Character['Powers']['Detail'][powername]['Augmentations']['Special'][str(power + 1)] = "Agility:1d10"
+			elif batypecheck == 4:
+				Character['Powers']['Detail'][powername]['Augmentations']['Type'][str(power + 1)] = "Eye"
+				Character['Powers']['Detail'][powername]['Augmentations']['Special'][str(power + 1)] = "Vision Power:x-ray, telescopic, infra"
+			elif batypecheck == 5:
+				Character['Powers']['Detail'][powername]['Augmentations']['Type'][str(power + 1)] = "Ear"
+				Character['Powers']['Detail'][powername]['Augmentations']['Special'][str(power + 1)] = "Super hearing"
+			elif batypecheck == 6:
+				Character['Powers']['Detail'][powername]['Augmentations']['Type'][str(power + 1)] = "Brain"
+				Character['Powers']['Detail'][powername]['Augmentations']['Special'][str(power + 1)] = "Intelligence:2d6"
+			elif batypecheck == 7:
+				Character['Powers']['Detail'][powername]['Augmentations']['Type'][str(power + 1)] = "Lungs"
+				Character['Powers']['Detail'][powername]['Augmentations']['Special'][str(power + 1)] = "Stamina:1d8"
+			else:
+				Character['Powers']['Detail'][powername]['Augmentations']['Type'][str(power + 1)] = "Bones"
+				Character['Powers']['Detail'][powername]['Augmentations']['Special'][str(power + 1)] = "Stamina:1d6 Strength:1d8"
+
+			powcheck = roll_effects(1, 100)
+			if powcheck <= 5:
+				Character['Powers']['Detail'][powername]['Augmentations']['Powers'][str(power+1)] = "Yes"
+			else:
+				Character['Powers']['Detail'][powername]['Augmentations']['Powers'][str(power + 1)] = "No"
+		if 'Device' in Character['Powers']['Detail'][powername]:
+			print(Character['Powers']['Detail'][powername]['Device'])
+			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
+			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
+
