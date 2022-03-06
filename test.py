@@ -21,28 +21,37 @@ if __name__ == '__main__':
     #print(ad)
     with open('character_test.json') as f:
         Character = json.load(f)
-    print(Character)
+    #print(Character)
 
     dict2 = {}
 
-
+    powername = 'Adaption'
     Character['Powers']['Number'] = 4
-    Character['Powers']['List'].append('Adaption')
-    Character['Powers']['Detail']['Adaption'] = {}
-    dict2['Adaption'] = powers.Adaption
-    ad = dict2['Adaption'](Character)
+    Character['Powers']['List'].append(powername)
+    Character['Powers']['Detail'][powername] = {}
+    dict2[powername] = powers.Adaption
+    ad = dict2[powername](Character)
 
+    powername = 'Air Generation'
     Character['Powers']['Number'] = 5
-    Character['Powers']['List'].append('Air Generation')
-    Character['Powers']['Detail']['Air Generation'] = {}
-    dict2['Air Generation'] = powers.AirGeneration
-    ad = dict2['Air Generation'](Character)
+    Character['Powers']['List'].append(powername)
+    Character['Powers']['Detail'][powername] = {}
+    dict2[powername] = powers.AirGeneration
+    ad = dict2[powername](Character)
 
+    powername = 'Animal Affinity'
     Character['Powers']['Number'] = 6
-    Character['Powers']['List'].append('Animal Affinity')
-    Character['Powers']['Detail']['Animal Affinity'] = {}
-    dict2['Animal Affinity'] = powers.AnimalAffinity
-    ad = dict2['Animal Affinity'](Character)
+    Character['Powers']['List'].append(powername)
+    Character['Powers']['Detail'][powername] = {}
+    dict2[powername] = powers.AnimalAffinity
+    ad = dict2[powername](Character)
+
+    powername = 'Armour'
+    Character['Powers']['Number'] = 6
+    Character['Powers']['List'].append(powername)
+    Character['Powers']['Detail'][powername] = {}
+    dict2[powername] = powers.Armour
+    ad = dict2[powername](Character)
 
     print(Character)
 

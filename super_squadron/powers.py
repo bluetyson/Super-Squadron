@@ -3,8 +3,7 @@ import pandas as pd
 import numpy as np
 import math
 
-from super_squadron.roll import roll_ap
-
+from super_squadron.roll import roll_ap, roll_effects
 
 def normal_round(n):
     if n - math.floor(n) < 0.5:
@@ -135,7 +134,7 @@ class Armour(PowerBase):
 						 powers_dict[powername].areaeffect, powers_dict[powername].deviceap, powers_dict[powername].damageap,\
 						 powers_dict[powername].duration, powers_dict[powername].durationunit, powers_dict[powername].range,\
 						 powers_dict[powername].devicerange, powers_dict[powername].choices)
-		self.strdetails = 'Character is able to control specific animal(s) chosen'
+		self.strdetails = 'Armour reduces damage'
 		Character['Powers']['Detail'][powername]['StrDetails'] = self.strdetails
 		Character['Powers']['Detail'][powername]['APCost'] = self.apcost
 		Character['Powers']['Detail'][powername]['MaxAP'] = self.maxap
@@ -145,12 +144,18 @@ class Armour(PowerBase):
 		Character['Powers']['Detail'][powername]['DurationUnit'] = self.durationunit
 		Character['Powers']['Detail'][powername]['Range'] = roll_ap(self.range)
 		Character['Powers']['Detail'][powername]['Choices'] = self.choices
-		Character['Powers']['Detail'][powername]['Loyalty'] = 30
-		Character['Powers']['Detail'][powername]['Morale'] = -10
-		Character['Powers']['Detail'][powername]['ArrivalTime'] = "1d6"
-		Character['Powers']['Detail'][powername]['Statistics'] = "2d6 [ST, AG, IQ, SA]"
-		Character['Powers']['Detail'][powername]['Damage'] = "1/1/1d3"
+		Character['Powers']['Detail'][powername]['DamageReduction'] = {}
+		Character['Powers']['Detail'][powername]['DamageReduction']['HTH'] = 1/3
+		Character['Powers']['Detail'][powername]['DamageReduction']['Other'] = 1/2
 		if 'Device' in Character['Powers']['Detail'][powername]:
 			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
+
+			devcheck = roll_effects(1, 100)
+			if devcheck <= 15:
+				Character['Powers']['Detail'][powername]['Device']['ExtraAbilities'] = roll_effects(1,4) +1
+				Character['Powers']['Detail'][powername]['StrDetails'] = self.strdetails + " device has abilities"
+
+
+
