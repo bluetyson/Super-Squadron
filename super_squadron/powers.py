@@ -53,8 +53,6 @@ class Adaption(PowerBase):
 			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 
-#powers_dict[powername]
-
 
 class AirGeneration(PowerBase):
 	def __init__(self, Character):
@@ -77,6 +75,19 @@ class AirGeneration(PowerBase):
 		Character['Powers']['Detail'][powername]['Storm']['Penalty'] = 20
 		Character['Powers']['Detail'][powername]['Oxygen']['APCost'] = "1"
 		Character['Powers']['Detail'][powername]['Oxygen']['Volume'] = "1"
+		if 'Device' in Character['Powers']['Detail'][powername]:
+			print(Character['Powers']['Detail'][powername]['Device'])
+			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
+
+class AnimalAffinity(PowerBase):
+	def __init__(self, Character):
+		powername = 'Animal Affinity'
+		super().__init__(powers_dict[powername].name, powers_dict[powername].apcost, powers_dict[powername].maxap,\
+						 powers_dict[powername].areaeffect, powers_dict[powername].deviceap, powers_dict[powername].damageap,\
+						 powers_dict[powername].duration, powers_dict[powername].durationunit, powers_dict[powername].range,\
+						 powers_dict[powername].devicerange, powers_dict[powername].choices)
+		self.strdetails = '1AP for light adaption, 5AP for heavy'
+		Character['Powers']['Detail'][powername]['StrDetails'] = self.strdetails
 		if 'Device' in Character['Powers']['Detail'][powername]:
 			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)

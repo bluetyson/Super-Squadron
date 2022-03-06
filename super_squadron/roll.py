@@ -76,6 +76,14 @@ def roll_ap(deviceap):
             roll_list = roll_mult[0].split('d')
             devap = roll_effects(roll_list[0],roll_list[1]) * int(roll_mult[1])
     else:
-        pass
+        if 'or' in deviceap:
+            roll_list = deviceap.split('or')
+            devcheck = roll_effects(1,100)
+            if devcheck <= 50:
+                devap = 20
+            else:
+                devap = 10
+
         #has or in it
+    return devap
 
