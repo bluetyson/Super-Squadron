@@ -53,7 +53,7 @@ Mind Power,10,10,Personal,NA,NA,Instantaneous,NA,NA,NA,Yes
 Multiplex,15,15,Personal,NA,NA,Until reversed,NA,NA,NA,No
 Mutation,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,Yes
 Non-Requirement of Air,0,0,Personal,NA,NA,Permanet or 48 hours,NA,NA,NA,No
-Organic Powers,Variable,Variable,Variable,Varialbe,Variable,Variable,NA,Variable,Variable,Yes
+Organic Powers,Variable,Variable,Variable,Variable,Variable,Variable,NA,Variable,Variable,Yes
 Out of Phase Detection,0,NA,Personal,NA,NA,Permanent,NA,Intelligencex3,NA,No
 Paralysis Ray,5,No Limit,Character,1d6x5,NA,1d4x-1+Stamina*-1+Luck*-1+24,turns,Agilityx3,NA,No
 Pet or Companion,0,NA,Personal,NA,NA,Permanent,NA,NA,NA,Yes
@@ -69,7 +69,7 @@ Special,Variable,Variable,Variable,NA,NA,Variable,NA,Variable,NA,Yes
 Special Vehicle,Variable,Variable,Variable,Variable,Variable,Variable,Variable,Variable,Variable,Yes
 Special Weapon,Variable,Variable,Character,NA,Variable,Instantaneous,NA,Variable,Variable,No
 Subduction,0,0,Character,NA,NA,Permanent,NA,HTH,NA,No
-Teleportation,10 per 90kg,No Limit,Characters,1d10x10+10,NA,Instantaneous,NA,1E+13,1E+13,No
+Teleportation,10 per 90kg,No Limit,Characters,1d10x10+10,NA,Instantaneous,NA,1.00E+13,1.00E+13,No
 Temperature Control,2 per 10 degrees,No Limit,Personal,1d8x4,NA,1,turn+,HTH,HTH,Yes
 Terra Generation,2,6,Character/object,1d8x6,1d6,Instantaneous,NA,Strength/2+Agility/2,2d10+10,No
 Time Travel,20 per 90kg,No Limit,Characters,1d6x10+10,NA,Instantaneous,NA,5000000000,5000000000,No
