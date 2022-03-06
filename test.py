@@ -21,11 +21,11 @@ if __name__ == '__main__':
     #print(ad)
     with open('character_test.json') as f:
         Character = json.load(f)
-
+    print(Character)
 
     dict2 = {}
 
-    print(Character)
+
     Character['Powers']['Number'] = 4
     Character['Powers']['List'].append('Adaption')
     Character['Powers']['Detail']['Adaption'] = {}
@@ -37,6 +37,15 @@ if __name__ == '__main__':
     Character['Powers']['Detail']['Air Generation'] = {}
     dict2['Air Generation'] = powers.AirGeneration
     ad = dict2['Air Generation'](Character)
+
+    if 1 == 2:
+
+
+        Character['Powers']['Number'] = 6
+        Character['Powers']['List'].append('Animal Affinity')
+        Character['Powers']['Detail']['Animal Affinity'] = {}
+        dict2['Animal Affinity'] = powers.AnimalAffinity
+        ad = dict2['Animal Affinity'](Character)
 
     print(Character)
 

@@ -3,6 +3,9 @@ import pandas as pd
 import numpy as np
 import math
 
+from super_squadron.roll import roll_ap
+
+
 def normal_round(n):
     if n - math.floor(n) < 0.5:
         return math.floor(n)
@@ -37,23 +40,27 @@ for index, row in df.iterrows():
 	powers_dict[row['Power']] = PowerBase(row['Power'], row['APCost'], row['MaxAP'], row['AreaEffect'], row['DeviceAP'],\
 	 row['DamageAP'], row['Duration'], row['DurationUnit'], row['Range'], row['DeviceRange'], row['Choices'])
 
-powername = 'Adaption'
 class Adaption(PowerBase):
 	def __init__(self, Character):
+		powername = 'Adaption'
 		super().__init__(powers_dict[powername].name, powers_dict[powername].apcost, powers_dict[powername].maxap,\
-						 powers_dict[powername].areaeffect, powers_dict['Adaption'].deviceap, powers_dict[powername].damageap,\
+						 powers_dict[powername].areaeffect, powers_dict[powername].deviceap, powers_dict[powername].damageap,\
 						 powers_dict[powername].duration, powers_dict[powername].durationunit, powers_dict[powername].range,\
 						 powers_dict[powername].devicerange, powers_dict[powername].choices)
 		self.strdetails = '1AP for light adaption, 5AP for heavy'
-		Character['Powers']['Detail']['Adaption']['StrDetails'] = self.strdetails
-		if ['Powers']['Detail'][powername]['Device'] in Character:
-			pass  #do device ap check
+		Character['Powers']['Detail'][powername]['StrDetails'] = self.strdetails
+		if 'Device' in Character['Powers']['Detail'][powername]:
+			print(Character['Powers']['Detail'][powername]['Device'])
+			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 
-powername = 'Air Generation'
+#powers_dict[powername]
+
+
 class AirGeneration(PowerBase):
 	def __init__(self, Character):
+		powername = 'Air Generation'
 		super().__init__(powers_dict[powername].name, powers_dict[powername].apcost, powers_dict[powername].maxap,\
-						 powers_dict[powername].areaeffect, powers_dict['Adaption'].deviceap, powers_dict[powername].damageap,\
+						 powers_dict[powername].areaeffect, powers_dict[powername].deviceap, powers_dict[powername].damageap,\
 						 powers_dict[powername].duration, powers_dict[powername].durationunit, powers_dict[powername].range,\
 						 powers_dict[powername].devicerange, powers_dict[powername].choices)
 		self.strdetails = 'Create high intensity wind blasts, sand or dust storms, or oxgen from water or carbon dioxide.'
@@ -70,6 +77,6 @@ class AirGeneration(PowerBase):
 		Character['Powers']['Detail'][powername]['Storm']['Penalty'] = 20
 		Character['Powers']['Detail'][powername]['Oxygen']['APCost'] = "1"
 		Character['Powers']['Detail'][powername]['Oxygen']['Volume'] = "1"
-		if ['Powers']['Detail'][powername]['Device'] in Character:
-			pass  #do device ap check
-			['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
+		if 'Device' in Character['Powers']['Detail'][powername]:
+			print(Character['Powers']['Detail'][powername]['Device'])
+			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
