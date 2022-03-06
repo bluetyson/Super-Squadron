@@ -12,7 +12,7 @@ Defect,NotApplicable,NotApplicable,Personal,NotApplicable,NotApplicable,Permanen
 Density Control,5,5,Personal,1d4x10,Description,1,round+,NotApplicable,NotApplicable,No
 Dimensional Gate,20,No Limit,2 square metres,1d4x15+10,NotApplicable,1,round+,5,5,No
 Disguise,All,All,Personal,NotApplicable,NotApplicable,Until host found,NotApplicable,NotApplicable,NotApplicable,No
-Disintegration Beam,1,4,Character/object,1d8x5,1d6,Instantaneous,NotApplicable,Strengthx15,1d20*20,No
+Disintegration Beam,1,4,Character/object,1d8x5,1d6,Instantaneous,NotApplicable,Strengthx15,1d20x20,No
 Ego Change,NotApplicable,NotApplicable,Personal,NotApplicable,NotApplicable,Permanent,NotApplicable,NotApplicable,NotApplicable,No
 Elasticity,1per10,No Limit,Personal,NotApplicable,NotApplicable,Until reversed,NotApplicable,NotApplicable,NotApplicable,No
 Emotion Control,5,No Limit,Character,3d10,NotApplicable,1d4*Ego*-1+25,turns,Intelligencex2,2d10x3,No
@@ -46,7 +46,7 @@ Lightning/Electrical Control,3,6,Character/object,1d8x6,1d8,Instantaneous,NotApp
 Magic Device,Variable,NotApplicable,Variable,1d10x10+15,Variable,Variable,NotApplicable,Variable,NotApplicable,Yes
 Magic Spells,Variable,Variable,Variable,NotApplicable,Variable,Variable,NotApplicable,Variable,NotApplicable,Yes
 Magnetic Manipulation,1,No Limit,Object,1d10x4,Variable,1,round,Variable,Variable,No
-Metamorphosis,5,5,2 cubic metres,1d8x5,Varoab;e,1d6,round,Strength+Agility,4d10,Yes
+Metamorphosis,5,5,2 cubic metres,1d8x5,Variable,1d6,round,Strength+Agility,4d10,Yes
 Mimic,8,No Limit,Personal,NotApplicable,Variable,3,round,HTH,NotApplicable,Yes
 Mind Control,15,15,Characters,NotApplicable,NotApplicable,Strength/-2+Ego/-2+Intelligence/-2+24,hour,2000,NotApplicable,No
 Mind Power,10,10,Personal,NotApplicable,NotApplicable,Instantaneous,NotApplicable,NotApplicable,NotApplicable,Yes
