@@ -188,9 +188,64 @@ class AstralProjection(PowerBase):
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
 
-			devcheck = roll_effects(1, 100)
-			if devcheck <= 15:
-				Character['Powers']['Detail'][powername]['Device']['ExtraAbilities'] = roll_effects(1,4) +1
-				Character['Powers']['Detail'][powername]['StrDetails'] = self.strdetails + " device has abilities"
+class BodyAugmentation(PowerBase):
+	def __init__(self, Character):
+		powername = 'Body Augmentation'
+		super().__init__(powers_dict[powername].name, powers_dict[powername].apcost, powers_dict[powername].maxap,\
+						 powers_dict[powername].areaeffect, powers_dict[powername].deviceap, powers_dict[powername].damageap,\
+						 powers_dict[powername].duration, powers_dict[powername].durationunit, powers_dict[powername].range,\
+						 powers_dict[powername].devicerange, powers_dict[powername].choices)
+		self.strdetails = 'Gain additional appendages, each modifying HP or DD'
+		Character['Powers']['Detail'][powername]['StrDetails'] = self.strdetails
+		Character['Powers']['Detail'][powername]['APCost'] = self.apcost
+		Character['Powers']['Detail'][powername]['MaxAP'] = self.maxap
+		Character['Powers']['Detail'][powername]['AreaEffect'] = self.areaeffect
+		Character['Powers']['Detail'][powername]['DamageAP'] = self.damageap
+		Character['Powers']['Detail'][powername]['Duration'] = self.duration
+		Character['Powers']['Detail'][powername]['DurationUnit'] = self.durationunit
+		Character['Powers']['Detail'][powername]['Range'] = roll_ap(self.range)
+		Character['Powers']['Detail'][powername]['Choices'] = self.choices
+		bacheck = roll_effects(1, 3)
+		Character['Powers']['Detail'][powername]['Augmentations'] = {}
+		Character['Powers']['Detail'][powername]['Augmentations']['Augmentations'] = bacheck
+		Character['Powers']['Detail'][powername]['Augmentations']['Type'] = {}
+		Character['Powers']['Detail'][powername]['Augmentations']['Special'] = {}
+		Character['Powers']['Detail'][powername]['Augmentations']['Powers'] = {}
+		for power in range(bacheck):
+			batypecheck = roll_effects(1,8)
+			if batypecheck == 1:
+				Character['Powers']['Detail'][powername]['Augmentations']['Type'][str(power + 1)] = "Wings"
+				Character['Powers']['Detail'][powername]['Augmentations']['Special'][str(power + 1)] = "Flight"
+			elif batypecheck == 2:
+				Character['Powers']['Detail'][powername]['Augmentations']['Type'][str(power + 1)] = "Claws"
+				Character['Powers']['Detail'][powername]['Augmentations']['Special'][str(power + 1)] = "HP:2d8 DD:1d4"
+			elif batypecheck == 3:
+				Character['Powers']['Detail'][powername]['Augmentations']['Type'][str(power + 1)] = "Tail"
+				Character['Powers']['Detail'][powername]['Augmentations']['Special'][str(power + 1)] = "HP:1d10 DD:1d6"
+			elif batypecheck == 4:
+				Character['Powers']['Detail'][powername]['Augmentations']['Type'][str(power + 1)] = "Gills"
+				Character['Powers']['Detail'][powername]['Augmentations']['Special'][str(power + 1)] = "Water Breathing"
+			elif batypecheck == 5:
+				Character['Powers']['Detail'][powername]['Augmentations']['Type'][str(power + 1)] = "Fangs"
+				Character['Powers']['Detail'][powername]['Augmentations']['Special'][str(power + 1)] = "DD:1d8"
+			elif batypecheck == 6:
+				Character['Powers']['Detail'][powername]['Augmentations']['Type'][str(power + 1)] = "Spiked hands/arms"
+				Character['Powers']['Detail'][powername]['Augmentations']['Special'][str(power + 1)] = "DD:1d8"
+			elif batypecheck == 7:
+				Character['Powers']['Detail'][powername]['Augmentations']['Type'][str(power + 1)] = "Stinger"
+				Character['Powers']['Detail'][powername]['Augmentations']['Special'][str(power + 1)] = "Paralysis or Sleep Teason"
+			else:
+				Character['Powers']['Detail'][powername]['Augmentations']['Type'][str(power + 1)] = "Extra Arms"
+				Character['Powers']['Detail'][powername]['Augmentations']['Special'][str(power + 1)] = "Double Normal Attacks"
+
+			powcheck = roll_effects(1, 100)
+			if powcheck <= 5:
+				Character['Powers']['Detail'][powername]['Augmentations']['Powers'][str(power+1)] = "Yes"
+			else:
+				Character['Powers']['Detail'][powername]['Augmentations']['Powers'][str(power + 1)] = "No"
+		if 'Device' in Character['Powers']['Detail'][powername]:
+			print(Character['Powers']['Detail'][powername]['Device'])
+			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
+			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
 
 

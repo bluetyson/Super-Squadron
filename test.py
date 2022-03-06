@@ -60,6 +60,13 @@ if __name__ == '__main__':
     dict2[powername] = powers.AstralProjection
     ad = dict2[powername](Character)
 
+    powername = 'Body Augmentation'
+    Character['Powers']['Number'] = 8
+    Character['Powers']['List'].append(powername)
+    Character['Powers']['Detail'][powername] = {}
+    dict2[powername] = powers.BodyAugmentation
+    ad = dict2[powername](Character)
+
     print(Character)
 
 
