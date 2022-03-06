@@ -60,6 +60,11 @@ class Adaption(PowerBase):
 		Character['Powers']['Detail'][powername]['DurationUnit'] = self.durationunit
 		Character['Powers']['Detail'][powername]['Range'] = self.range
 		Character['Powers']['Detail'][powername]['Choices'] = self.choices
+		Character['Powers']['Detail'][powername]['1AP'] = "15-55C, reduced O2"
+		Character['Powers']['Detail'][powername]['2AP'] = "5-65C, thin atmosphere"
+		Character['Powers']['Detail'][powername]['3AP'] = "-5-75C, adverse atmosphere, gravity"
+		Character['Powers']['Detail'][powername]['4AP'] = "-15-85C, gravity variation 75%"
+		Character['Powers']['Detail'][powername]['5AP'] = "-25-95C, reduced O2, gravity variation 100%"
 		if 'Device' in Character['Powers']['Detail'][powername]:
 			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
