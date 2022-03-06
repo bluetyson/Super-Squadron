@@ -115,7 +115,7 @@ class AnimalAffinity(PowerBase):
 		Character['Powers']['Detail'][powername]['DamageAP'] = self.damageap
 		Character['Powers']['Detail'][powername]['Duration'] = self.duration
 		Character['Powers']['Detail'][powername]['DurationUnit'] = self.durationunit
-		Character['Powers']['Detail'][powername]['Range'] = roll_ap(self.range)
+		Character['Powers']['Detail'][powername]['Range'] = (Character['Statistics']['Intelligence'])*3
 		Character['Powers']['Detail'][powername]['Choices'] = self.choices
 		Character['Powers']['Detail'][powername]['Loyalty'] = 30
 		Character['Powers']['Detail'][powername]['Morale'] = -10
@@ -157,5 +157,40 @@ class Armour(PowerBase):
 				Character['Powers']['Detail'][powername]['Device']['ExtraAbilities'] = roll_effects(1,4) +1
 				Character['Powers']['Detail'][powername]['StrDetails'] = self.strdetails + " device has abilities"
 
+class AstralProjection(PowerBase):
+	def __init__(self, Character):
+		powername = 'Astral Projection'
+		super().__init__(powers_dict[powername].name, powers_dict[powername].apcost, powers_dict[powername].maxap,\
+						 powers_dict[powername].areaeffect, powers_dict[powername].deviceap, powers_dict[powername].damageap,\
+						 powers_dict[powername].duration, powers_dict[powername].durationunit, powers_dict[powername].range,\
+						 powers_dict[powername].devicerange, powers_dict[powername].choices)
+		self.strdetails = 'Separate spirit form from body'
+		Character['Powers']['Detail'][powername]['StrDetails'] = self.strdetails
+		Character['Powers']['Detail'][powername]['APCost'] = self.apcost
+		Character['Powers']['Detail'][powername]['MaxAP'] = self.maxap
+		Character['Powers']['Detail'][powername]['AreaEffect'] = self.areaeffect
+		Character['Powers']['Detail'][powername]['DamageAP'] = self.damageap
+		Character['Powers']['Detail'][powername]['Duration'] = (Character['Statistics']['Stamina'])+10
+		Character['Powers']['Detail'][powername]['DurationUnit'] = self.durationunit
+		Character['Powers']['Detail'][powername]['Range'] = roll_ap(self.range)
+		Character['Powers']['Detail'][powername]['Choices'] = self.choices
+		Character['Powers']['Detail'][powername]['Speed'] = (Character['Statistics']['Stamina']+Character['Statistics']['Agility'])
+		Character['Powers']['Detail'][powername]['SpeedUnit'] = "km/turn"
+		powcheck = roll_effects(1, 100)
+		if powcheck <= 5:
+			Character['Powers']['Detail'][powername]['PowersInAstral'] = "Yes"
+		if Character['Origin']['Origin'] == 'Supernatural':
+			spellscheck = roll_effects(1,100)
+		if spellscheck <= 85:
+			Character['Powers']['Detail'][powername]['SpellsInAstral'] = "Yes"
+		if 'Device' in Character['Powers']['Detail'][powername]:
+			print(Character['Powers']['Detail'][powername]['Device'])
+			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
+			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
+
+			devcheck = roll_effects(1, 100)
+			if devcheck <= 15:
+				Character['Powers']['Detail'][powername]['Device']['ExtraAbilities'] = roll_effects(1,4) +1
+				Character['Powers']['Detail'][powername]['StrDetails'] = self.strdetails + " device has abilities"
 
 

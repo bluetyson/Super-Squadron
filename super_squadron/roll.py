@@ -1,4 +1,6 @@
 
+import numpy as np
+
 def roll_statistic():
     statistic = np.random.randint(1,20)
     return statistic
