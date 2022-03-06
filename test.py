@@ -38,14 +38,11 @@ if __name__ == '__main__':
     dict2['Air Generation'] = powers.AirGeneration
     ad = dict2['Air Generation'](Character)
 
-    if 1 == 2:
-
-
-        Character['Powers']['Number'] = 6
-        Character['Powers']['List'].append('Animal Affinity')
-        Character['Powers']['Detail']['Animal Affinity'] = {}
-        dict2['Animal Affinity'] = powers.AnimalAffinity
-        ad = dict2['Animal Affinity'](Character)
+    Character['Powers']['Number'] = 6
+    Character['Powers']['List'].append('Animal Affinity')
+    Character['Powers']['Detail']['Animal Affinity'] = {}
+    dict2['Animal Affinity'] = powers.AnimalAffinity
+    ad = dict2['Animal Affinity'](Character)
 
     print(Character)
 

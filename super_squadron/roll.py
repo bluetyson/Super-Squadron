@@ -63,6 +63,8 @@ def roll_main_statistics(Statistics):
     return Statistics
 
 def roll_ap(deviceap):
+    if "NotApplicable" in deviceap or "Unlimited" in deviceap or "Variable" in deviceap or "HTH":
+        return deviceap
     if 'x' in deviceap:
         if '+' in deviceap:
             roll_plus = deviceap.split('+')
