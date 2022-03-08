@@ -24,6 +24,8 @@ if __name__ == '__main__':
     #print(Character)
 
     dict2 = {}
+    ## Note Artifact powers here for later
+    ## Disguise
 
     powername = 'Adaption'
     Character['Powers']['Number'] = 4
@@ -93,6 +95,13 @@ if __name__ == '__main__':
     Character['Powers']['List'].append(powername)
     Character['Powers']['Detail'][powername] = {}
     dict2[powername] = powers.Defect
+    ad = dict2[powername](Character)
+
+    powername = 'DensityControl'
+    Character['Powers']['Number'] = 13
+    Character['Powers']['List'].append(powername)
+    Character['Powers']['Detail'][powername] = {}
+    dict2[powername] = powers.DensityControl
     ad = dict2[powername](Character)
 
     print(Character)
