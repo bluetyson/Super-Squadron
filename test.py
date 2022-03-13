@@ -104,6 +104,13 @@ if __name__ == '__main__':
     dict2[powername] = powers.DensityControl
     ad = dict2[powername](Character)
 
+    powername = 'DimensionalGate'
+    Character['Powers']['Number'] = 13
+    Character['Powers']['List'].append(powername)
+    Character['Powers']['Detail'][powername] = {}
+    dict2[powername] = powers.DimensionalGate
+    ad = dict2[powername](Character)
+
     print(Character)
 
 
