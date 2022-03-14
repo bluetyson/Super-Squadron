@@ -33,7 +33,7 @@ def printtest():
 	print("Super Squadron")
 
 df = pd.read_csv('data/power_details.csv', low_memory=False)
-print(df.head())
+#print(df.head())
 powers_dict = {}
 
 for index, row in df.iterrows():
@@ -956,6 +956,11 @@ class Gimmick(PowerBase):
 		Character['Powers']['Detail'][powername]['Range'] = self.range
 		Character['Powers']['Detail'][powername]['Choices'] = self.choices
 		Character['Powers']['Detail'][powername]['Number'] = roll_effects(1,4)+1
+		Character['Powers']['Detail'][powername]['Gimmicks'] = {}
+		gimmicks = pd.read_csv('data/Gimmicks.csv')
+		for gimmick in range(Character['Powers']['Detail'][powername]['Number']):
+			new_gimmick = gimmicks['Gimmick'].sample()
+			Character['Powers']['Detail'][powername]['Gimmicks'][str(gimmick+1)] = new_gimmick.values[0]
 		Character['Powers']['Detail'][powername]['InventNew'] = (Character['Statistics']['Intelligence'])*2
 		Character['Powers']['Detail'][powername]['ScientistInventNew'] = 30
 		if 'Device' in Character['Powers']['Detail'][powername]:
