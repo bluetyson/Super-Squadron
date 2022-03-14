@@ -237,6 +237,20 @@ if __name__ == '__main__':
     dict2[powername] = powers.GravityControl
     ad = dict2[powername](Character)
 
+    powername = 'Heightened Attack'
+    Character['Powers']['Number'] = 34
+    Character['Powers']['List'].append(powername)
+    Character['Powers']['Detail'][powername] = {}
+    dict2[powername] = powers.HeightenedAttack
+    ad = dict2[powername](Character)
+
+    powername = 'Heightened Defense'
+    Character['Powers']['Number'] = 35
+    Character['Powers']['List'].append(powername)
+    Character['Powers']['Detail'][powername] = {}
+    dict2[powername] = powers.HeightenedDefense
+    ad = dict2[powername](Character)
+
     print(Character)
 
 
