@@ -1333,9 +1333,6 @@ class Immortality(PowerBase):
 		Character['Powers']['Detail'][powername]['DurationUnit'] = self.durationunit
 		Character['Powers']['Detail'][powername]['Range'] = self.range
 		Character['Powers']['Detail'][powername]['Choices'] = self.choices
-		Character['Powers']['Detail'][powername]['Flight'] = (Character['Agility_Effects']['Move'])*10
-		Character['Powers']['Detail'][powername]['Immunity'] = "HTH"
-		Character['Powers']['Detail'][powername]['Special'] = "Affected by spells, sound light etc."
 		agecheck = roll_effects(1,100)
 		if agecheck <= 10:
 			addage = roll_effects(1,100) * roll_effects(1,100)
@@ -1433,6 +1430,33 @@ class InherentPower(PowerBase):
 				Character['Powers']['Detail'][powername]['Duration'] = "Instantaneous"
 				Character['Powers']['Detail'][powername]['DurationUnit'] = "NotApplicable"
 				Character['Powers']['Detail'][powername]['Range'] = (normal_round(['Statistics']['Strength']/3))
+		if 'Device' in Character['Powers']['Detail'][powername]:
+			print(Character['Powers']['Detail'][powername]['Device'])
+			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
+			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
+
+class Invisibility(PowerBase):
+	def __init__(self, Character):
+		powername = 'Invisibility'
+		super().__init__(powers_dict[powername].name, powers_dict[powername].apcost, powers_dict[powername].maxap,\
+						 powers_dict[powername].areaeffect, powers_dict[powername].deviceap, powers_dict[powername].damageap,\
+						 powers_dict[powername].duration, powers_dict[powername].durationunit, powers_dict[powername].range,\
+						 powers_dict[powername].devicerange, powers_dict[powername].choices)
+		self.strdetails = 'Bit visible by normal means'
+		Character['Powers']['Detail'][powername]['StrDetails'] = self.strdetails
+		Character['Powers']['Detail'][powername]['APCost'] = self.apcost
+		Character['Powers']['Detail'][powername]['MaxAP'] = self.maxap
+		Character['Powers']['Detail'][powername]['AreaEffect'] = self.areaeffect
+		Character['Powers']['Detail'][powername]['DamageAP'] = self.damageap
+		Character['Powers']['Detail'][powername]['Duration'] = self.duration
+		Character['Powers']['Detail'][powername]['DurationUnit'] = self.durationunit
+		Character['Powers']['Detail'][powername]['Range'] = self.range
+		Character['Powers']['Detail'][powername]['Choices'] = self.choices
+		Character['Powers']['Detail'][powername]['DefenseBonus'] = 45
+		Character['Powers']['Detail'][powername]['DefenseBonusAttacking'] = 15
+		vischeck = roll_effects(1,100)
+		if vischeck >= 91:
+			Character['Powers']['Detail'][powername]['Special'] = "Permanently invisible"
 		if 'Device' in Character['Powers']['Detail'][powername]:
 			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
