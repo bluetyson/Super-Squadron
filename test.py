@@ -273,10 +273,24 @@ if __name__ == '__main__':
     ad = dict2[powername](Character)
 
     powername = 'Ice Generation'
-    Character['Powers']['Number'] = 38
+    Character['Powers']['Number'] = 39
     Character['Powers']['List'].append(powername)
     Character['Powers']['Detail'][powername] = {}
     dict2[powername] = powers.IceGeneration
+    ad = dict2[powername](Character)
+
+    powername = 'Immateriality'
+    Character['Powers']['Number'] = 38
+    Character['Powers']['List'].append(powername)
+    Character['Powers']['Detail'][powername] = {}
+    dict2[powername] = powers.Immateriality
+    ad = dict2[powername](Character)
+
+    powername = 'Immortality'
+    Character['Powers']['Number'] = 40
+    Character['Powers']['List'].append(powername)
+    Character['Powers']['Detail'][powername] = {}
+    dict2[powername] = powers.Immateriality
     ad = dict2[powername](Character)
 
     print(Character)
