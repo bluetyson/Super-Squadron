@@ -202,6 +202,20 @@ if __name__ == '__main__':
     dict2[powername] = powers.FlameGeneration
     ad = dict2[powername](Character)
 
+    powername = 'Flight'
+    Character['Powers']['Number'] = 29
+    Character['Powers']['List'].append(powername)
+    Character['Powers']['Detail'][powername] = {}
+    dict2[powername] = powers.Flight
+    ad = dict2[powername](Character)
+
+    powername = 'Force Beam'
+    Character['Powers']['Number'] = 30
+    Character['Powers']['List'].append(powername)
+    Character['Powers']['Detail'][powername] = {}
+    dict2[powername] = powers.ForceBeam
+    ad = dict2[powername](Character)
+
     print(Character)
 
 
