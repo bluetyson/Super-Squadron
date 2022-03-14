@@ -223,11 +223,18 @@ if __name__ == '__main__':
     dict2[powername] = powers.ForceField
     ad = dict2[powername](Character)
 
-    powername = 'Gravity Control'
+    powername = 'Gimmick'
     Character['Powers']['Number'] = 32
     Character['Powers']['List'].append(powername)
     Character['Powers']['Detail'][powername] = {}
-    dict2[powername] = powers.ForceField
+    dict2[powername] = powers.Gimmick
+    ad = dict2[powername](Character)
+
+    powername = 'Gravity Control'
+    Character['Powers']['Number'] = 33
+    Character['Powers']['List'].append(powername)
+    Character['Powers']['Detail'][powername] = {}
+    dict2[powername] = powers.GravityControl
     ad = dict2[powername](Character)
 
     print(Character)
