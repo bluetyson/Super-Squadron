@@ -764,14 +764,38 @@ class FastRecovery(PowerBase):
 		Character['Powers']['Detail'][powername]['StrDetails'] = self.strdetails
 		Character['Powers']['Detail'][powername]['APCost'] = self.apcost
 		Character['Powers']['Detail'][powername]['MaxAP'] = self.maxap
-		Character['Powers']['Detail'][powername]['AreaEffect'] = (Character['Statistics']['Stamina']*Character['Statistics']['Stamina'])
+		Character['Powers']['Detail'][powername]['AreaEffect'] = self.areaeffect
 		Character['Powers']['Detail'][powername]['DamageAP'] = self.damageap
 		Character['Powers']['Detail'][powername]['Duration'] = self.duration
 		Character['Powers']['Detail'][powername]['DurationUnit'] = self.durationunit
-		Character['Powers']['Detail'][powername]['Range'] = (Character['Statistics']['Strength'] + Character['Statistics']['Stamina'])
+		Character['Powers']['Detail'][powername]['Range'] = roll_ap(self.range)
 		Character['Powers']['Detail'][powername]['Choices'] = self.choices
 		Character['Powers']['Detail'][powername]['Rate'] = "1 HP per hour"
 		Character['Powers']['Detail'][powername]['AttackEffects'] = "1/4 normal duration"
+		if 'Device' in Character['Powers']['Detail'][powername]:
+			print(Character['Powers']['Detail'][powername]['Device'])
+			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
+			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
+
+class FlameGeneration(PowerBase):
+	def __init__(self, Character):
+		powername = 'Flame Generation'
+		super().__init__(powers_dict[powername].name, powers_dict[powername].apcost, powers_dict[powername].maxap,\
+						 powers_dict[powername].areaeffect, powers_dict[powername].deviceap, powers_dict[powername].damageap,\
+						 powers_dict[powername].duration, powers_dict[powername].durationunit, powers_dict[powername].range,\
+						 powers_dict[powername].devicerange, powers_dict[powername].choices)
+		self.strdetails = 'Physically alter the surrounding conditions'
+		Character['Powers']['Detail'][powername]['StrDetails'] = self.strdetails
+		Character['Powers']['Detail'][powername]['APCost'] = self.apcost
+		Character['Powers']['Detail'][powername]['MaxAP'] = self.maxap
+		Character['Powers']['Detail'][powername]['AreaEffect'] = self.areaeffect
+		Character['Powers']['Detail'][powername]['DamageAP'] = self.damageap
+		Character['Powers']['Detail'][powername]['Duration'] = self.duration
+		Character['Powers']['Detail'][powername]['DurationUnit'] = self.durationunit
+		Character['Powers']['Detail'][powername]['Range'] = (Character['Statistics']['Strength'] + Character['Statistics']['Agility'])*2
+		Character['Powers']['Detail'][powername]['Choices'] = self.choices
+		Character['Powers']['Detail'][powername]['Flight'] = (Character['Agility_Effects']['Move'])*4
+		Character['Powers']['Detail'][powername]['Immunity'] = "High temperatures"
 		if 'Device' in Character['Powers']['Detail'][powername]:
 			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
