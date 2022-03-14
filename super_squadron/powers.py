@@ -827,7 +827,6 @@ class Flight(PowerBase):
 		if Character['Powers']['Detail'][powername]['Speed'] > 2000:
 			Character['Powers']['Detail'][powername]['Hyperspace'] = "Yes"
 			Character['Powers']['Detail'][powername]['SpeedHyperspace'] = "1 Light Year per five minutes"
-		Character['Powers']['Detail'][powername]['Immunity'] = "High temperatures"
 		if 'Device' in Character['Powers']['Detail'][powername]:
 			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
@@ -1217,3 +1216,42 @@ class HeightenedSenses(PowerBase):
 			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
+
+class HeightenedSpeed(PowerBase):
+	def __init__(self, Character):
+		powername = 'Heightened Speed'
+		super().__init__(powers_dict[powername].name, powers_dict[powername].apcost, powers_dict[powername].maxap,\
+						 powers_dict[powername].areaeffect, powers_dict[powername].deviceap, powers_dict[powername].damageap,\
+						 powers_dict[powername].duration, powers_dict[powername].durationunit, powers_dict[powername].range,\
+						 powers_dict[powername].devicerange, powers_dict[powername].choices)
+		self.strdetails = 'Fly personally'
+		Character['Powers']['Detail'][powername]['StrDetails'] = self.strdetails
+		Character['Powers']['Detail'][powername]['APCost'] = self.apcost
+		Character['Powers']['Detail'][powername]['MaxAP'] = self.maxap
+		Character['Powers']['Detail'][powername]['AreaEffect'] = self.areaeffect
+		Character['Powers']['Detail'][powername]['DamageAP'] = self.damageap
+		Character['Powers']['Detail'][powername]['Duration'] = self.duration
+		Character['Powers']['Detail'][powername]['DurationUnit'] = self.durationunit
+		Character['Powers']['Detail'][powername]['Range'] = roll_ap(self.range)
+		Character['Powers']['Detail'][powername]['Choices'] = self.choices
+		Character['Powers']['Detail'][powername]['ExtraAction'] = 1
+		Character['Powers']['Detail'][powername]['Speed'] = (Character['Statistics']['Agility'] + Character['Statistics']['Stamina'] + Character['Statistics']['Stamina'])*3
+		if Character['Powers']['Detail'][powername]['Speed'] > 150:
+			addspeed = roll_effects(1,100)*10
+			Character['Powers']['Detail'][powername]['Speed'] + addspeed
+		if Character['Powers']['Detail'][powername]['Speed'] > 500:
+			Character['Powers']['Detail'][powername]['RunFrictionless'] = "Yes"
+		if Character['Powers']['Detail'][powername]['Speed'] > 1000:
+			Character['Powers']['Detail'][powername]['LightSpeed'] = "Yes"
+			Character['Powers']['Detail'][powername]['CreateVortex'] = "Yes"
+			Character['Powers']['Detail'][powername]['MaxWeight'] = "3kg per 500km"
+		if 'Device' in Character['Powers']['Detail'][powername]:
+			print(Character['Powers']['Detail'][powername]['Device'])
+			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
+			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
+			Character['Powers']['Detail'][powername]['Speed'] = roll_effects(2,10) * roll_effects(2,10)
+			if Character['Powers']['Detail'][powername]['Speed'] > 150:
+				addspeed = roll_effects(1,100)*10
+				Character['Powers']['Detail'][powername]['Speed'] + addspeed
+			if Character['Powers']['Detail'][powername]['Speed'] > 1000:
+				Character['Powers']['Detail'][powername]['LightSpeed'] = "Yes"
