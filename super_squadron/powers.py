@@ -1093,6 +1093,7 @@ class HeightenedSenses(PowerBase):
 		Character['Powers']['Detail'][powername]['Augmentations']['Duration'] = {}
 		Character['Powers']['Detail'][powername]['Augmentations']['DurationUnit'] = {}
 		Character['Powers']['Detail'][powername]['Augmentations']['Range'] = {}
+		Character['Powers']['Detail'][powername]['Augmentations']['Special'] = {}
 		batypecheck = roll_effects(1,12)
 		for power in range(batypecheck):
 			if batypecheck == 1:
