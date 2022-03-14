@@ -1083,6 +1083,16 @@ class HeightenedSenses(PowerBase):
 		Character['Powers']['Detail'][powername]['DurationUnit'] = self.durationunit
 		Character['Powers']['Detail'][powername]['Range'] = self.range
 		Character['Powers']['Detail'][powername]['Choices'] = self.choices
+		Character['Powers']['Detail'][powername]['Augmentations'] = {}
+		Character['Powers']['Detail'][powername]['Augmentations']['Type'] = {}
+		Character['Powers']['Detail'][powername]['Augmentations']['StrDetails'] = {}
+		Character['Powers']['Detail'][powername]['Augmentations']['APCost'] = {}
+		Character['Powers']['Detail'][powername]['Augmentations']['MaxAP'] = {}
+		Character['Powers']['Detail'][powername]['Augmentations']['AreaEffect'] = {}
+		Character['Powers']['Detail'][powername]['Augmentations']['DamageAP'] = {}
+		Character['Powers']['Detail'][powername]['Augmentations']['Duration'] = {}
+		Character['Powers']['Detail'][powername]['Augmentations']['DurationUnit'] = {}
+		Character['Powers']['Detail'][powername]['Augmentations']['Range'] = {}
 		batypecheck = roll_effects(1,12)
 		for power in range(batypecheck):
 			if batypecheck == 1:
@@ -1173,7 +1183,7 @@ class HeightenedSenses(PowerBase):
 			elif batypecheck == 9:
 				Character['Powers']['Detail'][powername]['Augmentations']['Type'][str(power + 1)] = "Telescopic Vision"
 				Character['Powers']['Detail'][powername]['Augmentations']['StrDetails'][str(power + 1)] = "See normally at range"
-				Character['Powers']['Detail'][powername]['Augmentations']['APCost'][str(power + 1)] = 2"
+				Character['Powers']['Detail'][powername]['Augmentations']['APCost'][str(power + 1)] = 2
 				Character['Powers']['Detail'][powername]['Augmentations']['MaxAP'][str(power + 1)] = 2
 				Character['Powers']['Detail'][powername]['Augmentations']['AreaEffect'][str(power + 1)] = "Personal"
 				Character['Powers']['Detail'][powername]['Augmentations']['DamageAP'][str(power + 1)] = "NotApplicable"
@@ -1224,7 +1234,7 @@ class HeightenedSpeed(PowerBase):
 						 powers_dict[powername].areaeffect, powers_dict[powername].deviceap, powers_dict[powername].damageap,\
 						 powers_dict[powername].duration, powers_dict[powername].durationunit, powers_dict[powername].range,\
 						 powers_dict[powername].devicerange, powers_dict[powername].choices)
-		self.strdetails = 'Fly personally'
+		self.strdetails = 'Run at increased speeds'
 		Character['Powers']['Detail'][powername]['StrDetails'] = self.strdetails
 		Character['Powers']['Detail'][powername]['APCost'] = self.apcost
 		Character['Powers']['Detail'][powername]['MaxAP'] = self.maxap
@@ -1255,3 +1265,27 @@ class HeightenedSpeed(PowerBase):
 				Character['Powers']['Detail'][powername]['Speed'] + addspeed
 			if Character['Powers']['Detail'][powername]['Speed'] > 1000:
 				Character['Powers']['Detail'][powername]['LightSpeed'] = "Yes"
+
+class IceGeneration(PowerBase):
+	def __init__(self, Character):
+		powername = 'Ice Generation'
+		super().__init__(powers_dict[powername].name, powers_dict[powername].apcost, powers_dict[powername].maxap,\
+						 powers_dict[powername].areaeffect, powers_dict[powername].deviceap, powers_dict[powername].damageap,\
+						 powers_dict[powername].duration, powers_dict[powername].durationunit, powers_dict[powername].range,\
+						 powers_dict[powername].devicerange, powers_dict[powername].choices)
+		self.strdetails = 'Decrease temperature and make ice'
+		Character['Powers']['Detail'][powername]['StrDetails'] = self.strdetails
+		Character['Powers']['Detail'][powername]['APCost'] = self.apcost
+		Character['Powers']['Detail'][powername]['MaxAP'] = self.maxap
+		Character['Powers']['Detail'][powername]['AreaEffect'] = self.areaeffect
+		Character['Powers']['Detail'][powername]['DamageAP'] = self.damageap
+		Character['Powers']['Detail'][powername]['Duration'] = self.duration
+		Character['Powers']['Detail'][powername]['DurationUnit'] = self.durationunit
+		Character['Powers']['Detail'][powername]['Range'] = (Character['Statistics']['Strength'] + Character['Statistics']['Agility'])
+		Character['Powers']['Detail'][powername]['Choices'] = self.choices
+		Character['Powers']['Detail'][powername]['FreezeSave'] = "SA + AG + LK"
+		Character['Powers']['Detail'][powername]['Immunity'] = "Low temperatures"
+		if 'Device' in Character['Powers']['Detail'][powername]:
+			print(Character['Powers']['Detail'][powername]['Device'])
+			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
+			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
