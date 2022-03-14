@@ -251,6 +251,13 @@ if __name__ == '__main__':
     dict2[powername] = powers.HeightenedDefense
     ad = dict2[powername](Character)
 
+    powername = 'Heightened Expertise'
+    Character['Powers']['Number'] = 36
+    Character['Powers']['List'].append(powername)
+    Character['Powers']['Detail'][powername] = {}
+    dict2[powername] = powers.HeightenedExpertise
+    ad = dict2[powername](Character)
+
     print(Character)
 
 

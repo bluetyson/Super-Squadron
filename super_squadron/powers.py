@@ -1065,3 +1065,160 @@ class HeightenedExpertise(PowerBase):
 			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
+
+
+class HeightenedSenses(PowerBase):
+	def __init__(self, Character):
+		powername = 'Heightened Senses'
+		super().__init__(powers_dict[powername].name, powers_dict[powername].apcost, powers_dict[powername].maxap,\
+						 powers_dict[powername].areaeffect, powers_dict[powername].deviceap, powers_dict[powername].damageap,\
+						 powers_dict[powername].duration, powers_dict[powername].durationunit, powers_dict[powername].range,\
+						 powers_dict[powername].devicerange, powers_dict[powername].choices)
+		self.strdetails = 'Gain additional appendages, each modifying HP or DD'
+		Character['Powers']['Detail'][powername]['StrDetails'] = self.strdetails
+		Character['Powers']['Detail'][powername]['APCost'] = self.apcost
+		Character['Powers']['Detail'][powername]['MaxAP'] = self.maxap
+		Character['Powers']['Detail'][powername]['AreaEffect'] = self.areaeffect
+		Character['Powers']['Detail'][powername]['DamageAP'] = self.damageap
+		Character['Powers']['Detail'][powername]['Duration'] = self.duration
+		Character['Powers']['Detail'][powername]['DurationUnit'] = self.durationunit
+		Character['Powers']['Detail'][powername]['Range'] = self.range
+		Character['Powers']['Detail'][powername]['Choices'] = self.choices
+		batypecheck = roll_effects(1,12)
+		for power in range(batypecheck):
+			if batypecheck == 1:
+				Character['Powers']['Detail'][powername]['Augmentations']['Type'][str(power + 1)] = "Amplified Hearing"
+				Character['Powers']['Detail'][powername]['Augmentations']['StrDetails'][str(power + 1)] = "Sensitive to sound, hear low nosie, through doors, walls"
+				Character['Powers']['Detail'][powername]['Augmentations']['APCost'][str(power + 1)] = "1-3"
+				Character['Powers']['Detail'][powername]['Augmentations']['MaxAP'][str(power + 1)] = 6
+				Character['Powers']['Detail'][powername]['Augmentations']['AreaEffect'][str(power + 1)] = "Personal"
+				Character['Powers']['Detail'][powername]['Augmentations']['DamageAP'][str(power + 1)] = "NotApplicable"
+				Character['Powers']['Detail'][powername]['Augmentations']['Duration'][str(power + 1)] = 1
+				Character['Powers']['Detail'][powername]['Augmentations']['DurationUnit'][str(power + 1)] = round
+				Character['Powers']['Detail'][powername]['Augmentations']['Range'][str(power + 1)] = (Character['Statistics']['Stamina']+2)
+				Character['Powers']['Detail'][powername]['Augmentations']['Special'][str(power + 1)] = "Navigate in Darkness"
+			elif batypecheck == 2:
+				Character['Powers']['Detail'][powername]['Augmentations']['Type'][str(power + 1)] = "Radio Hearing"
+				Character['Powers']['Detail'][powername]['Augmentations']['StrDetails'][str(power + 1)] = "Sensitive to sound, hear low nosie, through doors, walls"
+				Character['Powers']['Detail'][powername]['Augmentations']['APCost'][str(power + 1)] = "1-3"
+				Character['Powers']['Detail'][powername]['Augmentations']['MaxAP'][str(power + 1)] = 6
+				Character['Powers']['Detail'][powername]['Augmentations']['AreaEffect'][str(power + 1)] = "Personal"
+				Character['Powers']['Detail'][powername]['Augmentations']['DamageAP'][str(power + 1)] = "NotApplicable"
+				Character['Powers']['Detail'][powername]['Augmentations']['Duration'][str(power + 1)] = 1
+				Character['Powers']['Detail'][powername]['Augmentations']['DurationUnit'][str(power + 1)] = round
+				Character['Powers']['Detail'][powername]['Augmentations']['Range'][str(power + 1)] = (Character['Statistics']['Stamina']+2)
+				Character['Powers']['Detail'][powername]['Augmentations']['Special'][str(power + 1)] = "Navigate in Darkness"
+			elif batypecheck == 3:
+				Character['Powers']['Detail'][powername]['Augmentations']['Type'][str(power + 1)] = "Super Hearing"
+				Character['Powers']['Detail'][powername]['Augmentations']['StrDetails'][str(power + 1)] = "Sensitive to sound, hear low nosie, through doors, walls"
+				Character['Powers']['Detail'][powername]['Augmentations']['APCost'][str(power + 1)] = "1-3"
+				Character['Powers']['Detail'][powername]['Augmentations']['MaxAP'][str(power + 1)] = 6
+				Character['Powers']['Detail'][powername]['Augmentations']['AreaEffect'][str(power + 1)] = "Personal"
+				Character['Powers']['Detail'][powername]['Augmentations']['DamageAP'][str(power + 1)] = "NotApplicable"
+				Character['Powers']['Detail'][powername]['Augmentations']['Duration'][str(power + 1)] = 1
+				Character['Powers']['Detail'][powername]['Augmentations']['DurationUnit'][str(power + 1)] = round
+				Character['Powers']['Detail'][powername]['Augmentations']['Range'][str(power + 1)] = (Character['Statistics']['Stamina']+2)
+				Character['Powers']['Detail'][powername]['Augmentations']['Special'][str(power + 1)] = "Navigate in Darkness"
+			elif batypecheck == 4:
+				Character['Powers']['Detail'][powername]['Augmentations']['Type'][str(power + 1)] = "Ultrasonic Hearing"
+				Character['Powers']['Detail'][powername]['Augmentations']['StrDetails'][str(power + 1)] = "Sensitive to sound, hear low nosie, through doors, walls"
+				Character['Powers']['Detail'][powername]['Augmentations']['APCost'][str(power + 1)] = "1-3"
+				Character['Powers']['Detail'][powername]['Augmentations']['MaxAP'][str(power + 1)] = 6
+				Character['Powers']['Detail'][powername]['Augmentations']['AreaEffect'][str(power + 1)] = "Personal"
+				Character['Powers']['Detail'][powername]['Augmentations']['DamageAP'][str(power + 1)] = "NotApplicable"
+				Character['Powers']['Detail'][powername]['Augmentations']['Duration'][str(power + 1)] = 1
+				Character['Powers']['Detail'][powername]['Augmentations']['DurationUnit'][str(power + 1)] = round
+				Character['Powers']['Detail'][powername]['Augmentations']['Range'][str(power + 1)] = (Character['Statistics']['Stamina']+2)
+				Character['Powers']['Detail'][powername]['Augmentations']['Special'][str(power + 1)] = "Navigate in Darkness"
+			elif batypecheck == 5:
+				Character['Powers']['Detail'][powername]['Augmentations']['Type'][str(power + 1)] = "Sensitive Smell and Taste"
+				Character['Powers']['Detail'][powername]['Augmentations']['StrDetails'][str(power + 1)] = "Sensitive to sound, hear low nosie, through doors, walls"
+				Character['Powers']['Detail'][powername]['Augmentations']['APCost'][str(power + 1)] = "1-3"
+				Character['Powers']['Detail'][powername]['Augmentations']['MaxAP'][str(power + 1)] = 6
+				Character['Powers']['Detail'][powername]['Augmentations']['AreaEffect'][str(power + 1)] = "Personal"
+				Character['Powers']['Detail'][powername]['Augmentations']['DamageAP'][str(power + 1)] = "NotApplicable"
+				Character['Powers']['Detail'][powername]['Augmentations']['Duration'][str(power + 1)] = 1
+				Character['Powers']['Detail'][powername]['Augmentations']['DurationUnit'][str(power + 1)] = round
+				Character['Powers']['Detail'][powername]['Augmentations']['Range'][str(power + 1)] = (Character['Statistics']['Stamina']+2)
+				Character['Powers']['Detail'][powername]['Augmentations']['Special'][str(power + 1)] = "Navigate in Darkness"
+			elif batypecheck == 6:
+				Character['Powers']['Detail'][powername]['Augmentations']['Type'][str(power + 1)] = "Sensitive Touch"
+				Character['Powers']['Detail'][powername]['Augmentations']['StrDetails'][str(power + 1)] = "Sensitive to sound, hear low nosie, through doors, walls"
+				Character['Powers']['Detail'][powername]['Augmentations']['APCost'][str(power + 1)] = "1-3"
+				Character['Powers']['Detail'][powername]['Augmentations']['MaxAP'][str(power + 1)] = 6
+				Character['Powers']['Detail'][powername]['Augmentations']['AreaEffect'][str(power + 1)] = "Personal"
+				Character['Powers']['Detail'][powername]['Augmentations']['DamageAP'][str(power + 1)] = "NotApplicable"
+				Character['Powers']['Detail'][powername]['Augmentations']['Duration'][str(power + 1)] = 1
+				Character['Powers']['Detail'][powername]['Augmentations']['DurationUnit'][str(power + 1)] = round
+				Character['Powers']['Detail'][powername]['Augmentations']['Range'][str(power + 1)] = (Character['Statistics']['Stamina']+2)
+				Character['Powers']['Detail'][powername]['Augmentations']['Special'][str(power + 1)] = "Navigate in Darkness"
+			elif batypecheck == 7:
+				Character['Powers']['Detail'][powername]['Augmentations']['Type'][str(power + 1)] = "Infrared Vision"
+				Character['Powers']['Detail'][powername]['Augmentations']['StrDetails'][str(power + 1)] = "Sensitive to sound, hear low nosie, through doors, walls"
+				Character['Powers']['Detail'][powername]['Augmentations']['APCost'][str(power + 1)] = "1-3"
+				Character['Powers']['Detail'][powername]['Augmentations']['MaxAP'][str(power + 1)] = 6
+				Character['Powers']['Detail'][powername]['Augmentations']['AreaEffect'][str(power + 1)] = "Personal"
+				Character['Powers']['Detail'][powername]['Augmentations']['DamageAP'][str(power + 1)] = "NotApplicable"
+				Character['Powers']['Detail'][powername]['Augmentations']['Duration'][str(power + 1)] = 1
+				Character['Powers']['Detail'][powername]['Augmentations']['DurationUnit'][str(power + 1)] = round
+				Character['Powers']['Detail'][powername]['Augmentations']['Range'][str(power + 1)] = (Character['Statistics']['Stamina']+2)
+				Character['Powers']['Detail'][powername]['Augmentations']['Special'][str(power + 1)] = "Navigate in Darkness"
+			elif batypecheck == 8:
+				Character['Powers']['Detail'][powername]['Augmentations']['Type'][str(power + 1)] = "Microscopic Vision"
+				Character['Powers']['Detail'][powername]['Augmentations']['StrDetails'][str(power + 1)] = "Sensitive to sound, hear low nosie, through doors, walls"
+				Character['Powers']['Detail'][powername]['Augmentations']['APCost'][str(power + 1)] = "1-3"
+				Character['Powers']['Detail'][powername]['Augmentations']['MaxAP'][str(power + 1)] = 6
+				Character['Powers']['Detail'][powername]['Augmentations']['AreaEffect'][str(power + 1)] = "Personal"
+				Character['Powers']['Detail'][powername]['Augmentations']['DamageAP'][str(power + 1)] = "NotApplicable"
+				Character['Powers']['Detail'][powername]['Augmentations']['Duration'][str(power + 1)] = 1
+				Character['Powers']['Detail'][powername]['Augmentations']['DurationUnit'][str(power + 1)] = round
+				Character['Powers']['Detail'][powername]['Augmentations']['Range'][str(power + 1)] = (Character['Statistics']['Stamina']+2)
+				Character['Powers']['Detail'][powername]['Augmentations']['Special'][str(power + 1)] = "Navigate in Darkness"
+			elif batypecheck == 9:
+				Character['Powers']['Detail'][powername]['Augmentations']['Type'][str(power + 1)] = "Telescopic Vision"
+				Character['Powers']['Detail'][powername]['Augmentations']['StrDetails'][str(power + 1)] = "Sensitive to sound, hear low nosie, through doors, walls"
+				Character['Powers']['Detail'][powername]['Augmentations']['APCost'][str(power + 1)] = "1-3"
+				Character['Powers']['Detail'][powername]['Augmentations']['MaxAP'][str(power + 1)] = 6
+				Character['Powers']['Detail'][powername]['Augmentations']['AreaEffect'][str(power + 1)] = "Personal"
+				Character['Powers']['Detail'][powername]['Augmentations']['DamageAP'][str(power + 1)] = "NotApplicable"
+				Character['Powers']['Detail'][powername]['Augmentations']['Duration'][str(power + 1)] = 1
+				Character['Powers']['Detail'][powername]['Augmentations']['DurationUnit'][str(power + 1)] = round
+				Character['Powers']['Detail'][powername]['Augmentations']['Range'][str(power + 1)] = (Character['Statistics']['Stamina']+2)
+				Character['Powers']['Detail'][powername]['Augmentations']['Special'][str(power + 1)] = "Navigate in Darkness"
+			elif batypecheck == 10:
+				Character['Powers']['Detail'][powername]['Augmentations']['Type'][str(power + 1)] = "Ultraviolet Vision"
+				Character['Powers']['Detail'][powername]['Augmentations']['StrDetails'][str(power + 1)] = "Sensitive to sound, hear low nosie, through doors, walls"
+				Character['Powers']['Detail'][powername]['Augmentations']['APCost'][str(power + 1)] = "1-3"
+				Character['Powers']['Detail'][powername]['Augmentations']['MaxAP'][str(power + 1)] = 6
+				Character['Powers']['Detail'][powername]['Augmentations']['AreaEffect'][str(power + 1)] = "Personal"
+				Character['Powers']['Detail'][powername]['Augmentations']['DamageAP'][str(power + 1)] = "NotApplicable"
+				Character['Powers']['Detail'][powername]['Augmentations']['Duration'][str(power + 1)] = 1
+				Character['Powers']['Detail'][powername]['Augmentations']['DurationUnit'][str(power + 1)] = round
+				Character['Powers']['Detail'][powername]['Augmentations']['Range'][str(power + 1)] = (Character['Statistics']['Stamina']+2)
+				Character['Powers']['Detail'][powername]['Augmentations']['Special'][str(power + 1)] = "Navigate in Darkness"
+			elif batypecheck == 11:
+				Character['Powers']['Detail'][powername]['Augmentations']['Type'][str(power + 1)] = "X-Ray Vision"
+				Character['Powers']['Detail'][powername]['Augmentations']['StrDetails'][str(power + 1)] = "Sensitive to sound, hear low nosie, through doors, walls"
+				Character['Powers']['Detail'][powername]['Augmentations']['APCost'][str(power + 1)] = "1-3"
+				Character['Powers']['Detail'][powername]['Augmentations']['MaxAP'][str(power + 1)] = 6
+				Character['Powers']['Detail'][powername]['Augmentations']['AreaEffect'][str(power + 1)] = "Personal"
+				Character['Powers']['Detail'][powername]['Augmentations']['DamageAP'][str(power + 1)] = "NotApplicable"
+				Character['Powers']['Detail'][powername]['Augmentations']['Duration'][str(power + 1)] = 1
+				Character['Powers']['Detail'][powername]['Augmentations']['DurationUnit'][str(power + 1)] = round
+				Character['Powers']['Detail'][powername]['Augmentations']['Range'][str(power + 1)] = (Character['Statistics']['Stamina']+2)
+				Character['Powers']['Detail'][powername]['Augmentations']['Special'][str(power + 1)] = "Navigate in Darkness"
+			else:
+				Character['Powers']['Detail'][powername]['Augmentations']['Type'][str(power + 1)] = "Vibratory Vision"
+				Character['Powers']['Detail'][powername]['Augmentations']['StrDetails'][str(power + 1)] = "Sensitive to sound, hear low nosie, through doors, walls"
+				Character['Powers']['Detail'][powername]['Augmentations']['APCost'][str(power + 1)] = "1-3"
+				Character['Powers']['Detail'][powername]['Augmentations']['MaxAP'][str(power + 1)] = 6
+				Character['Powers']['Detail'][powername]['Augmentations']['AreaEffect'][str(power + 1)] = "Personal"
+				Character['Powers']['Detail'][powername]['Augmentations']['DamageAP'][str(power + 1)] = "NotApplicable"
+				Character['Powers']['Detail'][powername]['Augmentations']['Duration'][str(power + 1)] = 1
+				Character['Powers']['Detail'][powername]['Augmentations']['DurationUnit'][str(power + 1)] = round
+				Character['Powers']['Detail'][powername]['Augmentations']['Range'][str(power + 1)] = (Character['Statistics']['Stamina']+2)
+				Character['Powers']['Detail'][powername]['Augmentations']['Special'][str(power + 1)] = "Navigate in Darkness"
+		if 'Device' in Character['Powers']['Detail'][powername]:
+			print(Character['Powers']['Detail'][powername]['Device'])
+			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
+			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
