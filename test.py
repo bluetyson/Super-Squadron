@@ -161,24 +161,31 @@ if __name__ == '__main__':
     ad = dict2[powername](Character)
 
     powername = 'Enhanced Intelligence'
-    Character['Powers']['Number'] = 20
+    Character['Powers']['Number'] = 22
     Character['Powers']['List'].append(powername)
     Character['Powers']['Detail'][powername] = {}
     dict2[powername] = powers.EnhancedIntelligence
     ad = dict2[powername](Character)
 
     powername = 'Enhanced Stamina'
-    Character['Powers']['Number'] = 20
+    Character['Powers']['Number'] = 23
     Character['Powers']['List'].append(powername)
     Character['Powers']['Detail'][powername] = {}
     dict2[powername] = powers.EnhancedStamina
     ad = dict2[powername](Character)
 
     powername = 'Enhanced Strength'
-    Character['Powers']['Number'] = 20
+    Character['Powers']['Number'] = 24
     Character['Powers']['List'].append(powername)
     Character['Powers']['Detail'][powername] = {}
     dict2[powername] = powers.EnhancedStrength
+    ad = dict2[powername](Character)
+
+    powername = 'Environment Control'
+    Character['Powers']['Number'] = 25
+    Character['Powers']['List'].append(powername)
+    Character['Powers']['Detail'][powername] = {}
+    dict2[powername] = powers.EnvironmentControl
     ad = dict2[powername](Character)
 
     print(Character)
