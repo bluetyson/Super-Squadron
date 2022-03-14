@@ -569,3 +569,46 @@ class EmotionControl(PowerBase):
 			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
+
+class EnergyAbsorption(PowerBase):
+	def __init__(self, Character):
+		powername = 'Energy Absorptio'
+		super().__init__(powers_dict[powername].name, powers_dict[powername].apcost, powers_dict[powername].maxap,\
+						 powers_dict[powername].areaeffect, powers_dict[powername].deviceap, powers_dict[powername].damageap,\
+						 powers_dict[powername].duration, powers_dict[powername].durationunit, powers_dict[powername].range,\
+						 powers_dict[powername].devicerange, powers_dict[powername].choices)
+		self.strdetails = 'Energy Absorption A'
+		Character['Powers']['Detail'][powername]['StrDetails'] = self.strdetails
+		Character['Powers']['Detail'][powername]['APCost'] = self.apcost
+		Character['Powers']['Detail'][powername]['MaxAP'] = self.maxap
+		Character['Powers']['Detail'][powername]['AreaEffect'] = self.areaeffect
+		Character['Powers']['Detail'][powername]['DamageAP'] = self.damageap
+		Character['Powers']['Detail'][powername]['Duration'] = self.duration
+		Character['Powers']['Detail'][powername]['DurationUnit'] = self.durationunit
+		Character['Powers']['Detail'][powername]['Range'] = roll_ap(self.range)
+		Character['Powers']['Detail'][powername]['Choices'] = self.choices
+		Character['Powers']['Detail'][powername2]['Store'] = 70
+		powcheck = roll_effects(1, 100)
+		if powcheck <= 20:
+			self.strdetails = self.strdetails + ' and B'
+			powername2 = 'B'
+			Character['Powers']['Detail'][powername2]['APCost'] = 4
+			Character['Powers']['Detail'][powername2]['MaxAP'] = 4
+			Character['Powers']['Detail'][powername2]['AreaEffect'] = "Character"
+			Character['Powers']['Detail'][powername2]['DamageAP'] = "Variable"
+			Character['Powers']['Detail'][powername2]['Duration'] = "2"
+			Character['Powers']['Detail'][powername2]['DurationUnit'] = "hours"
+			Character['Powers']['Detail'][powername2]['Range'] = (Character['Statistics']['Intelligence'])
+			Character['Powers']['Detail'][powername2]['StoreMiss'] = 30
+			Character['Powers']['Detail'][powername2]['StoreMax'] = (Character['Statistics']['Strength'] + Character['Statistics']['Stamina'])
+			Character['Powers']['Detail'][powername2]['StoreBlast'] = "1d4 to 1d30, depending on energy"
+			if 'Device' in Character['Powers']['Detail'][powername]:
+				Character['Powers']['Detail'][powername2]['Device']['DeviceAP'] = roll_ap(self.deviceap)
+				Character['Powers']['Detail'][powername2]['Device']['DeviceRange'] = roll_ap(self.devicerange)
+				Character['Powers']['Detail'][powername2]['Device']['Overload'] = "50% energy in 15m radius"
+				Character['Powers']['Detail'][powername2]['StoreMax'] = roll_ap("1d4x10")
+
+		if 'Device' in Character['Powers']['Detail'][powername]:
+			print(Character['Powers']['Detail'][powername]['Device'])
+			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
+			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)

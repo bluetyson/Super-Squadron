@@ -139,6 +139,13 @@ if __name__ == '__main__':
     dict2[powername] = powers.EmotionControl
     ad = dict2[powername](Character)
 
+    powername = 'Energy Absorption'
+    Character['Powers']['Number'] = 20
+    Character['Powers']['List'].append(powername)
+    Character['Powers']['Detail'][powername] = {}
+    dict2[powername] = powers.EnergyAbsorption
+    ad = dict2[powername](Character)
+
     print(Character)
 
 
