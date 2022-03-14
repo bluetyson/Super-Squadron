@@ -915,12 +915,12 @@ class ForceBeam(PowerBase):
 
 class ForceField(PowerBase):
 	def __init__(self, Character):
-		powername = 'Flame Generation'
+		powername = 'Force Field'
 		super().__init__(powers_dict[powername].name, powers_dict[powername].apcost, powers_dict[powername].maxap,\
 						 powers_dict[powername].areaeffect, powers_dict[powername].deviceap, powers_dict[powername].damageap,\
 						 powers_dict[powername].duration, powers_dict[powername].durationunit, powers_dict[powername].range,\
 						 powers_dict[powername].devicerange, powers_dict[powername].choices)
-		self.strdetails = 'Physically alter the surrounding conditions'
+		self.strdetails = 'Generate a force beam for attack or a field for defense'
 		Character['Powers']['Detail'][powername]['StrDetails'] = self.strdetails
 		Character['Powers']['Detail'][powername]['APCost'] = self.apcost
 		Character['Powers']['Detail'][powername]['MaxAP'] = self.maxap
@@ -928,10 +928,37 @@ class ForceField(PowerBase):
 		Character['Powers']['Detail'][powername]['DamageAP'] = self.damageap
 		Character['Powers']['Detail'][powername]['Duration'] = self.duration
 		Character['Powers']['Detail'][powername]['DurationUnit'] = self.durationunit
-		Character['Powers']['Detail'][powername]['Range'] = (Character['Statistics']['Strength'] + Character['Statistics']['Agility'])*2
+		Character['Powers']['Detail'][powername]['Range'] = (Character['Statistics']['Strength'] + Character['Statistics']['Stamina'])
 		Character['Powers']['Detail'][powername]['Choices'] = self.choices
-		Character['Powers']['Detail'][powername]['Flight'] = (Character['Agility_Effects']['Move'])*4
-		Character['Powers']['Detail'][powername]['Immunity'] = "High temperatures"
+		Character['Powers']['Detail'][powername]['Defense'] = "8 pts for every 2 AP"
+		Character['Powers']['Detail'][powername]['ExtraArea'] = "Double AP per character"
+		Character['Powers']['Detail'][powername]['Special'] = "Air, light and sound get through"
+		if 'Device' in Character['Powers']['Detail'][powername]:
+			print(Character['Powers']['Detail'][powername]['Device'])
+			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
+			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
+
+class GravityControl(PowerBase):
+	def __init__(self, Character):
+		powername = 'Gravity Control'
+		super().__init__(powers_dict[powername].name, powers_dict[powername].apcost, powers_dict[powername].maxap,\
+						 powers_dict[powername].areaeffect, powers_dict[powername].deviceap, powers_dict[powername].damageap,\
+						 powers_dict[powername].duration, powers_dict[powername].durationunit, powers_dict[powername].range,\
+						 powers_dict[powername].devicerange, powers_dict[powername].choices)
+		self.strdetails = 'Increase or decrease gravity in an area'
+		Character['Powers']['Detail'][powername]['StrDetails'] = self.strdetails
+		Character['Powers']['Detail'][powername]['APCost'] = self.apcost
+		Character['Powers']['Detail'][powername]['MaxAP'] = self.maxap
+		Character['Powers']['Detail'][powername]['AreaEffect'] = (Character['Statistics']['Stamina']*Character['Statistics']['Stamina'])
+		Character['Powers']['Detail'][powername]['DamageAP'] = self.damageap
+		Character['Powers']['Detail'][powername]['Duration'] = self.duration
+		Character['Powers']['Detail'][powername]['DurationUnit'] = self.durationunit
+		Character['Powers']['Detail'][powername]['Range'] = self.range
+		Character['Powers']['Detail'][powername]['Choices'] = self.choices
+		Character['Powers']['Detail'][powername]['Special'] = "100% effect per AP"
+		Character['Powers']['Detail'][powername]['AgilityEffect'] = "Double or halve per direction"
+		Character['Powers']['Detail'][powername]['Flight'] = (Character['Agility_Effects']['Move'])*10
+		Character['Powers']['Detail'][powername]['APCostFlight'] = 2
 		if 'Device' in Character['Powers']['Detail'][powername]:
 			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)

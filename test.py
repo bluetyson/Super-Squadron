@@ -216,6 +216,20 @@ if __name__ == '__main__':
     dict2[powername] = powers.ForceBeam
     ad = dict2[powername](Character)
 
+    powername = 'Force Field'
+    Character['Powers']['Number'] = 31
+    Character['Powers']['List'].append(powername)
+    Character['Powers']['Detail'][powername] = {}
+    dict2[powername] = powers.ForceField
+    ad = dict2[powername](Character)
+
+    powername = 'Gravity Control'
+    Character['Powers']['Number'] = 32
+    Character['Powers']['List'].append(powername)
+    Character['Powers']['Detail'][powername] = {}
+    dict2[powername] = powers.ForceField
+    ad = dict2[powername](Character)
+
     print(Character)
 
 
