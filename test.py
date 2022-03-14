@@ -280,31 +280,38 @@ if __name__ == '__main__':
     ad = dict2[powername](Character)
 
     powername = 'Immateriality'
-    Character['Powers']['Number'] = 38
-    Character['Powers']['List'].append(powername)
-    Character['Powers']['Detail'][powername] = {}
-    dict2[powername] = powers.Immateriality
-    ad = dict2[powername](Character)
-
-    powername = 'Immortality'
     Character['Powers']['Number'] = 40
     Character['Powers']['List'].append(powername)
     Character['Powers']['Detail'][powername] = {}
     dict2[powername] = powers.Immateriality
     ad = dict2[powername](Character)
 
-    powername = 'Inherent Power'
+    powername = 'Immortality'
     Character['Powers']['Number'] = 41
+    Character['Powers']['List'].append(powername)
+    Character['Powers']['Detail'][powername] = {}
+    dict2[powername] = powers.Immateriality
+    ad = dict2[powername](Character)
+
+    powername = 'Inherent Power'
+    Character['Powers']['Number'] = 42
     Character['Powers']['List'].append(powername)
     Character['Powers']['Detail'][powername] = {}
     dict2[powername] = powers.InherentPower
     ad = dict2[powername](Character)
 
     powername = 'Invisibility'
-    Character['Powers']['Number'] = 42
+    Character['Powers']['Number'] = 43
     Character['Powers']['List'].append(powername)
     Character['Powers']['Detail'][powername] = {}
     dict2[powername] = powers.Invisibility
+    ad = dict2[powername](Character)
+
+    powername = 'Invulnerability'
+    Character['Powers']['Number'] = 44
+    Character['Powers']['List'].append(powername)
+    Character['Powers']['Detail'][powername] = {}
+    dict2[powername] = powers.Invulnerability
     ad = dict2[powername](Character)
 
     print(Character)
