@@ -1343,3 +1343,95 @@ class Immortality(PowerBase):
 			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
+
+
+class InherentPower(PowerBase):
+	def __init__(self, Character):
+		powername = 'Inherent Power'
+		super().__init__(powers_dict[powername].name, powers_dict[powername].apcost, powers_dict[powername].maxap,\
+						 powers_dict[powername].areaeffect, powers_dict[powername].deviceap, powers_dict[powername].damageap,\
+						 powers_dict[powername].duration, powers_dict[powername].durationunit, powers_dict[powername].range,\
+						 powers_dict[powername].devicerange, powers_dict[powername].choices)
+		self.strdetails = 'Portion of Body gains a power'
+		Character['Powers']['Detail'][powername]['StrDetails'] = self.strdetails
+		Character['Powers']['Detail'][powername]['APCost'] = self.apcost
+		Character['Powers']['Detail'][powername]['MaxAP'] = self.maxap
+		Character['Powers']['Detail'][powername]['AreaEffect'] = self.areaeffect
+		Character['Powers']['Detail'][powername]['DamageAP'] = self.damageap
+		Character['Powers']['Detail'][powername]['Duration'] = self.duration
+		Character['Powers']['Detail'][powername]['DurationUnit'] = self.durationunit
+		Character['Powers']['Detail'][powername]['Range'] = self.range
+		Character['Powers']['Detail'][powername]['Choices'] = self.choices
+		Character['Powers']['Detail'][powername]['Augmentations'] = {}
+		Character['Powers']['Detail'][powername]['Augmentations']['Type'] = {}
+		Character['Powers']['Detail'][powername]['Augmentations']['StrDetails'] = {}
+		Character['Powers']['Detail'][powername]['Augmentations']['APCost'] = {}
+		Character['Powers']['Detail'][powername]['Augmentations']['MaxAP'] = {}
+		Character['Powers']['Detail'][powername]['Augmentations']['AreaEffect'] = {}
+		Character['Powers']['Detail'][powername]['Augmentations']['DamageAP'] = {}
+		Character['Powers']['Detail'][powername]['Augmentations']['Duration'] = {}
+		Character['Powers']['Detail'][powername]['Augmentations']['DurationUnit'] = {}
+		Character['Powers']['Detail'][powername]['Augmentations']['Range'] = {}
+		batypecheck = roll_effects(1,6)
+		for power in range(batypecheck):
+			if batypecheck == 1:
+				Character['Powers']['Detail'][powername]['StrDetails'] + " Armour Plated Hands"
+				Character['Powers']['Detail'][powername]['APCost'] = "NotApplicable"
+				Character['Powers']['Detail'][powername]['MaxAP'] = "NotApplicable"
+				Character['Powers']['Detail'][powername]['AreaEffect'] = "Personal"
+				Character['Powers']['Detail'][powername]['DamageAP'] = "NotApplicable"
+				Character['Powers']['Detail'][powername]['Duration'] = "Concentration"
+				Character['Powers']['Detail'][powername]['DurationUnit'] = "NotApplicable"
+				Character['Powers']['Detail'][powername]['Range'] = "Touch"
+			elif batypecheck == 2:
+				Character['Powers']['Detail'][powername]['StrDetails'] + " Eye Beams"
+				Character['Powers']['Detail'][powername]['APCost'] = 1
+				Character['Powers']['Detail'][powername]['MaxAP'] = 3
+				Character['Powers']['Detail'][powername]['AreaEffect'] = "Character"
+				Character['Powers']['Detail'][powername]['DamageAP'] = "1d4"
+				Character['Powers']['Detail'][powername]['Duration'] = "Concentration"
+				Character['Powers']['Detail'][powername]['DurationUnit'] = "NotApplicable"
+				Character['Powers']['Detail'][powername]['Range'] = (Character['Statistics']['Agility'] + Character['Statistics']['Strength'])
+			elif batypecheck == 3:
+				Character['Powers']['Detail'][powername]['StrDetails'] + " Limited Teleportation"
+				Character['Powers']['Detail'][powername]['APCost'] = "10+"
+				Character['Powers']['Detail'][powername]['MaxAP'] = "NotApplicable"
+				Character['Powers']['Detail'][powername]['AreaEffect'] = "Characters"
+				Character['Powers']['Detail'][powername]['DamageAP'] = "NotApplicable"
+				Character['Powers']['Detail'][powername]['Duration'] = "Instantaneouss"
+				Character['Powers']['Detail'][powername]['DurationUnit'] = "NotApplicable"
+				Character['Powers']['Detail'][powername]['Range'] = "100km"
+				Character['Powers']['Detail'][powername]['DM'] = "-25 on Personal Teleports"
+			elif batypecheck == 4:
+				Character['Powers']['Detail'][powername]['StrDetails'] + " Mobile Hair"
+				Character['Powers']['Detail'][powername]['APCost'] = "NotApplicable"
+				Character['Powers']['Detail'][powername]['MaxAP'] = "NotApplicable"
+				Character['Powers']['Detail'][powername]['AreaEffect'] = "Character"
+				Character['Powers']['Detail'][powername]['DamageAP'] = "NotApplicable"
+				Character['Powers']['Detail'][powername]['Duration'] = "Permanent"
+				Character['Powers']['Detail'][powername]['DurationUnit'] = "NotApplicable"
+				Character['Powers']['Detail'][powername]['Range'] = "2"
+				Character['Powers']['Detail'][powername]['DD'] = "1d6"
+				Character['Powers']['Detail'][powername]['Special'] = "Hair used as another limb"
+			elif batypecheck == 5:
+				Character['Powers']['Detail'][powername]['StrDetails'] + " Paralysis Singer in Fingertips"
+				Character['Powers']['Detail'][powername]['APCost'] = "NotApplicable"
+				Character['Powers']['Detail'][powername]['MaxAP'] = "NotApplicable"
+				Character['Powers']['Detail'][powername]['AreaEffect'] = "Personal"
+				Character['Powers']['Detail'][powername]['DamageAP'] = "NotApplicable"
+				Character['Powers']['Detail'][powername]['Duration'] = "Concentration"
+				Character['Powers']['Detail'][powername]['DurationUnit'] = "NotApplicable"
+				Character['Powers']['Detail'][powername]['Range'] = "Touch"
+			else:
+				Character['Powers']['Detail'][powername]['StrDetails'] + " Spiked Missile Projection from Hands"
+				Character['Powers']['Detail'][powername]['APCost'] = 1
+				Character['Powers']['Detail'][powername]['MaxAP'] = "3"
+				Character['Powers']['Detail'][powername]['AreaEffect'] = "3 targets"
+				Character['Powers']['Detail'][powername]['DamageAP'] = "1d4"
+				Character['Powers']['Detail'][powername]['Duration'] = "Instantaneous"
+				Character['Powers']['Detail'][powername]['DurationUnit'] = "NotApplicable"
+				Character['Powers']['Detail'][powername]['Range'] = (normal_round(['Statistics']['Strength']/3))
+		if 'Device' in Character['Powers']['Detail'][powername]:
+			print(Character['Powers']['Detail'][powername]['Device'])
+			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
+			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
