@@ -755,7 +755,7 @@ class EnvironmentControl(PowerBase):
 
 class FastRecovery(PowerBase):
 	def __init__(self, Character):
-		powername = 'FastRecovery'
+		powername = 'Fast Recovery'
 		super().__init__(powers_dict[powername].name, powers_dict[powername].apcost, powers_dict[powername].maxap,\
 						 powers_dict[powername].areaeffect, powers_dict[powername].deviceap, powers_dict[powername].damageap,\
 						 powers_dict[powername].duration, powers_dict[powername].durationunit, powers_dict[powername].range,\
