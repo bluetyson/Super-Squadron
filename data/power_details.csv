@@ -13,7 +13,7 @@ Density Control,5,5,Personal,1d4x10,Description,1,round+,NotApplicable,NotApplic
 Dimensional Gate,20,No Limit,2 square metres,1d4x15+10,NotApplicable,1,round+,5,5,No
 Disguise,All,All,Personal,NotApplicable,NotApplicable,Until host found,NotApplicable,NotApplicable,NotApplicable,No
 Disintegration Beam,1,4,Character/object,1d8x5,1d6,Instantaneous,NotApplicable,Strengthx15,1d20x20,No
-Ego Change,NotApplicable,NotApplicable,Personal,NotApplicable,NotApplicable,Permanent,NotApplicable,NotApplicable,NotApplicable,No
+Ego Change,NotApplicable,NotApplicable,Personal,NotApplicable,NotApplicable,Permanent,NotApplicable,NotApplicable,NotApplicable,Yes
 Elasticity,1per10,No Limit,Personal,NotApplicable,NotApplicable,Until reversed,NotApplicable,NotApplicable,NotApplicable,No
 Emotion Control,5,No Limit,Character,3d10,NotApplicable,1d4*Ego*-1+25,turns,Intelligencex2,2d10x3,No
 Energy Absorption,NotApplicable,NotApplicable,Personal,NotApplicable,NotApplicable,Permanent,NotApplicable,NotApplicable,NotApplicable,Yes

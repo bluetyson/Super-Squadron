@@ -394,3 +394,129 @@ class Defect(PowerBase):
 			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
+
+class DensityControl(PowerBase):
+	def __init__(self, Character):
+		powername = 'Defect'
+		super().__init__(powers_dict[powername].name, powers_dict[powername].apcost, powers_dict[powername].maxap,\
+						 powers_dict[powername].areaeffect, powers_dict[powername].deviceap, powers_dict[powername].damageap,\
+						 powers_dict[powername].duration, powers_dict[powername].durationunit, powers_dict[powername].range,\
+						 powers_dict[powername].devicerange, powers_dict[powername].choices)
+		self.strdetails = 'Able to increase or decrease density'
+		Character['Powers']['Detail'][powername]['StrDetails'] = self.strdetails
+		Character['Powers']['Detail'][powername]['APCost'] = self.apcost
+		Character['Powers']['Detail'][powername]['MaxAP'] = self.maxap
+		Character['Powers']['Detail'][powername]['AreaEffect'] = self.areaeffect
+		Character['Powers']['Detail'][powername]['DamageAP'] = self.damageap
+		Character['Powers']['Detail'][powername]['Duration'] = self.duration
+		Character['Powers']['Detail'][powername]['DurationUnit'] = self.durationunit
+		Character['Powers']['Detail'][powername]['Range'] = self.range
+		Character['Powers']['Detail'][powername]['Choices'] = self.choices
+		Character['Powers']['Detail'][powername]['DensityLevel'] = {}
+		Character['Powers']['Detail'][powername]['DensityLevel']['3'] = {}
+		Character['Powers']['Detail'][powername]['DensityLevel']['2'] = {}
+		Character['Powers']['Detail'][powername]['DensityLevel']['1'] = {}
+		Character['Powers']['Detail'][powername]['DensityLevel']['0'] = {}
+		Character['Powers']['Detail'][powername]['DensityLevel']['-1'] = {}
+		Character['Powers']['Detail'][powername]['DensityLevel']['-2'] = {}
+		Character['Powers']['Detail'][powername]['DensityLevel']['3']['Name'] = "Diamond"
+		Character['Powers']['Detail'][powername]['DensityLevel']['3']['DD'] = "3d6"
+		Character['Powers']['Detail'][powername]['DensityLevel']['3']['Move'] = "0.05"
+		Character['Powers']['Detail'][powername]['DensityLevel']['2']['Name'] = "Steel"
+		Character['Powers']['Detail'][powername]['DensityLevel']['2']['DD'] = "2d6"
+		Character['Powers']['Detail'][powername]['DensityLevel']['2']['Move'] = "0.20"
+		Character['Powers']['Detail'][powername]['DensityLevel']['1']['Name'] = "Rock"
+		Character['Powers']['Detail'][powername]['DensityLevel']['1']['DD'] = "1d6"
+		Character['Powers']['Detail'][powername]['DensityLevel']['1']['Move'] = "0.50"
+		Character['Powers']['Detail'][powername]['DensityLevel']['0']['Name'] = "Normal"
+		Character['Powers']['Detail'][powername]['DensityLevel']['0']['DD'] = "0"
+		Character['Powers']['Detail'][powername]['DensityLevel']['0']['Move'] = "1"
+		Character['Powers']['Detail'][powername]['DensityLevel']['-1']['Name'] = "Light"
+		Character['Powers']['Detail'][powername]['DensityLevel']['-1']['DD'] = "-2d4"
+		Character['Powers']['Detail'][powername]['DensityLevel']['-1']['Move'] = "2"
+		Character['Powers']['Detail'][powername]['DensityLevel']['-2']['Name'] = "Flight"
+		Character['Powers']['Detail'][powername]['DensityLevel']['-2']['DD'] = "-2d6"
+		Character['Powers']['Detail'][powername]['DensityLevel']['-2']['Move'] = "10"
+
+		if 'Device' in Character['Powers']['Detail'][powername]:
+			print(Character['Powers']['Detail'][powername]['Device'])
+			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
+			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
+
+class DimensionalGate(PowerBase):
+	def __init__(self, Character):
+		powername = 'Dimensional Gate'
+		super().__init__(powers_dict[powername].name, powers_dict[powername].apcost, powers_dict[powername].maxap,\
+						 powers_dict[powername].areaeffect, powers_dict[powername].deviceap, powers_dict[powername].damageap,\
+						 powers_dict[powername].duration, powers_dict[powername].durationunit, powers_dict[powername].range,\
+						 powers_dict[powername].devicerange, powers_dict[powername].choices)
+		self.strdetails = 'Create a gateway to another dimension or reality'
+		Character['Powers']['Detail'][powername]['StrDetails'] = self.strdetails
+		Character['Powers']['Detail'][powername]['APCost'] = self.apcost
+		Character['Powers']['Detail'][powername]['MaxAP'] = self.maxap
+		Character['Powers']['Detail'][powername]['AreaEffect'] = self.areaeffect
+		Character['Powers']['Detail'][powername]['DamageAP'] = self.damageap
+		Character['Powers']['Detail'][powername]['Duration'] = self.duration
+		Character['Powers']['Detail'][powername]['DurationUnit'] = self.durationunit
+		Character['Powers']['Detail'][powername]['Range'] = self.range
+		Character['Powers']['Detail'][powername]['Choices'] = self.choices
+		Character['Powers']['Detail'][powername]['TargetFamiliarity'] = {}
+		Character['Powers']['Detail'][powername]['TargetFamiliarity']['Very Familiar'] = 3
+		Character['Powers']['Detail'][powername]['TargetFamiliarity']['Studied'] = 26
+		Character['Powers']['Detail'][powername]['TargetFamiliarity']['Casual'] = 50
+		Character['Powers']['Detail'][powername]['TargetFamiliarity']['Unknown'] = 75
+		Character['Powers']['Detail'][powername]['Duration'] = {}
+		Character['Powers']['Detail'][powername]['Duration']['1'] = {"AP":0,"DM":2}
+		Character['Powers']['Detail'][powername]['Duration']['2'] = {"AP":5,"DM":8}
+		Character['Powers']['Detail'][powername]['Duration']['3'] = {"AP":10,"DM":24}
+		Character['Powers']['Detail'][powername]['Duration']['4'] = {"AP":15,"DM":72}
+		Character['Powers']['Detail'][powername]['Duration']['5'] = {"AP":20,"DM":95}
+
+		if 'Device' in Character['Powers']['Detail'][powername]:
+			print(Character['Powers']['Detail'][powername]['Device'])
+			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
+			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
+
+class DisintegrationBeam(PowerBase):
+	def __init__(self, Character):
+		powername = 'Disintegration Beam'
+		super().__init__(powers_dict[powername].name, powers_dict[powername].apcost, powers_dict[powername].maxap,\
+						 powers_dict[powername].areaeffect, powers_dict[powername].deviceap, powers_dict[powername].damageap,\
+						 powers_dict[powername].duration, powers_dict[powername].durationunit, powers_dict[powername].range,\
+						 powers_dict[powername].devicerange, powers_dict[powername].choices)
+		self.strdetails = 'High intensity destructive beam.'
+		Character['Powers']['Detail'][powername]['StrDetails'] = self.strdetails
+		Character['Powers']['Detail'][powername]['APCost'] = self.apcost
+		Character['Powers']['Detail'][powername]['MaxAP'] = self.maxap
+		Character['Powers']['Detail'][powername]['AreaEffect'] = self.areaeffect
+		Character['Powers']['Detail'][powername]['DamageAP'] = self.damageap
+		Character['Powers']['Detail'][powername]['Duration'] = self.duration
+		Character['Powers']['Detail'][powername]['DurationUnit'] = self.durationunit
+		Character['Powers']['Detail'][powername]['Range'] = roll_ap(self.range)
+		Character['Powers']['Detail'][powername]['Choices'] = self.choices
+		if 'Device' in Character['Powers']['Detail'][powername]:
+			print(Character['Powers']['Detail'][powername]['Device'])
+			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
+			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
+
+class EgoChange(PowerBase):
+	def __init__(self, Character):
+		powername = 'Ego Change'
+		super().__init__(powers_dict[powername].name, powers_dict[powername].apcost, powers_dict[powername].maxap,\
+						 powers_dict[powername].areaeffect, powers_dict[powername].deviceap, powers_dict[powername].damageap,\
+						 powers_dict[powername].duration, powers_dict[powername].durationunit, powers_dict[powername].range,\
+						 powers_dict[powername].devicerange, powers_dict[powername].choices)
+		self.strdetails = 'The character may add or subtract 1d8 from Ego'
+		Character['Powers']['Detail'][powername]['StrDetails'] = self.strdetails
+		Character['Powers']['Detail'][powername]['APCost'] = self.apcost
+		Character['Powers']['Detail'][powername]['MaxAP'] = self.maxap
+		Character['Powers']['Detail'][powername]['AreaEffect'] = self.areaeffect
+		Character['Powers']['Detail'][powername]['DamageAP'] = self.damageap
+		Character['Powers']['Detail'][powername]['Duration'] = self.duration
+		Character['Powers']['Detail'][powername]['DurationUnit'] = self.durationunit
+		Character['Powers']['Detail'][powername]['Range'] = roll_ap(self.range)
+		Character['Powers']['Detail'][powername]['Choices'] = self.choices
+		if 'Device' in Character['Powers']['Detail'][powername]:
+			print(Character['Powers']['Detail'][powername]['Device'])
+			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
+			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
