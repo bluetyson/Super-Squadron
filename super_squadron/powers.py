@@ -1419,9 +1419,10 @@ class InherentPower(PowerBase):
 				Character['Powers']['Detail'][powername]['MaxAP'] = "NotApplicable"
 				Character['Powers']['Detail'][powername]['AreaEffect'] = "Personal"
 				Character['Powers']['Detail'][powername]['DamageAP'] = "NotApplicable"
-				Character['Powers']['Detail'][powername]['Duration'] = "Concentration"
-				Character['Powers']['Detail'][powername]['DurationUnit'] = "NotApplicable"
+				Character['Powers']['Detail'][powername]['Duration'] = "24 turns - victim (SA + 1d4)"
+				Character['Powers']['Detail'][powername]['DurationUnit'] = "turn"
 				Character['Powers']['Detail'][powername]['Range'] = "Touch"
+				Character['Powers']['Detail'][powername]['Save'] = "ST + SA + LK"
 			else:
 				Character['Powers']['Detail'][powername]['StrDetails'] + " Spiked Missile Projection from Hands"
 				Character['Powers']['Detail'][powername]['APCost'] = 1
