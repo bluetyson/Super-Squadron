@@ -146,6 +146,41 @@ if __name__ == '__main__':
     dict2[powername] = powers.EnergyAbsorption
     ad = dict2[powername](Character)
 
+    powername = 'Enhanced Agility'
+    Character['Powers']['Number'] = 20
+    Character['Powers']['List'].append(powername)
+    Character['Powers']['Detail'][powername] = {}
+    dict2[powername] = powers.EnhancedAgility
+    ad = dict2[powername](Character)
+
+    powername = 'Enhanced Charisma'
+    Character['Powers']['Number'] = 21
+    Character['Powers']['List'].append(powername)
+    Character['Powers']['Detail'][powername] = {}
+    dict2[powername] = powers.EnhancedCharisma
+    ad = dict2[powername](Character)
+
+    powername = 'Enhanced Intelligence'
+    Character['Powers']['Number'] = 20
+    Character['Powers']['List'].append(powername)
+    Character['Powers']['Detail'][powername] = {}
+    dict2[powername] = powers.EnhancedIntelligence
+    ad = dict2[powername](Character)
+
+    powername = 'Enhanced Stamina'
+    Character['Powers']['Number'] = 20
+    Character['Powers']['List'].append(powername)
+    Character['Powers']['Detail'][powername] = {}
+    dict2[powername] = powers.EnhancedStamina
+    ad = dict2[powername](Character)
+
+    powername = 'Enhanced Strength'
+    Character['Powers']['Number'] = 20
+    Character['Powers']['List'].append(powername)
+    Character['Powers']['Detail'][powername] = {}
+    dict2[powername] = powers.EnhancedStrength
+    ad = dict2[powername](Character)
+
     print(Character)
 
 
