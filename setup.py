@@ -6,10 +6,10 @@ with open("requirements.txt", "r") as fh:
     requirements = [line.strip() for line in fh]
 
 setuptools.setup(
-    name="is-number",
+    name="super-squadron",
     version="0.0.1",
     author="Super Squadron",
-    author_email="super squadron@supersquadron.org",
+    author_email="supersquadron@supersquadron.org",
     description="Utilities for the Supersquadron game",
     long_description=long_description,
     long_description_content_type="text/markdown",
