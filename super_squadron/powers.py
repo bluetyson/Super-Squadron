@@ -2,45 +2,58 @@
 import pandas as pd
 import numpy as np
 import math
+import os
 
 from super_squadron.roll import roll_ap, roll_effects
 
 def normal_round(n):
+    """Round a number to the nearest integer using standard rounding rules."""
     if n - math.floor(n) < 0.5:
         return math.floor(n)
     return math.ceil(n)
 
 class PowerBase:
-	def __init__(self, power, apcost, maxap, areaeffect, deviceap, damageap, duration, durationunit, range, devicerange, choices, device=False):
-		self.name = power
-		self.apcost = apcost
-		self.maxap = maxap
-		self.areaeffect = areaeffect
-		self.deviceap = deviceap
-		self.damageap = damageap
-		self.duration = duration
-		self.durationunit = durationunit
-		self.range = range
-		self.devicerange = devicerange
-		self.choices = choices
+    def __init__(self, power, apcost, maxap, areaeffect, deviceap, damageap, duration, durationunit, range, devicerange, choices, device=False):
+        self.name = power
+        self.apcost = apcost
+        self.maxap = maxap
+        self.areaeffect = areaeffect
+        self.deviceap = deviceap
+        self.damageap = damageap
+        self.duration = duration
+        self.durationunit = durationunit
+        self.range = range
+        self.devicerange = devicerange
+        self.choices = choices
 
-	def __repr__(self):
-		rep = 'PowerBase(' + self.name + ',' + str(self.apcost) + ')'
-		return rep
-		#if a device calculate that info
+    def __repr__(self):
+        rep = 'PowerBase(' + self.name + ',' + str(self.apcost) + ')'
+        return rep
 
 def printtest():
-	print("Super Squadron")
+    print("Super Squadron")
 
-df = pd.read_csv('data/power_details.csv', low_memory=False)
-#print(df.head())
+# Get the directory where this file is located
+current_dir = os.path.dirname(os.path.abspath(__file__))
+data_file = os.path.join(current_dir, '..', 'data', 'power_details.csv')
+
+# Load power details with error handling
+try:
+    df = pd.read_csv(data_file, low_memory=False)
+except FileNotFoundError:
+    # Try alternative path (when running from different directory)
+    data_file = 'data/power_details.csv'
+    try:
+        df = pd.read_csv(data_file, low_memory=False)
+    except FileNotFoundError:
+        raise FileNotFoundError(f"Could not find power_details.csv. Tried: {data_file}")
+
 powers_dict = {}
 
 for index, row in df.iterrows():
-	powers_dict[row['Power']] = PowerBase(row['Power'], row['APCost'], row['MaxAP'], row['AreaEffect'], row['DeviceAP'],\
-	 row['DamageAP'], row['Duration'], row['DurationUnit'], row['Range'], row['DeviceRange'], row['Choices'])
+    powers_dict[row['Power']] = PowerBase(row['Power'], row['APCost'], row['MaxAP'], row['AreaEffect'], row['DeviceAP'],\
+     row['DamageAP'], row['Duration'], row['DurationUnit'], row['Range'], row['DeviceRange'], row['Choices'])
 
-print(powers_dict)
 
 class Adaption(PowerBase):
 	def __init__(self, Character):
@@ -50,7 +63,6 @@ class Adaption(PowerBase):
 						 powers_dict[powername].duration, powers_dict[powername].durationunit, powers_dict[powername].range,\
 						 powers_dict[powername].devicerange, powers_dict[powername].choices)
 		self.strdetails = '1AP for light adaption, 5AP for heavy'
-		print(self.range)
 		Character['Powers']['Detail'][powername]['StrDetails'] = self.strdetails
 		Character['Powers']['Detail'][powername]['APCost'] = self.apcost
 		Character['Powers']['Detail'][powername]['MaxAP'] = self.maxap
@@ -66,7 +78,6 @@ class Adaption(PowerBase):
 		Character['Powers']['Detail'][powername]['4AP'] = "-15-85C, gravity variation 75%"
 		Character['Powers']['Detail'][powername]['5AP'] = "-25-95C, reduced O2, gravity variation 100%"
 		if 'Device' in Character['Powers']['Detail'][powername]:
-			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
 
@@ -101,7 +112,6 @@ class AirGeneration(PowerBase):
 		Character['Powers']['Detail'][powername]['Oxygen']['APCost'] = "1"
 		Character['Powers']['Detail'][powername]['Oxygen']['Volume'] = "1"
 		if 'Device' in Character['Powers']['Detail'][powername]:
-			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
 
@@ -128,7 +138,6 @@ class AnimalAffinity(PowerBase):
 		Character['Powers']['Detail'][powername]['Statistics'] = "2d6 [ST, AG, IQ, SA]"
 		Character['Powers']['Detail'][powername]['Damage'] = "1/1/1d3"
 		if 'Device' in Character['Powers']['Detail'][powername]:
-			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
 
@@ -153,7 +162,6 @@ class Armour(PowerBase):
 		Character['Powers']['Detail'][powername]['DamageReduction']['HTH'] = 1/3
 		Character['Powers']['Detail'][powername]['DamageReduction']['Other'] = 1/2
 		if 'Device' in Character['Powers']['Detail'][powername]:
-			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
 
@@ -189,7 +197,6 @@ class AstralProjection(PowerBase):
 			if spellscheck <= 85:
 				Character['Powers']['Detail'][powername]['SpellsInAstral'] = "Yes"
 		if 'Device' in Character['Powers']['Detail'][powername]:
-			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
 
@@ -238,7 +245,7 @@ class BodyAugmentation(PowerBase):
 				Character['Powers']['Detail'][powername]['Augmentations']['Special'][str(power + 1)] = "DD:1d8"
 			elif batypecheck == 7:
 				Character['Powers']['Detail'][powername]['Augmentations']['Type'][str(power + 1)] = "Stinger"
-				Character['Powers']['Detail'][powername]['Augmentations']['Special'][str(power + 1)] = "Paralysis or Sleep Teason"
+				Character['Powers']['Detail'][powername]['Augmentations']['Special'][str(power + 1)] = "Paralysis or Sleep Toxin"
 			else:
 				Character['Powers']['Detail'][powername]['Augmentations']['Type'][str(power + 1)] = "Extra Arms"
 				Character['Powers']['Detail'][powername]['Augmentations']['Special'][str(power + 1)] = "Double Normal Attacks"
@@ -249,7 +256,6 @@ class BodyAugmentation(PowerBase):
 			else:
 				Character['Powers']['Detail'][powername]['Augmentations']['Powers'][str(power + 1)] = "No"
 		if 'Device' in Character['Powers']['Detail'][powername]:
-			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
 
@@ -310,7 +316,6 @@ class Cybernetics(PowerBase):
 			else:
 				Character['Powers']['Detail'][powername]['Augmentations']['Powers'][str(power + 1)] = "No"
 		if 'Device' in Character['Powers']['Detail'][powername]:
-			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
 
@@ -335,7 +340,6 @@ class DarknessGeneration(PowerBase):
 		Character['Powers']['Detail'][powername]['MishapChance'] = "80 - (LK+EXP)"
 		Character['Powers']['Detail'][powername]['MishapDamage'] = "1d2"
 		if 'Device' in Character['Powers']['Detail'][powername]:
-			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
 
@@ -369,7 +373,6 @@ class DeathTouch(PowerBase):
 		Character['Powers']['Detail'][powername]['DefensivePowerModifierSaveB'] = "Half Damage"
 		Character['Powers']['Detail'][powername]['DefensivePowerModifierPermanentDamage'] = "91-00 - LK"
 		if 'Device' in Character['Powers']['Detail'][powername]:
-			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
 
@@ -391,13 +394,12 @@ class Defect(PowerBase):
 		Character['Powers']['Detail'][powername]['Range'] = self.range
 		Character['Powers']['Detail'][powername]['Choices'] = self.choices
 		if 'Device' in Character['Powers']['Detail'][powername]:
-			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
 
 class DensityControl(PowerBase):
 	def __init__(self, Character):
-		powername = 'Defect'
+		powername = 'Density Control'
 		super().__init__(powers_dict[powername].name, powers_dict[powername].apcost, powers_dict[powername].maxap,\
 						 powers_dict[powername].areaeffect, powers_dict[powername].deviceap, powers_dict[powername].damageap,\
 						 powers_dict[powername].duration, powers_dict[powername].durationunit, powers_dict[powername].range,\
@@ -439,7 +441,6 @@ class DensityControl(PowerBase):
 		Character['Powers']['Detail'][powername]['DensityLevel']['-2']['Move'] = "10"
 
 		if 'Device' in Character['Powers']['Detail'][powername]:
-			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
 
@@ -473,7 +474,6 @@ class DimensionalGate(PowerBase):
 		Character['Powers']['Detail'][powername]['Duration']['5'] = {"AP":20,"DM":95}
 
 		if 'Device' in Character['Powers']['Detail'][powername]:
-			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
 
@@ -495,7 +495,6 @@ class DisintegrationBeam(PowerBase):
 		Character['Powers']['Detail'][powername]['Range'] = (Character['Statistics']['Strength']*15)
 		Character['Powers']['Detail'][powername]['Choices'] = self.choices
 		if 'Device' in Character['Powers']['Detail'][powername]:
-			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
 
@@ -517,7 +516,6 @@ class EgoChange(PowerBase):
 		Character['Powers']['Detail'][powername]['Range'] = roll_ap(self.range)
 		Character['Powers']['Detail'][powername]['Choices'] = self.choices
 		if 'Device' in Character['Powers']['Detail'][powername]:
-			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
 
@@ -543,7 +541,6 @@ class Elasticity(PowerBase):
 		Character['Powers']['Detail'][powername]['Stretching']['Other'] = (Character['Statistics']['Agility'])*3
 		Character['Powers']['Detail'][powername]['Stretching']['Entangle'] = "(ST + AG + LK)"
 		if 'Device' in Character['Powers']['Detail'][powername]:
-			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
 
@@ -566,7 +563,6 @@ class EmotionControl(PowerBase):
 		Character['Powers']['Detail'][powername]['Choices'] = self.choices
 		Character['Powers']['Detail'][powername]['Save'] = "(EG + LK + Exp)"
 		if 'Device' in Character['Powers']['Detail'][powername]:
-			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
 
@@ -610,7 +606,6 @@ class EnergyAbsorption(PowerBase):
 				Character['Powers']['Detail'][powername2]['StoreMax'] = roll_ap("1d4x10")
 
 		if 'Device' in Character['Powers']['Detail'][powername]:
-			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
 
@@ -633,7 +628,6 @@ class EnhancedAgility(PowerBase):
 		Character['Powers']['Detail'][powername]['Choices'] = self.choices
 		Character['Statistics']['Agility'] = Character['Statistics']['Agility'] + roll_effects(2,10)
 		if 'Device' in Character['Powers']['Detail'][powername]:
-			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
 
@@ -656,13 +650,12 @@ class EnhancedCharisma(PowerBase):
 		Character['Powers']['Detail'][powername]['Choices'] = self.choices
 		Character['Statistics']['Charisma'] = Character['Statistics']['Charisma'] + roll_effects(1,10)
 		if 'Device' in Character['Powers']['Detail'][powername]:
-			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
 
 class EnhancedIntelligence(PowerBase):
 	def __init__(self, Character):
-		powername = 'Enhanced Agility'
+		powername = 'Enhanced Intelligence'
 		super().__init__(powers_dict[powername].name, powers_dict[powername].apcost, powers_dict[powername].maxap,\
 						 powers_dict[powername].areaeffect, powers_dict[powername].deviceap, powers_dict[powername].damageap,\
 						 powers_dict[powername].duration, powers_dict[powername].durationunit, powers_dict[powername].range,\
@@ -679,13 +672,12 @@ class EnhancedIntelligence(PowerBase):
 		Character['Powers']['Detail'][powername]['Choices'] = self.choices
 		Character['Statistics']['Intelligence'] = Character['Statistics']['Intelligence'] + roll_effects(2,10)
 		if 'Device' in Character['Powers']['Detail'][powername]:
-			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
 
 class EnhancedStamina(PowerBase):
 	def __init__(self, Character):
-		powername = 'Enhanced Agility'
+		powername = 'Enhanced Stamina'
 		super().__init__(powers_dict[powername].name, powers_dict[powername].apcost, powers_dict[powername].maxap,\
 						 powers_dict[powername].areaeffect, powers_dict[powername].deviceap, powers_dict[powername].damageap,\
 						 powers_dict[powername].duration, powers_dict[powername].durationunit, powers_dict[powername].range,\
@@ -702,7 +694,6 @@ class EnhancedStamina(PowerBase):
 		Character['Powers']['Detail'][powername]['Choices'] = self.choices
 		Character['Statistics']['Stamina'] = Character['Statistics']['Stamina'] + roll_effects(2,10)
 		if 'Device' in Character['Powers']['Detail'][powername]:
-			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
 
@@ -725,7 +716,6 @@ class EnhancedStrength(PowerBase):
 		Character['Powers']['Detail'][powername]['Choices'] = self.choices
 		Character['Statistics']['Strength'] = Character['Statistics']['Strength'] + roll_effects(2,10)
 		if 'Device' in Character['Powers']['Detail'][powername]:
-			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
 
@@ -750,7 +740,6 @@ class EnvironmentControl(PowerBase):
 		Character['Powers']['Detail'][powername]['Temperature'] = "35 degrees"
 		Character['Powers']['Detail'][powername]['Oxygen'] = "100%"
 		if 'Device' in Character['Powers']['Detail'][powername]:
-			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
 
@@ -774,7 +763,6 @@ class FastRecovery(PowerBase):
 		Character['Powers']['Detail'][powername]['Rate'] = "1 HT per hour"
 		Character['Powers']['Detail'][powername]['AttackEffects'] = "1/4 normal duration"
 		if 'Device' in Character['Powers']['Detail'][powername]:
-			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
 
@@ -798,7 +786,6 @@ class FlameGeneration(PowerBase):
 		Character['Powers']['Detail'][powername]['Flight'] = (Character['Agility_Effects']['Move'])*4
 		Character['Powers']['Detail'][powername]['Immunity'] = "High temperatures"
 		if 'Device' in Character['Powers']['Detail'][powername]:
-			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
 
@@ -829,7 +816,6 @@ class Flight(PowerBase):
 			Character['Powers']['Detail'][powername]['Hyperspace'] = "Yes"
 			Character['Powers']['Detail'][powername]['SpeedHyperspace'] = "1 Light Year per five minutes"
 		if 'Device' in Character['Powers']['Detail'][powername]:
-			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
 			Character['Powers']['Detail'][powername]['Speed'] = roll_effects(2,10) * roll_effects(2,10)
@@ -909,7 +895,6 @@ class ForceBeam(PowerBase):
 		Character['Powers']['Detail'][powername]['Choices'] = self.choices
 
 		if 'Device' in Character['Powers']['Detail'][powername]:
-			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
 
@@ -934,7 +919,6 @@ class ForceField(PowerBase):
 		Character['Powers']['Detail'][powername]['ExtraArea'] = "Double AP per character"
 		Character['Powers']['Detail'][powername]['Special'] = "Air, light and sound get through"
 		if 'Device' in Character['Powers']['Detail'][powername]:
-			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
 
@@ -957,14 +941,22 @@ class Gimmick(PowerBase):
 		Character['Powers']['Detail'][powername]['Choices'] = self.choices
 		Character['Powers']['Detail'][powername]['Number'] = roll_effects(1,4)+1
 		Character['Powers']['Detail'][powername]['Gimmicks'] = {}
-		gimmicks = pd.read_csv('data/Gimmicks.csv')
+		# Load gimmicks with error handling
+		try:
+			gimmicks_file = os.path.join(current_dir, '..', 'data', 'Gimmicks.csv')
+			gimmicks = pd.read_csv(gimmicks_file)
+		except FileNotFoundError:
+			try:
+				gimmicks = pd.read_csv('data/Gimmicks.csv')
+			except FileNotFoundError:
+				raise FileNotFoundError("Could not find Gimmicks.csv")
+		
 		for gimmick in range(Character['Powers']['Detail'][powername]['Number']):
 			new_gimmick = gimmicks['Gimmick'].sample()
 			Character['Powers']['Detail'][powername]['Gimmicks'][str(gimmick+1)] = new_gimmick.values[0]
 		Character['Powers']['Detail'][powername]['InventNew'] = (Character['Statistics']['Intelligence'])*2
 		Character['Powers']['Detail'][powername]['ScientistInventNew'] = 30
 		if 'Device' in Character['Powers']['Detail'][powername]:
-			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
 
@@ -990,7 +982,6 @@ class GravityControl(PowerBase):
 		Character['Powers']['Detail'][powername]['Flight'] = (Character['Agility_Effects']['Move'])*10
 		Character['Powers']['Detail'][powername]['APCostFlight'] = 2
 		if 'Device' in Character['Powers']['Detail'][powername]:
-			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
 
@@ -1014,7 +1005,6 @@ class HeightenedAttack(PowerBase):
 		Character['Powers']['Detail'][powername]['DD'] = "1d4"
 		Character['Powers']['Detail'][powername]['HP'] = roll_effects(2,10)  #need to add up all HP for character sheet
 		if 'Device' in Character['Powers']['Detail'][powername]:
-			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
 
@@ -1038,7 +1028,6 @@ class HeightenedDefense(PowerBase):
 		Character['Powers']['Detail'][powername]['DD'] = "-1"
 		Character['Powers']['Detail'][powername]['HP'] = roll_effects(3,8)  #need to add up all HP for character sheet
 		if 'Device' in Character['Powers']['Detail'][powername]:
-			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
 
@@ -1062,7 +1051,6 @@ class HeightenedExpertise(PowerBase):
 		Character['Powers']['Detail'][powername]['Special'] = "Fancy Manoeuvres: if over 50% HP with any weapon"
 		Character['Powers']['Detail'][powername]['HP'] = roll_effects(1,4)  #need to add up all HP for character sheet
 		if 'Device' in Character['Powers']['Detail'][powername]:
-			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
 
@@ -1137,7 +1125,7 @@ class HeightenedSenses(PowerBase):
 				Character['Powers']['Detail'][powername]['Augmentations']['AreaEffect'][str(power + 1)] = "Personal"
 				Character['Powers']['Detail'][powername]['Augmentations']['DamageAP'][str(power + 1)] = "NotApplicable"
 				Character['Powers']['Detail'][powername]['Augmentations']['Duration'][str(power + 1)] = 1
-				Character['Powers']['Detail'][powername]['Augmentations']['DurationUnit'][str(power + 1)] = round
+				Character['Powers']['Detail'][powername]['Augmentations']['DurationUnit'][str(power + 1)] = "round"
 				Character['Powers']['Detail'][powername]['Augmentations']['Range'][str(power + 1)] = (Character['Statistics']['Stamina']+2)
 			elif batypecheck == 5:
 				Character['Powers']['Detail'][powername]['Augmentations']['Type'][str(power + 1)] = "Sensitive Smell and Taste"
@@ -1180,7 +1168,7 @@ class HeightenedSenses(PowerBase):
 				Character['Powers']['Detail'][powername]['Augmentations']['AreaEffect'][str(power + 1)] = "Personal"
 				Character['Powers']['Detail'][powername]['Augmentations']['DamageAP'][str(power + 1)] = "NotApplicable"
 				Character['Powers']['Detail'][powername]['Augmentations']['Duration'][str(power + 1)] = 1
-				Character['Powers']['Detail'][powername]['Augmentations']['DurationUnit'][str(power + 1)] = round
+				Character['Powers']['Detail'][powername]['Augmentations']['DurationUnit'][str(power + 1)] = "round"
 				Character['Powers']['Detail'][powername]['Augmentations']['Range'][str(power + 1)] = "Reading Distance"
 			elif batypecheck == 9:
 				Character['Powers']['Detail'][powername]['Augmentations']['Type'][str(power + 1)] = "Telescopic Vision"
@@ -1190,7 +1178,7 @@ class HeightenedSenses(PowerBase):
 				Character['Powers']['Detail'][powername]['Augmentations']['AreaEffect'][str(power + 1)] = "Personal"
 				Character['Powers']['Detail'][powername]['Augmentations']['DamageAP'][str(power + 1)] = "NotApplicable"
 				Character['Powers']['Detail'][powername]['Augmentations']['Duration'][str(power + 1)] = 1
-				Character['Powers']['Detail'][powername]['Augmentations']['DurationUnit'][str(power + 1)] = round
+				Character['Powers']['Detail'][powername]['Augmentations']['DurationUnit'][str(power + 1)] = "round"
 				Character['Powers']['Detail'][powername]['Augmentations']['Range'][str(power + 1)] = (Character['Statistics']['Stamina']+Character['Statistics']['Intelligence'])*10
 			elif batypecheck == 10:
 				Character['Powers']['Detail'][powername]['Augmentations']['Type'][str(power + 1)] = "Ultraviolet Vision"
@@ -1210,7 +1198,7 @@ class HeightenedSenses(PowerBase):
 				Character['Powers']['Detail'][powername]['Augmentations']['AreaEffect'][str(power + 1)] = "Personal"
 				Character['Powers']['Detail'][powername]['Augmentations']['DamageAP'][str(power + 1)] = "NotApplicable"
 				Character['Powers']['Detail'][powername]['Augmentations']['Duration'][str(power + 1)] = 1
-				Character['Powers']['Detail'][powername]['Augmentations']['DurationUnit'][str(power + 1)] = round
+				Character['Powers']['Detail'][powername]['Augmentations']['DurationUnit'][str(power + 1)] = "round"
 				Character['Powers']['Detail'][powername]['Augmentations']['Range'][str(power + 1)] = (Character['Statistics']['Stamina'])/5
 				Character['Powers']['Detail'][powername]['Augmentations']['Special'][str(power + 1)] = "See in Darkness Generation"
 			else:
@@ -1221,11 +1209,10 @@ class HeightenedSenses(PowerBase):
 				Character['Powers']['Detail'][powername]['Augmentations']['AreaEffect'][str(power + 1)] = "Personal"
 				Character['Powers']['Detail'][powername]['Augmentations']['DamageAP'][str(power + 1)] = "NotApplicable"
 				Character['Powers']['Detail'][powername]['Augmentations']['Duration'][str(power + 1)] = 1
-				Character['Powers']['Detail'][powername]['Augmentations']['DurationUnit'][str(power + 1)] = round
+				Character['Powers']['Detail'][powername]['Augmentations']['DurationUnit'][str(power + 1)] = "round"
 				Character['Powers']['Detail'][powername]['Augmentations']['Range'][str(power + 1)] = normal_round((Character['Statistics']['Stamina'])/5)
 				Character['Powers']['Detail'][powername]['Augmentations']['Special'][str(power + 1)] = "Blocked by some light soruces"
 		if 'Device' in Character['Powers']['Detail'][powername]:
-			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
 
@@ -1258,7 +1245,6 @@ class HeightenedSpeed(PowerBase):
 			Character['Powers']['Detail'][powername]['CreateVortex'] = "Yes"
 			Character['Powers']['Detail'][powername]['MaxWeight'] = "3kg per 500km"
 		if 'Device' in Character['Powers']['Detail'][powername]:
-			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
 			Character['Powers']['Detail'][powername]['Speed'] = roll_effects(2,10) * roll_effects(2,10)
@@ -1288,7 +1274,6 @@ class IceGeneration(PowerBase):
 		Character['Powers']['Detail'][powername]['FreezeSave'] = "SA + AG + LK"
 		Character['Powers']['Detail'][powername]['Immunity'] = "Low temperatures"
 		if 'Device' in Character['Powers']['Detail'][powername]:
-			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
 
@@ -1313,7 +1298,6 @@ class Immateriality(PowerBase):
 		Character['Powers']['Detail'][powername]['Immunity'] = "HTH"
 		Character['Powers']['Detail'][powername]['Special'] = "Affected by spells, sound light etc."
 		if 'Device' in Character['Powers']['Detail'][powername]:
-			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
 
@@ -1339,7 +1323,6 @@ class Immortality(PowerBase):
 			addage = roll_effects(1,100) * roll_effects(1,100)
 			Character['Origin']['Age'] = Character['Origin']['Age'] + addage
 		if 'Device' in Character['Powers']['Detail'][powername]:
-			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
 
@@ -1430,9 +1413,8 @@ class InherentPower(PowerBase):
 				Character['Powers']['Detail'][powername]['DamageAP'] = "1d4"
 				Character['Powers']['Detail'][powername]['Duration'] = "Instantaneous"
 				Character['Powers']['Detail'][powername]['DurationUnit'] = "NotApplicable"
-				Character['Powers']['Detail'][powername]['Range'] = (normal_round(['Statistics']['Strength']/3))
+				Character['Powers']['Detail'][powername]['Range'] = (normal_round(Character['Statistics']['Strength']/3))
 		if 'Device' in Character['Powers']['Detail'][powername]:
-			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
 
@@ -1459,7 +1441,6 @@ class Invisibility(PowerBase):
 		if vischeck >= 91:
 			Character['Powers']['Detail'][powername]['Special'] = "Permanently invisible"
 		if 'Device' in Character['Powers']['Detail'][powername]:
-			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)
 
@@ -1483,6 +1464,5 @@ class Invulnerability(PowerBase):
 		Character['Powers']['Detail'][powername]['Damage'] = 0.25
 		Character['Powers']['Detail'][powername]['Special'] = "No damage if 2 or less"
 		if 'Device' in Character['Powers']['Detail'][powername]:
-			print(Character['Powers']['Detail'][powername]['Device'])
 			Character['Powers']['Detail'][powername]['Device']['DeviceAP'] = roll_ap(self.deviceap)
 			Character['Powers']['Detail'][powername]['Device']['DeviceRange'] = roll_ap(self.devicerange)

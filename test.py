@@ -290,7 +290,7 @@ if __name__ == '__main__':
     Character['Powers']['Number'] = 41
     Character['Powers']['List'].append(powername)
     Character['Powers']['Detail'][powername] = {}
-    dict2[powername] = powers.Immateriality
+    dict2[powername] = powers.Immortality
     ad = dict2[powername](Character)
 
     powername = 'Inherent Power'
