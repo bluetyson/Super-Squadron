@@ -1,3 +1,12 @@
+"""
+Super Squadron Powers Module
+
+This module contains the power system for the Super Squadron role-playing game.
+It defines the PowerBase class and various power classes that inherit from it.
+
+Powers are loaded from the data/power_details.csv file and stored in the powers_dict.
+Each power class represents a specific superpower that can be assigned to characters.
+"""
 
 import pandas as pd
 import numpy as np

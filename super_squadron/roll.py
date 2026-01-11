@@ -1,5 +1,23 @@
+"""
+Super Squadron Roll Module
+
+This module provides dice rolling functions for the Super Squadron role-playing game.
+It includes functions for rolling statistics, luck, origins, and calculating action points.
+
+All dice rolls use numpy's random number generator for consistency.
+"""
 
 import numpy as np
+
+__all__ = [
+    'roll_statistic',
+    'roll_luck', 
+    'roll_origin',
+    'roll_effects',
+    'roll_main_statistics',
+    'roll_ap'
+]
+
 
 def roll_statistic():
     """Roll a random statistic value between 1 and 20 (inclusive)."""
@@ -103,59 +121,74 @@ def roll_ap(deviceap):
     
     Args:
         deviceap (str): Formula string for calculating AP (e.g., "2d4x4", "1d6+3", "2d6").
+                       Can also be character stat references which are returned as-is.
     
     Returns:
-        str or int: Original string if it's a special value, otherwise calculated AP.
+        str or int: Original string if it's a special value or stat reference, otherwise calculated AP.
     """
-    if "NotApplicable" in deviceap or "Unlimited" in deviceap or "Variable" in deviceap or "HTH" in deviceap:
-        return deviceap
+    # Convert to string if not already
+    deviceap_str = str(deviceap)
     
-    # Handle multiplication with optional addition: "2d4x4+3" or "2d4x4"
-    if 'x' in deviceap:
-        if '+' in deviceap:
-            roll_plus = deviceap.split('+')
-            plus = int(roll_plus[1])
-            roll_mult = roll_plus[0].split('x')
-            roll_list = roll_mult[0].split('d')
-            devap = roll_effects(int(roll_list[0]), int(roll_list[1])) * int(roll_mult[1]) + plus
-            return devap
-        else:
-            roll_mult = deviceap.split('x')
-            roll_list = roll_mult[0].split('d')
-            devap = roll_effects(int(roll_list[0]), int(roll_list[1])) * int(roll_mult[1])
-            return devap
+    # Handle special values
+    if any(keyword in deviceap_str for keyword in ["NotApplicable", "Unlimited", "Variable", "HTH"]):
+        return deviceap_str
     
-    # Handle simple dice rolls with addition: "1d6+3"
-    elif '+' in deviceap:
-        roll_plus = deviceap.split('+')
-        plus = int(roll_plus[1])
-        if 'd' in roll_plus[0]:
-            roll_list = roll_plus[0].split('d')
-            devap = roll_effects(int(roll_list[0]), int(roll_list[1])) + plus
-            return devap
-        else:
-            return int(roll_plus[0]) + plus
+    # Check if it contains character stat references (contains letters other than 'd')
+    # If it has letters but no 'd' for dice, it's likely a stat reference
+    has_letters = any(c.isalpha() for c in deviceap_str)
+    has_dice = 'd' in deviceap_str.lower()
     
-    # Handle simple dice rolls: "2d6"
-    elif 'd' in deviceap:
-        roll_list = deviceap.split('d')
-        devap = roll_effects(int(roll_list[0]), int(roll_list[1]))
-        return devap
+    if has_letters and not has_dice:
+        # It's a character stat reference like "Agility+Strength", return as-is
+        return deviceap_str
     
-    # Handle 'or' statements
-    elif 'or' in deviceap:
-        roll_list = deviceap.split('or')
-        devcheck = roll_effects(1, 100)
-        if devcheck <= 50:
-            devap = 20
-        else:
-            devap = 10
-        return devap
-    
-    # Try to return as integer if it's a simple number
     try:
-        return int(deviceap)
-    except ValueError:
-        # If all else fails, return the original string
-        return deviceap
+        # Handle multiplication with optional addition: "2d4x4+3" or "2d4x4"
+        if 'x' in deviceap_str and 'd' in deviceap_str:
+            if '+' in deviceap_str:
+                roll_plus = deviceap_str.split('+')
+                plus = int(roll_plus[1])
+                roll_mult = roll_plus[0].split('x')
+                roll_list = roll_mult[0].split('d')
+                devap = roll_effects(int(roll_list[0]), int(roll_list[1])) * int(roll_mult[1]) + plus
+                return devap
+            else:
+                roll_mult = deviceap_str.split('x')
+                roll_list = roll_mult[0].split('d')
+                devap = roll_effects(int(roll_list[0]), int(roll_list[1])) * int(roll_mult[1])
+                return devap
+        
+        # Handle simple dice rolls with addition: "1d6+3"
+        elif '+' in deviceap_str and 'd' in deviceap_str:
+            roll_plus = deviceap_str.split('+')
+            plus = int(roll_plus[1])
+            if 'd' in roll_plus[0]:
+                roll_list = roll_plus[0].split('d')
+                devap = roll_effects(int(roll_list[0]), int(roll_list[1])) + plus
+                return devap
+            else:
+                return int(roll_plus[0]) + plus
+        
+        # Handle simple dice rolls: "2d6"
+        elif 'd' in deviceap_str:
+            roll_list = deviceap_str.split('d')
+            devap = roll_effects(int(roll_list[0]), int(roll_list[1]))
+            return devap
+        
+        # Handle 'or' statements
+        elif 'or' in deviceap_str:
+            roll_list = deviceap_str.split('or')
+            devcheck = roll_effects(1, 100)
+            if devcheck <= 50:
+                devap = 20
+            else:
+                devap = 10
+            return devap
+        
+        # Try to return as integer if it's a simple number
+        return int(deviceap_str)
+    
+    except (ValueError, IndexError):
+        # If parsing fails, return the original string
+        return deviceap_str
 
